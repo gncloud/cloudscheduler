@@ -5,7 +5,7 @@
 > https://gncloud.github.io/cloudscheduler/publish/html/index.html
 > 
 > 인스턴스 상세
-> 
+> https://gncloud.github.io/cloudscheduler/publish/html/InstanceDetail.html
 
 
 

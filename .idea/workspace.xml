@@ -50,8 +50,8 @@
         <entry file="file://$PROJECT_DIR$/publish/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <first_editor relative-caret-position="221">
+                <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -308,7 +308,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492497336368</updated>
-      <workItem from="1492497337619" duration="15533000" />
+      <workItem from="1492497337619" duration="15649000" />
     </task>
     <task id="LOCAL-00001" summary="인스턴스 리스트 커밋">
       <created>1492568840782</created>
@@ -317,11 +317,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492568840782</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="md url 수정">
+      <created>1492569472710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492569472710</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15533000" />
+    <option name="totallyTimeSpent" value="15649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -354,7 +361,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="인스턴스 리스트 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="인스턴스 리스트 커밋" />
+    <MESSAGE value="md url 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="md url 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -452,8 +460,8 @@
     <entry file="file://$PROJECT_DIR$/publish/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

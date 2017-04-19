@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1de87f-476e-4db8-ac04-894c0c8f98ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publish/html/InstanceDetail.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/publish/html/index_InstanceDetail.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/README.md" afterPath="$PROJECT_DIR$/publish/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" afterPath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/index.html" afterPath="$PROJECT_DIR$/publish/html/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="bootstrap_gncloudscheduler_theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="1819" column="92" lean-forward="false" selection-start-line="1819" selection-start-column="92" selection-end-line="1819" selection-end-column="92" />
+            <state relative-caret-position="102">
+              <caret line="1803" column="89" lean-forward="false" selection-start-line="1803" selection-start-column="89" selection-end-line="1803" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -33,16 +32,30 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+            <state relative-caret-position="238">
+              <caret line="65" column="67" lean-forward="true" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
               <folding>
-                <element signature="e#1776#1781#0" expanded="true" />
-                <element signature="e#3133#3139#0" expanded="true" />
-                <element signature="e#3139#3145#0" expanded="true" />
-                <element signature="e#4006#4012#0" expanded="true" />
-                <element signature="e#4012#4018#0" expanded="true" />
-                <element signature="e#4873#4879#0" expanded="true" />
-                <element signature="e#4879#4885#0" expanded="true" />
+                <element signature="e#1821#1826#0" expanded="true" />
+                <element signature="e#3196#3202#0" expanded="true" />
+                <element signature="e#3202#3208#0" expanded="true" />
+                <element signature="e#4087#4093#0" expanded="true" />
+                <element signature="e#4093#4099#0" expanded="true" />
+                <element signature="e#4972#4978#0" expanded="true" />
+                <element signature="e#4978#4984#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="instanceDetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publish/html/instanceDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#1852#1857#0" expanded="true" />
+                <element signature="e#3227#3233#0" expanded="true" />
+                <element signature="e#3233#3239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/publish/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -101,9 +114,10 @@
         <option value="$PROJECT_DIR$/publish/assets/gn_css/theme-medium.css" />
         <option value="$PROJECT_DIR$/publish/html/index2.html" />
         <option value="$PROJECT_DIR$/publish/assets/gn_js/angular-ap-lateral-slide-menu.js" />
+        <option value="$PROJECT_DIR$/publish/README.md" />
         <option value="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
         <option value="$PROJECT_DIR$/publish/html/index.html" />
-        <option value="$PROJECT_DIR$/publish/README.md" />
+        <option value="$PROJECT_DIR$/publish/html/instanceDetail.html" />
       </list>
     </option>
   </component>
@@ -310,7 +324,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492497336368</updated>
-      <workItem from="1492497337619" duration="16831000" />
+      <workItem from="1492497337619" duration="17469000" />
     </task>
     <task id="LOCAL-00001" summary="인스턴스 리스트 커밋">
       <created>1492568840782</created>
@@ -347,15 +361,22 @@
       <option name="project" value="LOCAL" />
       <updated>1492570560159</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="md url 수정">
+      <created>1492570757997</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492570757997</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16831000" />
+    <option name="totallyTimeSpent" value="17469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16595136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -456,14 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="1819" column="92" lean-forward="false" selection-start-line="1819" selection-start-column="92" selection-end-line="1819" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/publish/html/index_InstanceDetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -472,18 +485,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="1803" column="89" lean-forward="false" selection-start-line="1803" selection-start-column="89" selection-end-line="1803" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/publish/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        <state relative-caret-position="238">
+          <caret line="65" column="67" lean-forward="true" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
           <folding>
-            <element signature="e#1776#1781#0" expanded="true" />
-            <element signature="e#3133#3139#0" expanded="true" />
-            <element signature="e#3139#3145#0" expanded="true" />
-            <element signature="e#4006#4012#0" expanded="true" />
-            <element signature="e#4012#4018#0" expanded="true" />
-            <element signature="e#4873#4879#0" expanded="true" />
-            <element signature="e#4879#4885#0" expanded="true" />
+            <element signature="e#1821#1826#0" expanded="true" />
+            <element signature="e#3196#3202#0" expanded="true" />
+            <element signature="e#3202#3208#0" expanded="true" />
+            <element signature="e#4087#4093#0" expanded="true" />
+            <element signature="e#4093#4099#0" expanded="true" />
+            <element signature="e#4972#4978#0" expanded="true" />
+            <element signature="e#4978#4984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish/html/instanceDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#1852#1857#0" expanded="true" />
+            <element signature="e#3227#3233#0" expanded="true" />
+            <element signature="e#3233#3239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -491,8 +524,8 @@
     <entry file="file://$PROJECT_DIR$/publish/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />

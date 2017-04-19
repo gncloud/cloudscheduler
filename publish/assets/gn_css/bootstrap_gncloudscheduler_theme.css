@@ -1800,8 +1800,8 @@ div.tab-content,
 body{margin: 0;}
 
 nav.gn-header.gn-scheduler-header{margin-bottom: 0;}
-nav.gn-header.gn-scheduler-header i.glyphicon{font-size: 25px; padding-top: 3px;}
-nav.gn-header.gn-scheduler-header .cloud-scheduler-logo img{width: 50px;}
+nav.gn-header.gn-scheduler-header i.glyphicon{font-size: 25px; padding-top: 3px; cursor: pointer;}
+nav.gn-header.gn-scheduler-header .cloud-scheduler-logo img{width: 50px; cursor: pointer;}
 nav.gn-header.gn-scheduler-header > div{padding: 15px 0;}
 
 

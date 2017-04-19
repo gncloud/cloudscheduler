@@ -1813,7 +1813,7 @@ nav.gn-header.gn-scheduler-header > div{padding: 15px 0;}
 
 /* ======================== 클라우드 스케쥴러 인스턴스 리스트 ======================== */
 .gn-scheduler-instance{margin-top: 100px;}
-.gn-scheduler-instance .gn-table-responsive{}
+.gn-scheduler-instance .gn-table-responsive{border: none;}
 /* Instance State */
 .gn-scheduler-instance .gn-table-responsive .td-state{text-align: left;}
 .gn-scheduler-instance .gn-table-responsive .td-state img{padding: 0 10px 0 20px;}
@@ -1835,14 +1835,19 @@ nav.gn-header.gn-scheduler-header > div{padding: 15px 0;}
 @media (max-width: 767px) {  }
 
 /* 가로 방향 전화기 이하 */
-@media (max-width: 480px) {  }
+@media (max-width: 480px) {
+    .gn-scheduler-instance .gn-table-responsive .ellipsis{width: 85px; display: block;}
+    .gn-scheduler-instance .gn-table-responsive .td-state img{padding: 0 10px 0 10px;}
+}
 
 
 
 
 /* ======================== 클라우드 스케쥴러 인스턴스 상세 ======================== */
-.gn-scheduler-detail{margin-top: 100px;}
+.gn-scheduler-detail{margin-top: 50px;}
 .gn-scheduler-detail .info-group{margin-bottom: 10px;}
+.gn-scheduler-detail .info-group .pull-right{cursor: pointer; margin-top: 10px;}
+.gn-scheduler-detail .info-group .pull-right:hover{color: #58c4c6;}
 .gn-scheduler-detail .gn-table-responsive{border: 2px solid rgba(215,215,215,0.5); border-radius: 5px; margin-bottom: 30px;}
 .gn-scheduler-detail .gn-table-responsive .gn-board-table{margin-bottom: 0;}
 .gn-scheduler-detail .gn-board-table tbody tr td{border-bottom: none;}

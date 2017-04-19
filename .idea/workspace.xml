@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0d1de87f-476e-4db8-ac04-894c0c8f98ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/README.md" afterPath="$PROJECT_DIR$/publish/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" afterPath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/InstanceDetail.html" afterPath="$PROJECT_DIR$/publish/html/InstanceDetail.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bootstrap_gncloudscheduler_theme.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap_gncloudscheduler_theme.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="1803" column="89" lean-forward="false" selection-start-line="1803" selection-start-column="89" selection-end-line="1803" selection-end-column="89" />
+            <state relative-caret-position="0">
+              <caret line="1850" column="60" lean-forward="true" selection-start-line="1850" selection-start-column="60" selection-end-line="1850" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -49,26 +50,16 @@
       <file leaf-file-name="instanceDetail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish/html/instanceDetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="640">
+              <caret line="123" column="73" lean-forward="true" selection-start-line="123" selection-start-column="73" selection-end-line="123" selection-end-column="73" />
               <folding>
-                <element signature="e#1852#1857#0" expanded="true" />
-                <element signature="e#3227#3233#0" expanded="true" />
-                <element signature="e#3233#3239#0" expanded="true" />
+                <element signature="e#1795#1801#0" expanded="true" />
+                <element signature="e#1801#1807#0" expanded="true" />
+                <element signature="e#1808#1814#0" expanded="true" />
+                <element signature="e#1814#1820#0" expanded="true" />
+                <element signature="e#1964#1970#0" expanded="true" />
+                <element signature="e#1970#1976#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/publish/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -113,10 +104,10 @@
         <option value="$PROJECT_DIR$/publish/assets/gn_css/theme-medium.css" />
         <option value="$PROJECT_DIR$/publish/html/index2.html" />
         <option value="$PROJECT_DIR$/publish/assets/gn_js/angular-ap-lateral-slide-menu.js" />
-        <option value="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
         <option value="$PROJECT_DIR$/publish/html/index.html" />
-        <option value="$PROJECT_DIR$/publish/html/instanceDetail.html" />
         <option value="$PROJECT_DIR$/publish/README.md" />
+        <option value="$PROJECT_DIR$/publish/html/instanceDetail.html" />
+        <option value="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
       </list>
     </option>
   </component>
@@ -323,7 +314,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492497336368</updated>
-      <workItem from="1492497337619" duration="17718000" />
+      <workItem from="1492497337619" duration="24641000" />
     </task>
     <task id="LOCAL-00001" summary="인스턴스 리스트 커밋">
       <created>1492568840782</created>
@@ -367,17 +358,24 @@
       <option name="project" value="LOCAL" />
       <updated>1492570757997</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="md url 수정">
+      <created>1492576886752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1492576886752</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17718000" />
+    <option name="totallyTimeSpent" value="24641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16595136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16595136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -484,11 +482,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="1803" column="89" lean-forward="false" selection-start-line="1803" selection-start-column="89" selection-end-line="1803" selection-end-column="89" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/publish/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -510,24 +511,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/publish/html/instanceDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="640">
+          <caret line="123" column="73" lean-forward="true" selection-start-line="123" selection-start-column="73" selection-end-line="123" selection-end-column="73" />
           <folding>
-            <element signature="e#1852#1857#0" expanded="true" />
-            <element signature="e#3227#3233#0" expanded="true" />
-            <element signature="e#3233#3239#0" expanded="true" />
+            <element signature="e#1795#1801#0" expanded="true" />
+            <element signature="e#1801#1807#0" expanded="true" />
+            <element signature="e#1808#1814#0" expanded="true" />
+            <element signature="e#1814#1820#0" expanded="true" />
+            <element signature="e#1964#1970#0" expanded="true" />
+            <element signature="e#1970#1976#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publish/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1850" column="60" lean-forward="true" selection-start-line="1850" selection-start-column="60" selection-end-line="1850" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>

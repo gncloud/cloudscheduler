@@ -1798,11 +1798,13 @@ div.tab-content,
 
 /* ======================== 클라우드 스케쥴러 공통 ======================== */
 body{margin: 0;}
+h1,h2,h3,h4,h5,h6{margin: 0;}
 
 nav.gn-header.gn-scheduler-header{margin-bottom: 0;}
 nav.gn-header.gn-scheduler-header i.glyphicon{font-size: 25px; padding-top: 3px; cursor: pointer;}
 nav.gn-header.gn-scheduler-header .cloud-scheduler-logo img{width: 50px; cursor: pointer;}
 nav.gn-header.gn-scheduler-header > div{padding: 15px 0;}
+
 
 
 
@@ -1839,11 +1841,19 @@ nav.gn-header.gn-scheduler-header > div{padding: 15px 0;}
 
 
 /* ======================== 클라우드 스케쥴러 인스턴스 상세 ======================== */
-
-
-
-
-
+.gn-scheduler-detail{margin-top: 100px;}
+.gn-scheduler-detail .info-group{margin-bottom: 10px;}
+.gn-scheduler-detail .gn-table-responsive{border: 2px solid rgba(215,215,215,0.5); border-radius: 5px; margin-bottom: 30px;}
+.gn-scheduler-detail .gn-table-responsive .gn-board-table{margin-bottom: 0;}
+.gn-scheduler-detail .gn-board-table tbody tr td{border-bottom: none;}
+.gn-scheduler-detail .gn-board-table thead tr th,
+.gn-scheduler-detail .gn-board-table tr td{border-right: 2px solid rgba(215,215,215,0.5); width: 14%;}
+.gn-scheduler-detail .gn-board-table thead tr th:last-child,
+.gn-scheduler-detail .gn-board-table tr td:last-child{border-right: none;}
+.gn-scheduler-detail ul{padding-left: 5px; margin: 0;}
+.gn-scheduler-detail ul li{list-style: none; padding: 0; margin: 0; line-height: 25px;}
+.gn-scheduler-detail ul li strong{margin-right: 10px;}
+.gn-scheduler-detail .gn-board-table tbody tr td span{background-color: rgba(101,163,235,0.4); display: block; border-radius: 5px; padding: 5px 0;}
 
 /* ======================== 클라우드 스케쥴러 인스턴스 상세 반응형 ======================== */
 
@@ -1853,7 +1863,9 @@ nav.gn-header.gn-scheduler-header > div{padding: 15px 0;}
 @media (min-width: 768px) and (max-width: 992px) {  }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
-@media (max-width: 767px) {  }
+@media (max-width: 767px) {
+    .gn-scheduler-detail ul li strong{display: block;}
+}
 
 /* 가로 방향 전화기 이하 */
 @media (max-width: 480px) {  }

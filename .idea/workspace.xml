@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d1de87f-476e-4db8-ac04-894c0c8f98ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" afterPath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/InstanceDetail.html" afterPath="$PROJECT_DIR$/publish/html/InstanceDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/index.html" afterPath="$PROJECT_DIR$/publish/html/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +20,8 @@
       <file leaf-file-name="bootstrap_gncloudscheduler_theme.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="1848" column="79" lean-forward="false" selection-start-line="1848" selection-start-column="79" selection-end-line="1848" selection-end-column="79" />
+            <state relative-caret-position="238">
+              <caret line="1856" column="74" lean-forward="true" selection-start-line="1856" selection-start-column="74" selection-end-line="1856" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -322,7 +319,7 @@
       <option name="presentableId" value="Default" />
       <updated>1492497336368</updated>
       <workItem from="1492497337619" duration="24686000" />
-      <workItem from="1492587176270" duration="2509000" />
+      <workItem from="1492587176270" duration="3478000" />
     </task>
     <task id="LOCAL-00001" summary="인스턴스 리스트 커밋">
       <created>1492568840782</created>
@@ -380,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492585988634</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="인스턴스 리스트 , 디테일 반응형 수정 &#10;">
+      <created>1492589874119</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1492589874119</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27195000" />
+    <option name="totallyTimeSpent" value="28164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -419,7 +423,8 @@
     <MESSAGE value="인스턴스 리스트 커밋" />
     <MESSAGE value="md url 수정" />
     <MESSAGE value="인스턴스 상세 수정 &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="인스턴스 상세 수정 &#10;" />
+    <MESSAGE value="인스턴스 리스트 , 디테일 반응형 수정 &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="인스턴스 리스트 , 디테일 반응형 수정 &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -524,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="1848" column="79" lean-forward="false" selection-start-line="1848" selection-start-column="79" selection-end-line="1848" selection-end-column="79" />
+        <state relative-caret-position="238">
+          <caret line="1856" column="74" lean-forward="true" selection-start-line="1856" selection-start-column="74" selection-end-line="1856" selection-end-column="74" />
           <folding />
         </state>
       </provider>

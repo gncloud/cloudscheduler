@@ -4,8 +4,8 @@
 > 인스턴스 리스트  
 > https://gncloud.github.io/cloudscheduler/publish/html/index.html
 > 
-> 인스턴스 상세
-> https://gncloud.github.io/cloudscheduler/publish/html/InstanceDetail.html
+> 인스턴스 상세  
+> https://gncloud.github.io/cloudscheduler/publish/html/instanceDetail.html
 
 
 

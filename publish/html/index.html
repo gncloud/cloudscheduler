@@ -14,8 +14,6 @@
 
     <!-- 합쳐지고 최소화된 최신 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" type="text/css" href="../assets/gn_css/default.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/gn_css/component.css" /-->
     <link rel="stylesheet" href="../assets/gn_css/bootstrap_gncloudscheduler_theme.css">
 
     <script src="../assets/gn_js/modernizr.custom.js"></script>
@@ -32,7 +30,6 @@
 </head>
 <body >
 
-
 <!--HEADER-->
 <nav class="navbar navbar-default gn-header gn-scheduler-header">
     <div class="container">
@@ -40,7 +37,7 @@
             <i class="glyphicon glyphicon-align-justify btn"></i>
             <div onclick="history.back();" class="page_cover"></div>
             <div id="menu">
-                <div onclick="history.back();" class="close"></div>
+                <div onclick="history.back();" class="glyphicon glyphicon-remove close"></div>
             </div>
         </div>
         <div class="cloud-scheduler-logo">
@@ -52,7 +49,7 @@
                     <input class="sb-search-input" placeholder="search" type="search" name="search" id="search">
                     <input class="sb-search-submit" type="submit" value="">
 
-                    <span class="sb-icon-search"></span>
+                    <span class="sb-icon-search glyphicon glyphicon-search"></span>
                 </form>
             </div>
         </div>
@@ -156,8 +153,7 @@
             $("#menu,.page_cover,html").removeClass("open");
         }
     };
-</script>
-<script>
+
     new UISearch( document.getElementById( 'sb-search' ) );
 </script>
 </body>

@@ -50,16 +50,20 @@
 
         <div id="sb-search" class="sb-search">
             <form>
-                <input class="sb-search-input" placeholder="search" type="search" name="search" id="search">
+                <!--web, 중간사이즈 search box-->
+                <input class="sb-search-input hidden-xs" placeholder="search" type="search" name="search" id="search">
                 <input class="sb-search-submit" type="submit" value="">
-
+                <!--돋보기 아이콘-->
                 <span class="sb-icon-search"></span>
             </form>
         </div>
 
+        <!--작은 사이즈 검색창 - header아래 width 100%-->
+        <div class="mobile-search visible-xs col-xs-12">
+            <input class="form-control gn-form-control" type="text" placeholder="search">
+        </div>
     </div><!-- class="container"-->
 </nav> <!--HEADER END-->
-
 
 
 <div class="gn-scheduler-instance">
@@ -138,7 +142,6 @@
 
     </div>
 </div>
-
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

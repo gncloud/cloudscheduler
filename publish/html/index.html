@@ -14,24 +14,52 @@
 
     <!-- 합쳐지고 최소화된 최신 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="../assets/gn_css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/gn_css/component.css" /-->
     <link rel="stylesheet" href="../assets/gn_css/bootstrap_gncloudscheduler_theme.css">
+
+    <script src="../assets/gn_js/modernizr.custom.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7243260-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 </head>
-<body>
+<body >
+
 
 <!--HEADER-->
 <nav class="navbar navbar-default gn-header gn-scheduler-header">
     <div class="container">
-        <div class="col-xs-2">
-            <i class="glyphicon glyphicon-align-justify pull-left"></i>
+        <div class="">
+            <i class="glyphicon glyphicon-align-justify btn"></i>
+            <div onclick="history.back();" class="page_cover"></div>
+            <div id="menu">
+                <div onclick="history.back();" class="close"></div>
+            </div>
         </div>
-        <div class="col-xs-8 cloud-scheduler-logo">
-                <img src="../assets/gn_images/cloudscheduler.png" alt="gncloud scheduler" class="center-block" onclick="location.href='index.html'">
+        <div class="cloud-scheduler-logo">
+            <img src="../assets/gn_images/cloudscheduler.png" alt="gncloud scheduler" class="center-block" onclick="location.href='index.html'">
         </div>
-        <div class="col-xs-2">
-            <i class="glyphicon glyphicon-search pull-right"></i>
+        <div class="">
+            <div id="sb-search" class="sb-search">
+                <form>
+                    <input class="sb-search-input" placeholder="search" type="search" name="search" id="search">
+                    <input class="sb-search-submit" type="submit" value="">
+
+                    <span class="sb-icon-search"></span>
+                </form>
+            </div>
         </div>
     </div><!-- class="container"-->
 </nav> <!--HEADER END-->
+
+
 
 <div class="gn-scheduler-instance">
     <div class="container">
@@ -112,12 +140,25 @@
 
 
 
-
-
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../assets/gn_js/bootstrap.min.js"></script>
+<script src="../assets/gn_js/classie.js"></script>
+<script src="../assets/gn_js/uisearch.js"></script>
+<script>
+    $(".btn").click(function() {
+        $("#menu,.page_cover,html").addClass("open");
+        window.location.hash = "#open";
+    });
 
+    window.onhashchange = function() {
+        if (location.hash != "#open") {
+            $("#menu,.page_cover,html").removeClass("open");
+        }
+    };
+</script>
+<script>
+    new UISearch( document.getElementById( 'sb-search' ) );
+</script>
 </body>
 </html>

@@ -16,17 +16,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/gn_css/bootstrap_gncloudscheduler_theme.css">
 
-    <script src="../assets/gn_js/modernizr.custom.js"></script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-7243260-2']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
 </head>
 <body >
 
@@ -55,20 +44,12 @@
             <img src="../assets/gn_images/cloudscheduler.png" alt="gncloud scheduler" class="center-block" onclick="location.href='index.html'">
         </div>
 
-        <div id="sb-search" class="sb-search">
-            <form>
-                <!--web, 중간사이즈 search box-->
-                <input class="sb-search-input hidden-xs" placeholder="search" type="search" name="search" id="search">
-                <input class="sb-search-submit" type="submit" value="">
-                <!--돋보기 아이콘-->
-                <span class="sb-icon-search"></span>
-            </form>
-        </div>
-
-        <!--작은 사이즈 검색창 - header아래 width 100%-->
-        <div class="mobile-search visible-xs col-xs-12">
-            <input class="form-control gn-form-control" type="text" placeholder="search">
-        </div>
+        <form class="searchbox pull-right">
+            <input type="search" placeholder="Search......" name="search" class="searchbox-input"
+                   onkeyup="buttonUp();" required>
+            <input type="submit" class="searchbox-submit" value="GO">
+            <span class="searchbox-icon">GO</span>
+        </form>
     </div><!-- class="container"-->
 </nav> <!--HEADER END-->
 
@@ -154,21 +135,6 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../assets/gn_js/bootstrap.min.js"></script>
-<script src="../assets/gn_js/classie.js"></script>
-<script src="../assets/gn_js/uisearch.js"></script>
-<script>
-    $(".btn").click(function() {
-        $("#menu,.page_cover,html").addClass("open");
-        window.location.hash = "#open";
-    });
-
-    window.onhashchange = function() {
-        if (location.hash != "#open") {
-            $("#menu,.page_cover,html").removeClass("open");
-        }
-    };
-
-    new UISearch( document.getElementById( 'sb-search' ) );
-</script>
+<script src="../assets/gn_js/searchnmenu.js"></script>
 </body>
 </html>

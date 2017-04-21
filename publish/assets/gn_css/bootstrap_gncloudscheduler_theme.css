@@ -1807,8 +1807,8 @@ nav.gn-header.gn-scheduler-header{
     top: 0;
     height: 70px;
     width: 100%;}
-nav.gn-header.gn-scheduler-header i.glyphicon{font-size: 25px; /*padding-top: 3px;*/ cursor: pointer; z-index: 10;}
-nav.gn-header.gn-scheduler-header .cloud-scheduler-logo img{width: 50px; cursor: pointer;}
+nav.gn-header.gn-scheduler-header i.glyphicon{font-size: 25px; /*padding-top: 3px;*/ cursor: pointer; z-index: 1;}
+nav.gn-header.gn-scheduler-header .cloud-scheduler-logo img{width: 48px; cursor: pointer; margin-top: 3px;}
 nav.gn-header.gn-scheduler-header > div{padding: 15px 15px 0 15px; background-color: #ffffff; position: relative;}
 
 /* 검색바 */
@@ -1977,7 +1977,7 @@ html.open {overflow: hidden;}
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 8px;
+    top: 12px;
     z-index: 1;
     /*background-image: url("http://s1.daumcdn.net/cfs.tistory/custom/blog/204/2048858/skin/images/menu.png");*/
     background-size: 50%;
@@ -2173,7 +2173,7 @@ html.open {overflow: hidden;}
     position:absolute;
     top: 15px;
     right:0;
-    z-index: 11;
+    z-index: 2;
     min-width:50px;
     width:0%;
     height:50px;
@@ -2221,7 +2221,7 @@ html.open {overflow: hidden;}
     height:50px;
     display:block;
     position:absolute;
-    top:0;
+    top: 2px;
     font-size:22px;
     right:0px;
     padding:0;

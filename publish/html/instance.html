@@ -26,18 +26,41 @@
         <i class="glyphicon glyphicon-align-justify btn"></i>
         <div onclick="history.back();" class="page_cover"></div>
         <div id="menu">
+            <h1></h1>
             <div class="clearfix" style="margin-bottom: 300px;">
+                <!--유저 아이콘-->
+                <div class="user-icon">
+                    <img src="../assets/gn_images/user-icon.png" alt="user">
+                    <!--<span>gildong &nbsp;<i class="glyphicon glyphicon-chevron-down"></i></span>-->
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                            gildong <i class="glyphicon glyphicon-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setting</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log out</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--'x' 버튼-->
                 <div onclick="history.back();" class="glyphicon glyphicon-remove close"></div>
-                <button type="button" class="btn btn-w-install ">Login</button>
-                <div class="joinin"><a href="#">join in</a></div>
+                <!--<button type="button" class="btn btn-w-install ">Login</button>-->
+                <!--<div class="joinin"><a href="#">join in</a></div>-->
+                <!--메뉴-->
+                <ul>
+                    <li><a><i class="glyphicon glyphicon-cloud"></i>Instance</a></li>
+                    <li><a><i class="glyphicon glyphicon-cloud"></i>Keys</a></li>
+                </ul>
             </div>
+            <!--FOOTER-->
+            <footer>
+                <p>서울시 강남구 테헤란로 332, 현정빌딩 2층</p>
+                <p>대표이사 : 송상욱</p>
+                <p>사업자등록번호 : 220-88-03822</p>
+                <span class="">&copy; COPYRIGHT 지앤클라우드 ALL RIGHT RESERVED.</span>
+            </footer>
 
-            <ul>
-                <li><a><i class="glyphicon glyphicon-cloud"></i>gncloud website</a></li>
-                <li><a><i class="glyphicon glyphicon-cloud"></i>gncloud platform</a></li>
-            </ul>
-
-            <span class="gn-lead">© COPYRIGHT 지앤클라우드 ALL RIGHT RESERVED.</span>
         </div>
 
         <div class="cloud-scheduler-logo">

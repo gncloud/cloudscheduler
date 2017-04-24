@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1de87f-476e-4db8-ac04-894c0c8f98ee" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/publish/html/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" afterPath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/instance.html" afterPath="$PROJECT_DIR$/publish/html/instance.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,9 +21,22 @@
       <file leaf-file-name="bootstrap_gncloudscheduler_theme.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="2184" column="31" lean-forward="true" selection-start-line="2184" selection-start-column="31" selection-end-line="2184" selection-end-column="31" />
+            <state relative-caret-position="341">
+              <caret line="2067" column="27" lean-forward="false" selection-start-line="2067" selection-start-column="27" selection-end-line="2067" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="instance.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publish/html/instance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2992#2998#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +78,11 @@
       <find>sb-search-input</find>
       <find>font-weight:</find>
       <find>go</find>
+      <find>#menu</find>
+      <find>caret</find>
+      <find>footer</find>
+      <find>gn-copyrigh</find>
+      <find>gn-ca</find>
     </findStrings>
     <replaceStrings>
       <replace>cloud-scheduler-logo</replace>
@@ -100,8 +119,9 @@
         <option value="$PROJECT_DIR$/publish/html/search-expanding.html" />
         <option value="$PROJECT_DIR$/publish/assets/gn_js/search.js" />
         <option value="$PROJECT_DIR$/publish/html/index.html" />
-        <option value="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
         <option value="$PROJECT_DIR$/publish/html/instanceDetail.html" />
+        <option value="$PROJECT_DIR$/publish/html/instance.html" />
+        <option value="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
       </list>
     </option>
   </component>
@@ -319,7 +339,7 @@
       <workItem from="1492497337619" duration="24686000" />
       <workItem from="1492587176270" duration="3478000" />
       <workItem from="1492649722247" duration="27175000" />
-      <workItem from="1492749020996" duration="7457000" />
+      <workItem from="1492749020996" duration="13707000" />
     </task>
     <task id="LOCAL-00001" summary="인스턴스 리스트 커밋">
       <created>1492568840782</created>
@@ -437,7 +457,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62796000" />
+    <option name="totallyTimeSpent" value="69046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -507,7 +527,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -533,7 +553,7 @@
         <state relative-caret-position="680">
           <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="77" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -559,7 +579,7 @@
         <state relative-caret-position="2091">
           <caret line="123" column="73" lean-forward="true" selection-start-line="123" selection-start-column="73" selection-end-line="123" selection-end-column="73" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,7 +676,7 @@
         <state relative-caret-position="113">
           <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -669,10 +689,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/publish/html/instance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2992#2998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="2184" column="31" lean-forward="true" selection-start-line="2184" selection-start-column="31" selection-end-line="2184" selection-end-column="31" />
+        <state relative-caret-position="341">
+          <caret line="2067" column="27" lean-forward="false" selection-start-line="2067" selection-start-column="27" selection-end-line="2067" selection-end-column="27" />
           <folding />
         </state>
       </provider>

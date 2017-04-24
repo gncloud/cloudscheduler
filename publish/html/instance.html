@@ -22,12 +22,15 @@
 <!--HEADER-->
 <nav class="navbar navbar-default gn-header gn-scheduler-header">
     <div class="container">
+        <!--클라우드 스케줄러 로고-->
+        <img src="../assets/gn_images/cloudscheduler.png" alt="gncloud scheduler" class="cloud-scheduler-logo center-block" onclick="location.href='instance.html'">
 
+        <!--왼쪽 메뉴-->
         <i class="glyphicon glyphicon-align-justify btn"></i>
         <div onclick="history.back();" class="page_cover"></div>
         <div id="menu">
             <h1></h1>
-            <div class="clearfix" style="margin-bottom: 300px;">
+            <div class="clearfix" >
                 <!--유저 아이콘-->
                 <div class="user-icon">
                     <img src="../assets/gn_images/user-icon.png" alt="user">
@@ -37,9 +40,16 @@
                             gildong <i class="glyphicon glyphicon-chevron-down"></i>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setting</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log out</a></li>
-
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" >
+                                    <i class="glyphicon glyphicon-cog"></i>Setting
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" class="gn-danger">
+                                    <i class="glyphicon glyphicon-log-out"></i>Log out
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -48,9 +58,9 @@
                 <!--<button type="button" class="btn btn-w-install ">Login</button>-->
                 <!--<div class="joinin"><a href="#">join in</a></div>-->
                 <!--메뉴-->
-                <ul>
-                    <li><a><i class="glyphicon glyphicon-cloud"></i>Instance</a></li>
-                    <li><a><i class="glyphicon glyphicon-cloud"></i>Keys</a></li>
+                <ul class="sub-menu">
+                    <li><a>Instance</a></li>
+                    <li><a>Keys</a></li>
                 </ul>
             </div>
             <!--FOOTER-->
@@ -63,10 +73,7 @@
 
         </div>
 
-        <div class="cloud-scheduler-logo">
-            <img src="../assets/gn_images/cloudscheduler.png" alt="gncloud scheduler" class="center-block" onclick="location.href='index.html'">
-        </div>
-
+        <!--오른쪽 검색바-->
         <form class="searchbox pull-right">
             <input type="search" placeholder="Search.." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
             <input type="button" class="searchbox-submit" >

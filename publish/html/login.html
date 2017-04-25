@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=0" />
+    <meta name="keywords" content="지앤클라우드 스케쥴러, 클라우드 스케쥴러, gncloud scheduler, cloudscheduler">
+    <meta name="description" content="지앤클라우드 스케쥴러 서비스에 오신것을 환영합니다.">
+
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/gn_images/favicon-cloudscheduler.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/gn_images/favicon-cloudscheduler.png">
+    <title>Cloud Scheduler | gncloud scheduler service</title>
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/gn_css/bootstrap_gncloudscheduler_theme.css">
+
+</head>
+<body >
+
+<!--HEADER-->
+<nav class="navbar navbar-default gn-header gn-scheduler-header">
+    <div class="container">
+        <!--클라우드 스케줄러 로고-->
+        <img src="../assets/gn_images/cloudscheduler.png" alt="gncloud scheduler" class="cloud-scheduler-logo center-block" onclick="location.href='instance.html'">
+
+        <!--왼쪽 메뉴-->
+        <i class="glyphicon glyphicon-align-justify btn"></i>
+        <div onclick="history.back();" class="page_cover"></div>
+        <div id="menu">
+            <h1></h1>
+            <div class="clearfix" >
+                <!--유저 아이콘-->
+                <div class="user-icon">
+                    <img src="../assets/gn_images/user-icon.png" alt="user">
+                    <!--<span>gildong &nbsp;<i class="glyphicon glyphicon-chevron-down"></i></span>-->
+                    <div class="dropdown left-menu">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                            gildong <i class="glyphicon glyphicon-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" >
+                                    <i class="glyphicon glyphicon-cog"></i>Setting
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" class="gn-danger">
+                                    <i class="glyphicon glyphicon-log-out"></i>Log out
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--'x' 버튼-->
+                <div onclick="history.back();" class="glyphicon glyphicon-remove close"></div>
+                <!--<button type="button" class="btn btn-w-install ">Login</button>-->
+                <!--<div class="joinin"><a href="#">join in</a></div>-->
+                <!--메뉴-->
+                <ul class="sub-menu">
+                    <li><a>Instance</a></li>
+                    <li><a>Keys</a></li>
+                </ul>
+            </div>
+            <!--FOOTER-->
+            <footer>
+                <p>서울시 강남구 테헤란로 332, 현정빌딩 2층</p>
+                <p>대표이사 : 송상욱</p>
+                <p>사업자등록번호 : 220-88-03822</p>
+                <span class="">&copy; COPYRIGHT 지앤클라우드 ALL RIGHT RESERVED.</span>
+            </footer>
+
+        </div>
+
+        <!--오른쪽 검색바-->
+        <form class="searchbox pull-right">
+            <input type="search" placeholder="Search.." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+            <input type="button" class="searchbox-submit" >
+            <span class="searchbox-icon"><i class="glyphicon glyphicon-search"></i></span>
+        </form>
+    </div><!-- class="container"-->
+</nav> <!--HEADER END-->
+
+<div id="login">
+    <div class="container ">
+        <h2>LOGIN</h2>
+        <div class="group clearfix">
+            <span class="center-block text-right">또는 &nbsp;<a>계정만들기</a></span>
+
+            <div class="col-xs-12 col-sm-9">
+                <input type="email" class="gn-form-control form-control" placeholder="name@mail.com">
+                <input type="password" class="gn-form-control form-control" placeholder="password">
+            </div>
+
+            <div class="col-xs-12 col-sm-3" style="padding-right: 0;">
+                <button type="button" class="btn btn-gn-primary btn-block">login</button>
+            </div>
+        </div>
+
+        <!--체크박스-->
+        <div class="btn-id">
+            <input class="form-inputPop" type="checkbox" id="checkbox-id"/>
+            <i></i>
+            <label for="checkbox-id" class="label-id">save id</label>
+            <a href="">비밀번호를 잊으셨나요?</a>
+        </div>
+
+        <div class="line">
+            <p>또는</p>
+        </div>
+
+        <button type="button" class="btn btn-google btn-block">Github 계정으로 로그인</button>
+        <button type="button" class="btn btn-git btn-block">Google 계정으로 로그인</button>
+
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../assets/gn_js/bootstrap.min.js"></script>
+<script src="../assets/gn_js/searchnmenu.js"></script>
+</body>
+</html>

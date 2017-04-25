@@ -30,18 +30,26 @@
         <div onclick="history.back();" class="page_cover"></div>
         <div id="menu">
             <h1></h1>
-            <div class="clearfix" style="margin-bottom: 300px;">
+            <div class="clearfix" >
                 <!--유저 아이콘-->
                 <div class="user-icon">
                     <img src="../assets/gn_images/user-icon.png" alt="user">
                     <!--<span>gildong &nbsp;<i class="glyphicon glyphicon-chevron-down"></i></span>-->
-                    <div class="dropdown">
+                    <div class="dropdown left-menu">
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
                             gildong <i class="glyphicon glyphicon-chevron-down"></i>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setting</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log out</a></li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" >
+                                    <i class="glyphicon glyphicon-cog"></i>Setting
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" class="gn-danger">
+                                    <i class="glyphicon glyphicon-log-out"></i>Log out
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -50,9 +58,9 @@
                 <!--<button type="button" class="btn btn-w-install ">Login</button>-->
                 <!--<div class="joinin"><a href="#">join in</a></div>-->
                 <!--메뉴-->
-                <ul>
-                    <li><a><i class="glyphicon glyphicon-cloud"></i>Instance</a></li>
-                    <li><a><i class="glyphicon glyphicon-cloud"></i>Keys</a></li>
+                <ul class="sub-menu">
+                    <li><a>Instance</a></li>
+                    <li><a>Keys</a></li>
                 </ul>
             </div>
             <!--FOOTER-->
@@ -76,11 +84,23 @@
 
 <div class="gn-scheduler-detail">
     <div class="container">
-        <h2>gnclouds-web</h2>
+        <h2>
+            gnclouds-web
+            <i class="glyphicon glyphicon-new-window"></i>
+        </h2>
         <div class="info-group">
             <img src="../assets/gn_images/gn_dot_play.png" alt="running">
             <!--<img src="../assets/gn_images/gn_dot_stop.png" alt="stop">-->
             <span>Running</span>
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true">
+                        Dropdown
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                    </ul>
+                </div>
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <span>t2.nano</span>
             <span class="pull-right" onclick="location.href='#'">
@@ -103,17 +123,18 @@
                 </thead>
                 <tbody class="gn-tdody">
                     <tr>
+                        <td class="" ><span class="span-left">- 19</span></td>
+                        <td class=""><span>08 - 19</span></td>
+                        <td class=""><span>08 - 19</span></td>
+                        <td class=""><span>08 - 19</span></td>
                         <td class="" colspan="2">
-                            <span>08-19</span>
+                            <span class="span-long">
+                                <div class="pull-left">08 -</div>
+                                <div class="pull-right">- 19</div>
+                            </span>
                         </td>
-                        <!--<td class=""></td>-->
-                        <td class=""></td>
-                        <td class=""></td>
-                        <td class=""></td>
-                        <td class=""></td>
-                        <td class="">
-                            <span>00-12</span>
-                        </td>
+                        <!--<td class ""></td>-->
+                        <td class=""><span class="span-right">08 -</span></td>
                     </tr>
                 </tbody>
             </table>

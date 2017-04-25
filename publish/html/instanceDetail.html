@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -86,25 +86,31 @@
     <div class="container">
         <h2>
             gnclouds-web
-            <i class="glyphicon glyphicon-new-window"></i>
+            <i class="glyphicon glyphicon-new-window" data-toggle="tooltip" data-placement="top" title="Tooltip"></i>
         </h2>
         <div class="info-group">
-            <img src="../assets/gn_images/gn_dot_play.png" alt="running">
-            <!--<img src="../assets/gn_images/gn_dot_stop.png" alt="stop">-->
-            <span>Running</span>
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true">
-                        Dropdown
-                    </button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-                    </ul>
-                </div>
+            <div class="dropdown">
+                <img src="../assets/gn_images/gn_dot_play.png" alt="running">
+                <!--<img src="../assets/gn_images/gn_dot_stop.png" alt="stop">-->
+
+                <span class="dropdown-toggle" data-toggle="dropdown">
+                    Running
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                </span>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Start</a></li>
+                    <li><a href="#">Stop</a></li>
+                </ul>
+            </div><!--class="dropdown"-->
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <span>t2.nano</span>
             <span class="pull-right" onclick="location.href='#'">
                 <i class="glyphicon glyphicon-cog"></i>&nbsp;&nbsp;Schedule
+                <label class="switch switch-green">
+                    <input type="checkbox" class="switch-input" checked>
+                    <span class="switch-label" data-on="On" data-off="Off"></span>
+                    <span class="switch-handle"></span>
+                </label>
             </span>
         </div>
 
@@ -198,5 +204,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../assets/gn_js/bootstrap.min.js"></script>
 <script src="../assets/gn_js/searchnmenu.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 </body>
 </html>

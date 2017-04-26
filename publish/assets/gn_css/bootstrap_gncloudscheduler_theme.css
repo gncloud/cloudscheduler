@@ -3,7 +3,7 @@
 /*나눔바른고딕 폰트*/
 @import url('nanumbarungothic.css');
 /* ========== gncloud 공통 STYLE ========== */
-*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; outline: none;}
 html{margin:0;
     padding:0;
     position: relative;
@@ -1963,7 +1963,7 @@ html.open {overflow: hidden;}
 #menu ul.sub-menu li a:hover{color: #096c6f;}
 
 
-
+.glyphicon.glyphicon-chevron-down{vertical-align: middle;}
 
 
 /*슬라이드 메뉴 footer*/
@@ -2171,16 +2171,14 @@ html.open {overflow: hidden;}
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: 10px center;
-    vertical-align: middle;
-}
+    vertical-align: middle;}
 
 .gn-scheduler-instance .gn-table-responsive .calen-off{
     background-image: url("../gn_images/calendar-off.png");
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: 10px center;
-    vertical-align: middle;
-}
+    vertical-align: middle;}
 
 .gn-scheduler-instance .gn-table-responsive .calen-on a,
 .gn-scheduler-instance .gn-table-responsive .calen-off a{margin-left: 30px;}
@@ -2203,6 +2201,7 @@ html.open {overflow: hidden;}
 @media (max-width: 480px) {
     .gn-scheduler-instance .gn-table-responsive .ellipsis{width: 85px; display: block;}
     .gn-scheduler-instance .gn-table-responsive .td-state img{padding: 0 10px 0 10px;}
+
 }
 
 

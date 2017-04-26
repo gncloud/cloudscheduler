@@ -1821,8 +1821,8 @@ nav.gn-header.gn-scheduler-header i.glyphicon.glyphicon-align-justify{
     cursor: pointer;
     z-index: 1;
     position: absolute;
-    left: 0;
-    top: 10px;
+    left: 15px;
+    top: 22px;
 }
 
 nav.gn-header.gn-scheduler-header img.cloud-scheduler-logo{
@@ -1838,7 +1838,7 @@ nav.gn-header.gn-scheduler-header > div{
 
 
 /* 왼쪽 슬라이드 메뉴 style */
-/*html.open {overflow: hidden;}*/
+html.open {overflow: hidden;}
 
 .page_cover.open {
     display: block;

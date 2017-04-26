@@ -2414,11 +2414,11 @@ html.open {overflow: hidden;}
 #scheduleSett .scheduler-table tbody tr td.sel-td{border-right: none!important; line-height: 37px;}
 #scheduleSett .scheduler-table tbody tr td.sun-td{border-bottom: none;}
 
-#scheduleSett .scheduler-table tbody .gn-select{margin: 0;}
+#scheduleSett .scheduler-table tbody .gn-select{margin: 0; background-color: rgba(215,215,215,0.3); border:none; border-radius: 10px; outline: none; }
+#scheduleSett .scheduler-table tbody .gn-select:hover{background-color: rgba(215,215,215,0.6);}
 
 #scheduleSett .modal-footer button{
-    background-color: #58c4c6;
-    padding: 10px;
+    border-radius: 5px;
 }
 
 

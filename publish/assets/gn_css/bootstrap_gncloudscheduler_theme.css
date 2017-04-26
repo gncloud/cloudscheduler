@@ -1838,7 +1838,7 @@ nav.gn-header.gn-scheduler-header > div{
 
 
 /* 왼쪽 슬라이드 메뉴 style */
-html.open {overflow: hidden;}
+/*html.open {overflow: hidden;}*/
 
 .page_cover.open {
     display: block;
@@ -1896,7 +1896,7 @@ html.open {overflow: hidden;}
 .menu-close:hover{color: #096c6f;}
 
 
-#menu {
+#menu{
     width: 300px;
     height: 100%;
     position: fixed;
@@ -1913,7 +1913,7 @@ html.open {overflow: hidden;}
     padding: 20px;
 }
 
-#menu.open {
+#menu.open{
     left: 0px;
 }
 

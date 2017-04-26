@@ -40,7 +40,7 @@ function buttonUp(){
 
 
 /*left menu*/
-$(".btn").click(function() {
+$(".left-btn").click(function() {
     $("#menu,.page_cover,html").addClass("open");
     window.location.hash = "#open";
 });

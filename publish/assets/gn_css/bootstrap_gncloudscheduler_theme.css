@@ -2253,7 +2253,11 @@ html.open {overflow: hidden;}
 }
 
 .gn-scheduler-detail .gn-board-table tbody tr td span.span-long{height: 36px;}
-.gn-scheduler-detail .gn-board-table tbody tr td span.span-long div{padding: 0px 20px;}
+.gn-scheduler-detail .gn-board-table tbody tr td span.span-long div.pull-left{padding: 0px 20px;}
+.gn-scheduler-detail .gn-board-table tbody tr td span.span-long div.pull-right{padding: 0px 20px;}
+
+
+
 
 /*=======================SWITCH==========================*/
 .switch {
@@ -2376,15 +2380,47 @@ html.open {overflow: hidden;}
     background: rgb(52,200,74);
 }
 
+
+
+/* ======================== 클라우드 스케쥴러 인스턴스 상세 반응형 ======================== */
+
+@media (min-width: 1200px) {  }
+
+/* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
+@media (min-width: 768px) and (max-width: 992px) {  }
+
+/* 가로 방향 전화기부터 세로 방향 타블렛까지 */
+@media (max-width: 767px) {
+    .gn-scheduler-detail{margin-top: 150px !important;}
+    .gn-scheduler-detail ul li strong{display: block;}
+
+    .gn-scheduler-detail .gn-board-table tbody tr td span.span-right{padding-left: 10px;}
+    .gn-scheduler-detail .gn-board-table tbody tr td span.span-left{padding-right: 10px;}
+    .gn-scheduler-detail .gn-board-table tbody tr td span.span-long div.pull-left{padding: 0 0 0 5px;}
+    .gn-scheduler-detail .gn-board-table tbody tr td span.span-long div.pull-right{padding: 0 5px 0 0;}
+}
+
+/* 가로 방향 전화기 이하 */
+@media (max-width: 480px) {
+    /*검색바 아이콘*/
+    .sb-search-input{width: 100%; z-index: 10;}
+}
+
+
+
+
+
 /* ======================== 클라우드 스케쥴러 SETTING modal 페이지 ======================== */
 #scheduleSett{background-color: #ffffff;}
 #scheduleSett h2{text-align: center;}
+#scheduleSett button.close{font-size: 30px; position: absolute; right: 15px; top: -15px;}
 #scheduleSett .modal-header{border-bottom: none;}
 #scheduleSett .modal-footer{border-top: none;}
 #scheduleSett .modal-content{border: none; box-shadow: none;}
 #scheduleSett .table-responsive{
     border-radius: 10px;
     border: 2px solid rgba(88, 196, 198, 0.5);
+    margin-bottom: 0;
 }
 
 #scheduleSett .scheduler-table{
@@ -2400,8 +2436,8 @@ html.open {overflow: hidden;}
     border: none;
     border-bottom: 2px solid rgba(88, 196, 198, 0.2) !important;
     border-right: 2px solid rgba(88, 196, 198, 0.2) !important;
-    background-color: #e0f1f2;
-}
+    background-color: #e0f1f2;}
+
 #scheduleSett .scheduler-table thead tr th.last-td,
 #scheduleSett .scheduler-table tbody tr td.last-td{border-right: none !important;}
 
@@ -2430,6 +2466,8 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
+    #scheduleSett .modal-content{margin-top: 35px;}
+    #scheduleSett button.close{}
 }
 
 /* 가로 방향 전화기 이하 */
@@ -2437,26 +2475,6 @@ html.open {overflow: hidden;}
 }
 
 
-
-
-/* ======================== 클라우드 스케쥴러 인스턴스 상세 반응형 ======================== */
-
-@media (min-width: 1200px) {  }
-
-/* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
-@media (min-width: 768px) and (max-width: 992px) {  }
-
-/* 가로 방향 전화기부터 세로 방향 타블렛까지 */
-@media (max-width: 767px) {
-    .gn-scheduler-detail{margin-top: 150px !important;}
-    .gn-scheduler-detail ul li strong{display: block;}
-}
-
-/* 가로 방향 전화기 이하 */
-@media (max-width: 480px) {
-    /*검색바 아이콘*/
-    .sb-search-input{width: 100%; z-index: 10;}
-}
 
 
 

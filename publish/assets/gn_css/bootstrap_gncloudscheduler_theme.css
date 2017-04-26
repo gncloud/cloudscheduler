@@ -1879,7 +1879,7 @@ html.open {overflow: hidden;}
 
 .gn-scheduler-header ul.dropdown-menu a i{margin-right: 10px;}
 
-.close {
+.menu-close {
     width: 50px;
     height: 50px;
     position: absolute;
@@ -1893,7 +1893,7 @@ html.open {overflow: hidden;}
     opacity: 1;
 }
 
-.close:hover{color: #096c6f;}
+.menu-close:hover{color: #096c6f;}
 
 
 #menu {
@@ -2136,7 +2136,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 회원가입 페이지 ======================== */
-#login .join-btn button.btn-gn-primary{padding: 67px 0; }
+#login .join-btn button.btn-gn-primary{padding: 78px 0; }
 
 
 
@@ -2289,7 +2289,7 @@ html.open {overflow: hidden;}
     text-transform: uppercase;
     background: rgba(255, 0, 0, 0.75);
     border-radius: inherit;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+    /*box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);*/
     -webkit-transition: 0.15s ease-out;
     -moz-transition: 0.15s ease-out;
     -o-transition: 0.15s ease-out;
@@ -2313,18 +2313,18 @@ html.open {overflow: hidden;}
     content: attr(data-off);
     right: 11px;
     color: #ffffff;
-    text-shadow: 0 1px rgb(151, 55, 46);
+    /*text-shadow: 0 1px rgb(151, 55, 46);*/
 }
 .switch-label:after {
     content: attr(data-on);
     left: 11px;
     color: white;
-    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    /*text-shadow: 0 1px rgba(0, 0, 0, 0.2);*/
     opacity: 0;
 }
 .switch-input:checked ~ .switch-label {
     background: #47a8d8;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+    /*box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);*/
 }
 .switch-input:checked ~ .switch-label:before {
     opacity: 0;
@@ -2377,10 +2377,49 @@ html.open {overflow: hidden;}
 }
 
 /* ======================== 클라우드 스케쥴러 SETTING modal 페이지 ======================== */
+#scheduleSett{background-color: #ffffff;}
+#scheduleSett h2{text-align: center;}
+#scheduleSett .modal-header{border-bottom: none;}
+#scheduleSett .modal-footer{border-top: none;}
+#scheduleSett .modal-content{border: none; box-shadow: none;}
+#scheduleSett .table-responsive{
+    border-radius: 10px;
+    border: 2px solid rgba(88, 196, 198, 0.5);
+}
 
+#scheduleSett .scheduler-table{
+    text-align: center !important;
+    border-radius: 5px;
+    margin: 0;
+    border: none;
+    /*border: 2px solid rgba(88, 196, 198, 0.5);*/
+}
 
+#scheduleSett .scheduler-table thead tr th{
+    text-align: center !important;
+    border: none;
+    border-bottom: 2px solid rgba(88, 196, 198, 0.2) !important;
+    border-right: 2px solid rgba(88, 196, 198, 0.2) !important;
+    background-color: #e0f1f2;
+}
+#scheduleSett .scheduler-table thead tr th.last-td,
+#scheduleSett .scheduler-table tbody tr td.last-td{border-right: none !important;}
 
+#scheduleSett .scheduler-table tbody tr td{
+    border: none;
+    border-right: 2px solid rgba(88, 196, 198, 0.2) !important;
+    border-bottom: 2px solid rgba(88, 196, 198, 0.2);}
 
+#scheduleSett .scheduler-table tbody tr td.first-td{background-color: #e0f1f2; padding: 15px 10px;}
+#scheduleSett .scheduler-table tbody tr td.sel-td{border-right: none!important; line-height: 37px;}
+#scheduleSett .scheduler-table tbody tr td.sun-td{border-bottom: none;}
+
+#scheduleSett .scheduler-table tbody .gn-select{margin: 0;}
+
+#scheduleSett .modal-footer button{
+    background-color: #cccccc;
+    padding: 10px;
+}
 
 
 /*setting modal*/

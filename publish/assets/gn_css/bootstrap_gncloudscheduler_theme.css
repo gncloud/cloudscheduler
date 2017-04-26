@@ -2065,21 +2065,21 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 로그인 페이지 ======================== */
-#login{margin-top: 150px;}
-#login .container{padding: 0px 250px;}
-#login .container h2{margin-bottom: 20px;}
-#login .container span{margin-bottom: 5px;}
-#login .container span a{color: #58c4c6;}
-#login .container .group{padding: 0;}
-#login .container .group > div{padding-left: 0;}
-#login .container .group > div > input{margin-bottom: 15px;}
-#login .container .gn-form-control{height: 50px;}
-#login .container button.btn-gn-primary{padding: 45px 0; font-size: 16px;}
+.login{margin-top: 150px;}
+.login{padding: 0px 250px;}
+.login h2{margin-bottom: 20px;}
+.login span{margin-bottom: 5px;}
+.login span a{color: #58c4c6;}
+.login .group{padding: 0;}
+.login .group > div{padding-left: 0;}
+.login .group > div > input{margin-bottom: 15px;}
+.login .gn-form-control{height: 50px;}
+.login button.btn-gn-primary{padding: 45px 0; font-size: 16px;}
 
-#login .line{border-bottom: 2px solid rgba(215,215,215,0.5); position: relative; display: block; margin-bottom: 40px;}
-#login .line p{margin: 0 auto; text-align: center; position: absolute; top: -19px; left: 47%; background-color: #ffffff; padding: 10px;}
+.login .line{border-bottom: 2px solid rgba(215,215,215,0.5); position: relative; display: block; margin-bottom: 40px;}
+.login .line p{margin: 0 auto; text-align: center; position: absolute; top: -19px; left: 47%; background-color: #ffffff; padding: 10px;}
 
-#login button.btn-google{
+.login button.btn-google{
     background-color: #333333;
     color: #ffffff;
     /*height: 50px;*/
@@ -2092,7 +2092,7 @@ html.open {overflow: hidden;}
     background-position: 20px center;
 }
 
-#login button.btn-git{
+.login button.btn-git{
     background-color: #4285f4;
     color: #ffffff;
     /*height: 50px;*/
@@ -2118,25 +2118,25 @@ html.open {overflow: hidden;}
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
 @media (min-width: 768px) and (max-width: 992px) {
-    #login .container{padding: 0px 15px;}
+    .login {padding: 0px 15px;}
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    #login .container{padding: 0px 15px;}
-    #login .container .group > div{padding: 0;}
-    #login .container button.btn-gn-primary{padding: 14px 0;}
-    #login .btn-id{margin-top: 10px;}
+    .login{padding: 0px 15px;}
+    .login .group > div{padding: 0;}
+    .login button.btn-gn-primary{padding: 14px 0;}
+    .login .btn-id{margin-top: 10px;}
 }
 
 /* 가로 방향 전화기 이하 */
 @media (max-width: 480px) {
-    #login button.btn-google,#login button.btn-git{padding-left: 40px;}
+    .login button.btn-google,.login button.btn-git{padding-left: 40px;}
 }
 
 
 /* ======================== 클라우드 스케쥴러 회원가입 페이지 ======================== */
-#login .join-btn button.btn-gn-primary{padding: 78px 0; }
+.login .join-btn button.btn-gn-primary{padding: 78px 0; }
 
 
 
@@ -2148,7 +2148,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    #login .join-btn button.btn-gn-primary{padding: 14px 0;}
+    .login .join-btn button.btn-gn-primary{padding: 14px 0;}
 }
 
 /* 가로 방향 전화기 이하 */
@@ -2417,7 +2417,7 @@ html.open {overflow: hidden;}
 #scheduleSett .scheduler-table tbody .gn-select{margin: 0;}
 
 #scheduleSett .modal-footer button{
-    background-color: #cccccc;
+    background-color: #58c4c6;
     padding: 10px;
 }
 
@@ -2462,20 +2462,25 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 Keys 키 ======================== */
-
-
-
-
-
+.keys{margin-top: 130px; padding: 0px 250px;}
+.keys .gn-lead{margin: 20px 0 10px 0; display: block;}
+.keys ul{padding: 20px 15px;}
+.keys ul li{list-style: url("../gn_images/list-dot.png"); line-height: 30px; padding-left: 10px; font-size: 16px;}
+.keys > div{line-height: 37px; margin-bottom: 10px;}
+.keys .link{color: #58c4c6; text-decoration: underline; cursor: pointer;}
+.keys .link:hover{color: #00afb4; font-weight: 600;}
 
 /*keys 반응형*/
 @media (min-width: 1200px) {  }
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
-@media (min-width: 768px) and (max-width: 992px) {  }
+@media (min-width: 768px) and (max-width: 992px) {
+    .keys{padding: 0px 15px;}
+}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
+    .keys{padding: 0px 15px;}
 }
 
 /* 가로 방향 전화기 이하 */

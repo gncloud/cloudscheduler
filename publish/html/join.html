@@ -83,26 +83,37 @@
 </nav> <!--HEADER END-->
 
 <div id="login">
-    <div class="container ">
-        <h2>로그인</h2>
-        <span class="center-block text-right">또는 &nbsp;<a>계정만들기</a></span>
-        <div class="col-xs-9">
-            <div class="col-sm-9">
-                <input type="text" class="gn-form-control form-control" placeholder="성">
-            </div>
-            <div class="col-sm-3" style="padding-left: 0;">
-                <input type="text" class="gn-form-control form-control" placeholder="이름">
-            </div>
-            <div class="col-sm-12">
+    <div class="container">
+        <h2>JOIN</h2>
+        <div class="group clearfix">
+            <span class="center-block text-right">or &nbsp;<a>login</a></span>
+
+            <div class="col-xs-12 col-sm-9">
+                <input type="text" class="gn-form-control" style="width: 40%; float: left;" placeholder="성">
+                <input type="text" class="gn-form-control" style="width: 55%; margin-left: 5%;" placeholder="이름">
                 <input type="email" class="gn-form-control form-control" placeholder="name@mail.com">
-            </div>
-            <div class="col-sm-12">
                 <input type="password" class="gn-form-control form-control" placeholder="password">
             </div>
+
+            <div class="col-xs-12 col-sm-3 join-btn" style="padding-right: 0;">
+                <button type="button" class="btn btn-gn-primary btn-block">Create</button>
+            </div>
         </div>
-        <div class="col-xs-3">
-            <button type="button" class="btn btn-gn-primary btn-block">계정만들기</button>
+
+        <!--체크박스-->
+        <div class="btn-id">
+            <input class="form-inputPop" type="checkbox" id="checkbox-id"/>
+            <i></i>
+            <label for="checkbox-id" class="label-id">save id</label>
+            <a href="">forgot your password?</a>
         </div>
+
+        <div class="line">
+            <p>or</p>
+        </div>
+
+        <button type="button" class="btn btn-google btn-block">Github  |  Sign in with your account</button>
+        <button type="button" class="btn btn-git btn-block">Google |  Sign in with your account</button>
 
     </div>
 </div>

@@ -2136,7 +2136,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 회원가입 페이지 ======================== */
-
+#login .join-btn button.btn-gn-primary{padding: 67px 0; }
 
 
 
@@ -2148,6 +2148,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
+    #login .join-btn button.btn-gn-primary{padding: 14px 0;}
 }
 
 /* 가로 방향 전화기 이하 */

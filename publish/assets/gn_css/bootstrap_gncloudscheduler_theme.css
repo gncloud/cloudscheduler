@@ -1805,7 +1805,7 @@ div.tab-content,
 
 
 /* ======================== 클라우드 스케쥴러 공통 ======================== */
-/*body{margin: 0; overflow-y: auto;}*/
+body{margin: 0; overflow-y: auto;}
 h1,h2,h3,h4,h5,h6{margin: 0;}
 
 nav.gn-header.gn-scheduler-header{
@@ -1814,6 +1814,7 @@ nav.gn-header.gn-scheduler-header{
     top: 0;
     height: 70px;
     width: 100%;
+    padding: 15px 15px 0 15px;
 }
 
 nav.gn-header.gn-scheduler-header i.glyphicon.glyphicon-align-justify{
@@ -1822,7 +1823,7 @@ nav.gn-header.gn-scheduler-header i.glyphicon.glyphicon-align-justify{
     z-index: 1;
     position: absolute;
     left: 17px;
-    top: 22px;
+    top: 7px;
 }
 
 nav.gn-header.gn-scheduler-header img.cloud-scheduler-logo{
@@ -1831,11 +1832,16 @@ nav.gn-header.gn-scheduler-header img.cloud-scheduler-logo{
     margin-top: 3px;}
 
 nav.gn-header.gn-scheduler-header > div{
-    padding: 15px 15px 0 15px;
-    background-color: #ffffff;
+    /*padding: 15px 15px 0 15px;*/
+    /*background-color: #ffffff;*/
     position: relative;}
 
 
+.gn-scheduler-header.affix {
+    padding: 0;
+    border-bottom: 1px solid rgba(215,215,215,0.5);
+    border-radius: 0;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.1);  }
 
 /* 왼쪽 슬라이드 메뉴 style */
 html.open {overflow: hidden;}
@@ -2068,7 +2074,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 로그인 페이지 ======================== */
-.login{margin-top: 150px;}
+.login{padding-top: 150px;}
 .login{padding: 0px 250px;}
 .login h2{margin-bottom: 20px;}
 .login span{margin-bottom: 5px;}
@@ -2162,12 +2168,14 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 인스턴스 리스트 ======================== */
-.gn-scheduler-instance{margin-top: 130px;}
+.gn-scheduler-instance{padding-top: 130px;}
 .gn-scheduler-instance .gn-table-responsive{border: none;}
 /* Instance State */
 .gn-scheduler-instance .gn-table-responsive .td-state{text-align: left;}
 .gn-scheduler-instance .gn-table-responsive .td-state img{padding: 0 10px 0 20px;}
 /*.gn-scheduler-instance .gn-table-responsive .td-state span{width: 55px; display: inline-block; text-align: center;}*/
+.gn-scheduler-instance span.dropdown-toggle{display: inline-block; width: 72px;}
+.gn-scheduler-instance span.dropdown-toggle i{text-align: right;}
 .gn-scheduler-instance .dropdown-menu{padding: 0; min-width: 120px; left: 17px; border: 2px solid rgba(215,215,215,0.5);}
 .gn-scheduler-instance .dropdown-menu li:hover{background-color: #efefef;}
 .gn-scheduler-instance .dropdown-menu li a{padding: 5px 10px 5px 17px;}
@@ -2217,7 +2225,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 인스턴스 상세 ======================== */
-.gn-scheduler-detail{margin-top: 100px;}
+.gn-scheduler-detail{padding-top: 100px;}
 .gn-scheduler-detail h2 i{margin-left: 10px; cursor: pointer;}
 .gn-scheduler-detail h2 i:hover{color: #58c4c6;}
 .gn-scheduler-detail .info-group{margin-bottom: 10px;}
@@ -2494,7 +2502,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 Keys 키 ======================== */
-.keys{margin-top: 130px; padding: 0px 250px;}
+.keys{padding: 130px 250px 100px 250px;}
 .keys .gn-lead{margin: 20px 0 10px 0; display: block;}
 .keys ul{padding: 20px 15px;}
 .keys ul li{list-style: url("../gn_images/list-dot.png"); line-height: 30px; padding-left: 10px; font-size: 16px;}

@@ -53,3 +53,10 @@ window.onhashchange = function() {
     }
 };
 
+
+
+$('.gn-scheduler-header').affix({
+    offset: {
+        top: 100
+    }
+})

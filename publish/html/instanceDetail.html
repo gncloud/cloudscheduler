@@ -86,121 +86,120 @@
 
 
 <div class="container gn-scheduler-detail">
-        <h2>
-            gnclouds-web
-            <i class="glyphicon glyphicon-new-window" data-toggle="tooltip" data-placement="top" title="Tooltip"></i>
-        </h2>
-        <div class="info-group">
-            <div class="dropdown">
-                <img src="../assets/gn_images/gn_dot_play.png" alt="running">
-                <!--<img src="../assets/gn_images/gn_dot_stop.png" alt="stop">-->
+    <h2>
+        gnclouds-web
+        <i class="glyphicon glyphicon-new-window" data-toggle="tooltip" data-placement="top" title="Tooltip"></i>
+    </h2>
+    <div class="info-group">
+        <div class="dropdown">
+            <img src="../assets/gn_images/gn_dot_play.png" alt="running">
+            <!--<img src="../assets/gn_images/gn_dot_stop.png" alt="stop">-->
 
-                <span class="dropdown-toggle" data-toggle="dropdown">
-                    Running
-                    <i class="glyphicon glyphicon-chevron-down"></i>
-                </span>
-                <ul class="dropdown-menu">
-                    <li class="border-bottom"><a href="#"><img src="../assets/gn_images/gn_dot_play.png" alt="running">Start</a></li>
-                    <li><a href="#"><img src="../assets/gn_images/gn_dot_stop.png" alt="stop">Stop</a></li>
-                </ul>
-            </div><!--class="dropdown"-->
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <span>t2.nano</span>
-            <span class="pull-right">
-                <a data-toggle="modal" data-target="#scheduleSett">
-                    <i class="glyphicon glyphicon-cog"></i>&nbsp;&nbsp;Schedule
-                </a>
-                <label class="switch switch-green">
-                    <input type="checkbox" class="switch-input" checked>
-                    <span class="switch-label" data-on="On" data-off="Off"></span>
-                    <span class="switch-handle"></span>
-                </label>
+            <span class="dropdown-toggle" data-toggle="dropdown">
+                Running
+                <i class="glyphicon glyphicon-chevron-down"></i>
             </span>
-        </div>
-
-        <div class="table-responsive gn-table-responsive">
-            <table class="table gn-board-table">
-                <thead>
-                    <tr>
-                        <th class="">M<span class="hidden-xs">on</span></th>
-                        <th class="">T<span class="hidden-xs">ue</span></th>
-                        <th class="">W<span class="hidden-xs">ed</span></th>
-                        <th class="">T<span class="hidden-xs">he</span></th>
-                        <th class="">F<span class="hidden-xs">ri</span></th>
-                        <th class="">S<span class="hidden-xs">at</span></th>
-                        <th class="">S<span class="hidden-xs">un</span></th>
-                    </tr>
-                </thead>
-                <tbody class="gn-tdody">
-                    <tr>
-                        <td class="" ><span class="span-left">- 19</span></td>
-                        <td class=""><span>08 - 19</span></td>
-                        <td class=""><span>08 - 19</span></td>
-                        <td class=""><span>08 - 19</span></td>
-                        <td class="" colspan="2">
-                            <span class="span-long">
-                                <div class="pull-left">08 -</div>
-                                <div class="pull-right">- 19</div>
-                            </span>
-                        </td>
-                        <!--<td class ""></td>-->
-                        <td class=""><span class="span-right">08 -</span></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div><!--table-->
-
-        <ul>
-            <li><strong>Saving Cost :</strong> $5</li>
-            <li><strong>Saving Time :</strong> 36Hr</li>
-            <li><strong>Left Time :</strong> 8Hr</li>
-            <li><strong>Instance ID :</strong> i-03a84cef51d714548</li>
-            <li><strong>Public DNS :</strong> ec2-13-124-0-157.ap-northeast-2.compute.amazonaws.com</li>
-            <li><strong>Instance state :</strong> running</li>
-            <li><strong>IPv4 Public IP :</strong> 13.124.0.157</li>
-            <li><strong>Instance type :</strong> t2.nano</li>
-            <li><strong>IPv6 IPs :</strong> -</li>
-            <li><strong>Elastic IPs :</strong> -</li>
-            <li><strong>Private DNS :</strong> ip-10-0-0-229.ap-northeast-2.compute.internal</li>
-            <li><strong>Availability zone :</strong> ap-northeast-2c</li>
-            <li><strong>Private IPs :</strong> 10.0.0.229</li>
-            <li><strong>Security groups :</strong> All</li>
-            <li><strong>Secondary private IPs :</strong> - </li>
-            <li><strong>Scheduled events :</strong> No scheduled events</li>
-            <li><strong>VPC ID :</strong> vpc-8e91e4e7</li>
-            <li><strong>AMI ID :</strong> ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20170113 (ami-0500d06b)</li>
-            <li><strong>Subnet ID :</strong> subnet-e3c779ae</li>
-            <li><strong>Platform :</strong> -</li>
-            <li><strong>Network interfaces :</strong> eth0</li>
-            <li><strong>IAM role :</strong> -</li>
-            <li><strong>Source/dest. check:</strong> True</li>
-            <li><strong>Key pair name :</strong> gncloud-database</li>
-            <li><strong>Owner :</strong> 991335066882</li>
-            <li><strong>EBS-optimized :</strong> False</li>
-            <li><strong>Launch time :</strong> March 21, 2017 at 3:22:46 PM UTC+9 (505 hours)</li>
-            <li><strong>Root device type :</strong> ebs</li>
-            <li><strong>Termination protection :</strong> False</li>
-            <li><strong>Root device :</strong> /dev/sda1</li>
-            <li><strong>Lifecycle :</strong> normal</li>
-            <li><strong>Block devices :</strong> /dev/sda1</li>
-            <li><strong>Monitoring :</strong> basic</li>
-            <li><strong>Alarm status :</strong> None</li>
-            <li><strong>Kernel ID :</strong> -</li>
-            <li><strong>RAM disk ID :</strong> -</li>
-            <li><strong>Placement group :</strong> -</li>
-            <li><strong>Virtualization :</strong> hvm</li>
-            <li><strong>Reservation :</strong> r-04e99f1dc3c520c58</li>
-            <li><strong>AMI launch index :</strong> 0</li>
-            <li><strong>Tenancy :</strong> default</li>
-            <li><strong>Host ID :</strong> -</li>
-            <li><strong>Affinity :</strong> -</li>
-            <li><strong>State transition reason :</strong> -</li>
-            <li><strong>State transition reason message :</strong> -</li>
-        </ul>
-
-
+            <ul class="dropdown-menu">
+                <li class="border-bottom"><a href="#"><img src="../assets/gn_images/gn_dot_play.png" alt="running">Start</a></li>
+                <li><a href="#"><img src="../assets/gn_images/gn_dot_stop.png" alt="stop">Stop</a></li>
+            </ul>
+        </div><!--class="dropdown"-->
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <span>t2.nano</span>
+        <span class="pull-right">
+            <a data-toggle="modal" data-target="#scheduleSett">
+                <i class="glyphicon glyphicon-cog"></i>&nbsp;&nbsp;Schedule
+            </a>
+            <label class="switch switch-green">
+                <input type="checkbox" class="switch-input" checked>
+                <span class="switch-label" data-on="On" data-off="Off"></span>
+                <span class="switch-handle"></span>
+            </label>
+        </span>
     </div>
 
+    <div class="table-responsive gn-table-responsive">
+        <table class="table gn-board-table">
+            <thead>
+                <tr>
+                    <th class="">M<span class="hidden-xs">on</span></th>
+                    <th class="">T<span class="hidden-xs">ue</span></th>
+                    <th class="">W<span class="hidden-xs">ed</span></th>
+                    <th class="">T<span class="hidden-xs">he</span></th>
+                    <th class="">F<span class="hidden-xs">ri</span></th>
+                    <th class="">S<span class="hidden-xs">at</span></th>
+                    <th class="">S<span class="hidden-xs">un</span></th>
+                </tr>
+            </thead>
+            <tbody class="gn-tdody">
+                <tr>
+                    <td class="" ><span class="span-left">- 19</span></td>
+                    <td class=""><span>08 - 19</span></td>
+                    <td class=""><span>08 - 19</span></td>
+                    <td class=""><span>08 - 19</span></td>
+                    <td class="" colspan="2">
+                        <span class="span-long">
+                            <div class="pull-left">08 -</div>
+                            <div class="pull-right">- 19</div>
+                        </span>
+                    </td>
+                    <!--<td class ""></td>-->
+                    <td class=""><span class="span-right">08 -</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div><!--table-->
+
+    <ul>
+        <li><strong>Saving Cost :</strong> $5</li>
+        <li><strong>Saving Time :</strong> 36Hr</li>
+        <li><strong>Left Time :</strong> 8Hr</li>
+        <li><strong>Instance ID :</strong> i-03a84cef51d714548</li>
+        <li><strong>Public DNS :</strong> ec2-13-124-0-157.ap-northeast-2.compute.amazonaws.com</li>
+        <li><strong>Instance state :</strong> running</li>
+        <li><strong>IPv4 Public IP :</strong> 13.124.0.157</li>
+        <li><strong>Instance type :</strong> t2.nano</li>
+        <li><strong>IPv6 IPs :</strong> -</li>
+        <li><strong>Elastic IPs :</strong> -</li>
+        <li><strong>Private DNS :</strong> ip-10-0-0-229.ap-northeast-2.compute.internal</li>
+        <li><strong>Availability zone :</strong> ap-northeast-2c</li>
+        <li><strong>Private IPs :</strong> 10.0.0.229</li>
+        <li><strong>Security groups :</strong> All</li>
+        <li><strong>Secondary private IPs :</strong> - </li>
+        <li><strong>Scheduled events :</strong> No scheduled events</li>
+        <li><strong>VPC ID :</strong> vpc-8e91e4e7</li>
+        <li><strong>AMI ID :</strong> ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20170113 (ami-0500d06b)</li>
+        <li><strong>Subnet ID :</strong> subnet-e3c779ae</li>
+        <li><strong>Platform :</strong> -</li>
+        <li><strong>Network interfaces :</strong> eth0</li>
+        <li><strong>IAM role :</strong> -</li>
+        <li><strong>Source/dest. check:</strong> True</li>
+        <li><strong>Key pair name :</strong> gncloud-database</li>
+        <li><strong>Owner :</strong> 991335066882</li>
+        <li><strong>EBS-optimized :</strong> False</li>
+        <li><strong>Launch time :</strong> March 21, 2017 at 3:22:46 PM UTC+9 (505 hours)</li>
+        <li><strong>Root device type :</strong> ebs</li>
+        <li><strong>Termination protection :</strong> False</li>
+        <li><strong>Root device :</strong> /dev/sda1</li>
+        <li><strong>Lifecycle :</strong> normal</li>
+        <li><strong>Block devices :</strong> /dev/sda1</li>
+        <li><strong>Monitoring :</strong> basic</li>
+        <li><strong>Alarm status :</strong> None</li>
+        <li><strong>Kernel ID :</strong> -</li>
+        <li><strong>RAM disk ID :</strong> -</li>
+        <li><strong>Placement group :</strong> -</li>
+        <li><strong>Virtualization :</strong> hvm</li>
+        <li><strong>Reservation :</strong> r-04e99f1dc3c520c58</li>
+        <li><strong>AMI launch index :</strong> 0</li>
+        <li><strong>Tenancy :</strong> default</li>
+        <li><strong>Host ID :</strong> -</li>
+        <li><strong>Affinity :</strong> -</li>
+        <li><strong>State transition reason :</strong> -</li>
+        <li><strong>State transition reason message :</strong> -</li>
+    </ul>
+
+
+</div>
 
 <!-- Modal -->
 <div id="scheduleSett" class="modal fade" role="dialog">

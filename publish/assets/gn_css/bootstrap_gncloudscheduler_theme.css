@@ -1805,7 +1805,7 @@ div.tab-content,
 
 
 /* ======================== 클라우드 스케쥴러 공통 ======================== */
-body{margin: 0; overflow-y: auto;}
+body{margin: 0;}
 h1,h2,h3,h4,h5,h6{margin: 0;}
 
 nav.gn-header.gn-scheduler-header{
@@ -2440,7 +2440,7 @@ html.open {overflow: hidden;}
 #scheduleSett .modal-content{border: none; box-shadow: none;}
 #scheduleSett .modal-dialog{margin: 0 auto;}
 #scheduleSett .table-responsive{
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid rgba(88, 196, 198, 0.5);
     margin-bottom: 0;
 }

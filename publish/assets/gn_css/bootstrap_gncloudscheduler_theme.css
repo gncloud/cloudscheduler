@@ -1821,7 +1821,7 @@ nav.gn-header.gn-scheduler-header i.glyphicon.glyphicon-align-justify{
     cursor: pointer;
     z-index: 1;
     position: absolute;
-    left: 15px;
+    left: 17px;
     top: 22px;
 }
 
@@ -1971,9 +1971,10 @@ html.open {overflow: hidden;}
     font-size: 12px;
     color: #ffffff;
     position: absolute;
-    left:15px;
+    left: 0px;
     bottom: 20px;
-    padding: 0px 15px;
+    width: 100%;
+    padding: 0px 20px;
     text-align: left;
 }
 #menu footer p{margin-bottom: 0px;}
@@ -1991,8 +1992,8 @@ html.open {overflow: hidden;}
 
 /*검색바*/
 .searchbox{
-    position:absolute;
-    top: 15px;
+    position: relative;
+    top: -36px;
     right:0;
     z-index: 2;
     min-width:50px;
@@ -2416,6 +2417,7 @@ html.open {overflow: hidden;}
 #scheduleSett .modal-header{border-bottom: none;}
 #scheduleSett .modal-footer{border-top: none;}
 #scheduleSett .modal-content{border: none; box-shadow: none;}
+#scheduleSett .modal-dialog{margin: 0 auto;}
 #scheduleSett .table-responsive{
     border-radius: 10px;
     border: 2px solid rgba(88, 196, 198, 0.5);
@@ -2484,6 +2486,7 @@ html.open {overflow: hidden;}
 .keys ul{padding: 20px 15px;}
 .keys ul li{list-style: url("../gn_images/list-dot.png"); line-height: 30px; padding-left: 10px; font-size: 16px;}
 .keys > div{line-height: 37px; margin-bottom: 10px;}
+.keys > div .col-sm-7{padding: 0;}
 .keys .link{color: #58c4c6; text-decoration: underline; cursor: pointer;}
 .keys .link:hover{color: #00afb4; font-weight: 600;}
 
@@ -2498,6 +2501,7 @@ html.open {overflow: hidden;}
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
     .keys{padding: 0px 15px;}
+    .keys > div .col-sm-7{padding: 0 0 0 15px;}
 }
 
 /* 가로 방향 전화기 이하 */

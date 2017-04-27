@@ -1924,6 +1924,8 @@ html.open {overflow: hidden;}
     margin: 65px auto 50px auto;
 }
 
+#menu .clearfix{position: relative; min-height: 82%;}
+
 #menu .user-icon img{width: 70px;}
 #menu .user-icon span{display: block; margin: 10px auto; color: #ffffff; font-weight: 400; font-size: 15px;}
 #menu .user-icon span i{font-size: 14px;}
@@ -1972,7 +1974,7 @@ html.open {overflow: hidden;}
     color: #ffffff;
     position: absolute;
     left: 0px;
-    bottom: 20px;
+    /*bottom: 20px;*/
     width: 100%;
     padding: 0px 20px;
     text-align: left;

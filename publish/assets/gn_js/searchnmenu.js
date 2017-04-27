@@ -38,6 +38,8 @@ function buttonUp(){
     }
 }
 
+/*new UISearch( document.getElementById( 'sb-search' ) );*/
+
 
 /*left menu*/
 $(".left-btn").click(function() {
@@ -50,4 +52,4 @@ window.onhashchange = function() {
         $("#menu,.page_cover,html").removeClass("open");
     }
 };
-new UISearch( document.getElementById( 'sb-search' ) );
+

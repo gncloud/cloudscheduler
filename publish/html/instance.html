@@ -85,7 +85,6 @@
 </nav> <!--HEADER END-->
 
 
-
 <div class="container gn-scheduler-instance">
         <div class="table-responsive gn-table-responsive">
             <table class="table gn-board-table table-hover">
@@ -111,8 +110,18 @@
                         </td>
                         <td class="hidden-xs">t2.nano</td>
                         <td class="td-state">
-                            <img src="../assets/gn_images/gn_dot_play.png" alt="running">
-                            <span>Running</span>
+                            <div class="dropdown">
+                                <img src="../assets/gn_images/gn_dot_play.png" alt="running">
+                                <!--<img src="../assets/gn_images/gn_dot_stop.png" alt="stop">-->
+
+                                <span class="dropdown-toggle" data-toggle="dropdown">
+                                    Running <i class="glyphicon glyphicon-chevron-down"></i>
+                                </span>
+                                <ul class="dropdown-menu">
+                                    <li class="border-bottom"><a href="#"><img src="../assets/gn_images/gn_dot_play.png" alt="running">Start</a></li>
+                                    <li><a href="#"><img src="../assets/gn_images/gn_dot_stop.png" alt="stop">Stop</a></li>
+                                </ul>
+                            </div><!--class="dropdown"-->
                         </td>
                         <td class="hidden-sm hidden-xs td-cost">$ <span>5</span></td>
                         <td class="hidden-sm hidden-xs td-cost"><span>36</span> Hr</td>
@@ -128,8 +137,18 @@
                         </td>
                         <td class="hidden-xs">t2.nano</td>
                         <td class="td-state">
-                            <img src="../assets/gn_images/gn_dot_play.png" alt="running">
-                            <span>Running</span>
+                            <div class="dropdown">
+                                <img src="../assets/gn_images/gn_dot_play.png" alt="running">
+                                <!--<img src="../assets/gn_images/gn_dot_stop.png" alt="stop">-->
+
+                                <span class="dropdown-toggle" data-toggle="dropdown">
+                                    Running <i class="glyphicon glyphicon-chevron-down"></i>
+                                </span>
+                                <ul class="dropdown-menu">
+                                    <li class="border-bottom"><a href="#"><img src="../assets/gn_images/gn_dot_play.png" alt="running">Start</a></li>
+                                    <li><a href="#"><img src="../assets/gn_images/gn_dot_stop.png" alt="stop">Stop</a></li>
+                                </ul>
+                            </div><!--class="dropdown"-->
                         </td>
                         <td class="hidden-sm hidden-xs td-cost">$ <span>6</span></td>
                         <td class="hidden-sm hidden-xs td-cost"><span>38</span> Hr</td>
@@ -145,8 +164,17 @@
                         </td>
                         <td class="hidden-xs">t2.nano</td>
                         <td class="td-state">
-                            <img src="../assets/gn_images/gn_dot_stop.png" alt="stop">
-                            <span>stop</span>
+                            <div class="dropdown">
+                                <img src="../assets/gn_images/gn_dot_stop.png" alt="stop">
+
+                                <span class="dropdown-toggle" data-toggle="dropdown">
+                                    stop <i class="glyphicon glyphicon-chevron-down"></i>
+                                </span>
+                                <ul class="dropdown-menu">
+                                    <li class="border-bottom"><a href="#"><img src="../assets/gn_images/gn_dot_play.png" alt="running">Start</a></li>
+                                    <li><a href="#"><img src="../assets/gn_images/gn_dot_stop.png" alt="stop">Stop</a></li>
+                                </ul>
+                            </div><!--class="dropdown"-->
                         </td>
                         <td class="hidden-sm hidden-xs td-cost">$ <span>7</span></td>
                         <td class="hidden-sm hidden-xs td-cost"><span>40</span> Hr</td>

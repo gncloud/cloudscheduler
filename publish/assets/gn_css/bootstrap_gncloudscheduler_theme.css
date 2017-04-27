@@ -2156,6 +2156,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기 이하 */
 @media (max-width: 480px) {
+
 }
 
 
@@ -2166,7 +2167,12 @@ html.open {overflow: hidden;}
 /* Instance State */
 .gn-scheduler-instance .gn-table-responsive .td-state{text-align: left;}
 .gn-scheduler-instance .gn-table-responsive .td-state img{padding: 0 10px 0 20px;}
-.gn-scheduler-instance .gn-table-responsive .td-state span{width: 55px; display: inline-block; text-align: center;}
+/*.gn-scheduler-instance .gn-table-responsive .td-state span{width: 55px; display: inline-block; text-align: center;}*/
+.gn-scheduler-instance .dropdown-menu{padding: 0; min-width: 120px; left: 17px; border: 2px solid rgba(215,215,215,0.5);}
+.gn-scheduler-instance .dropdown-menu li:hover{background-color: #efefef;}
+.gn-scheduler-instance .dropdown-menu li a{padding: 5px 10px 5px 17px;}
+.gn-scheduler-instance .dropdown-menu li a img{margin-right: 15px !important; padding: 0 !important;}
+.gn-scheduler-instance .dropdown-menu li.border-bottom{border-bottom: 1px solid #eeeeee;}
 /* Savind Cost */
 .gn-scheduler-instance .gn-table-responsive .td-cost span{font-size: 20px; font-weight: 600;}
 .gn-scheduler-instance .gn-table-responsive .calen-on{
@@ -2219,6 +2225,11 @@ html.open {overflow: hidden;}
 .gn-scheduler-detail .info-group .dropdown img{margin-right: 5px;}
 .gn-scheduler-detail .info-group .pull-right{cursor: pointer; margin-top: 10px; line-height: 27px;}
 .gn-scheduler-detail .info-group .pull-right:hover{color: #58c4c6;}
+.gn-scheduler-detail .dropdown-menu{padding: 0; min-width: 120px; border: 2px solid rgba(215,215,215,0.5);}
+.gn-scheduler-detail .dropdown-menu li:hover{background-color: #efefef;}
+.gn-scheduler-detail .dropdown-menu li a{padding: 5px 10px 5px 20px;}
+.gn-scheduler-detail .dropdown-menu li a img{margin-right: 10px !important;}
+.gn-scheduler-detail .dropdown-menu li.border-bottom{border-bottom: 1px solid #eeeeee;}
 .gn-scheduler-detail .gn-table-responsive{border: 2px solid rgba(215,215,215,0.5); border-radius: 5px; margin-bottom: 30px;}
 .gn-scheduler-detail .gn-table-responsive .gn-board-table{margin-bottom: 0;}
 .gn-scheduler-detail .gn-board-table tbody tr td{border-bottom: none;}
@@ -2508,6 +2519,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기 이하 */
 @media (max-width: 480px) {
+
 }
 
 

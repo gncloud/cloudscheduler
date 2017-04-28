@@ -611,6 +611,7 @@ li.nav-link.active>a:hover,
 
 .gn-logout{border-top: 1px solid #e9e9e9;}
 
+.gn-danger{color: rgba(255, 0, 0, 0.75) !important;}
 .dropdown-menu > li a.gn-danger,
 .dropdown-menu-table > li a.gn-danger,
 .gn-head-drop > li a.gn-danger,
@@ -1199,6 +1200,9 @@ html.open {overflow: hidden;}
 
 .signup button.sign-up span{color: #58c4c6; text-decoration: underline;}
 
+.signup .gn-captcha{width: 100%; display: inline-block;}
+.signup .gn-captcha>div{width: 100% !important;}
+.signup .gn-captcha .rc-anchor-normal{width: 100% !important;}
 
 
 

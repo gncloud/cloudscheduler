@@ -5,7 +5,7 @@
 > https://gncloud.github.io/cloudscheduler/publish/html/login.html
 >
 > 회원가입  
-> https://gncloud.github.io/cloudscheduler/publish/html/join.html
+> https://gncloud.github.io/cloudscheduler/publish/html/signup.html
 >
 > 인스턴스 리스트  
 > https://gncloud.github.io/cloudscheduler/publish/html/instance.html

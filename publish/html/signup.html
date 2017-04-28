@@ -17,58 +17,65 @@
     <link rel="stylesheet" href="../assets/gn_css/bootstrap_gncloudscheduler_theme.css">
 
 </head>
-<body >
+<body>
 
 <!--HEADER-->
 <nav class="navbar navbar-default gn-header gn-scheduler-header">
     <div class="container">
         <!--클라우드 스케줄러 로고-->
         <img src="../assets/gn_images/login-logo.png" alt="gncloud scheduler" class="cloud-scheduler-login center-block" onclick="location.href='index.html'">
+        <!--<span style="text-align: center; display: block; color: #58c4c6; margin-top: 10px; font-size: 18px;">Cloud Scheduler</span>-->
 
     </div><!-- class="container"-->
 </nav> <!--HEADER END-->
 
 
 <div class="container login">
-    <h2>LOGIN</h2>
+    <h2>Sign Up</h2>
     <div class="group clearfix">
-        <!--<span class="center-block text-right">or &nbsp;<a onclick="location.href='join.html'">Create an account</a></span>-->
 
-        <div class="col-xs-12 col-sm-9">
+
+        <div class="col-xs-12">
+            <input type="text" class="gn-form-control" style="width: 40%; float: left;" placeholder="First Name">
+            <input type="text" class="gn-form-control" style="width: 55%; margin-left: 5%;" placeholder="Second Name">
             <input type="email" class="gn-form-control form-control" placeholder="name@mail.com">
             <input type="password" class="gn-form-control form-control" placeholder="Password">
+            <input type="password" class="gn-form-control form-control" placeholder="Confirm Password">
         </div>
 
-        <div class="col-xs-12 col-sm-3" style="padding-right: 0;">
-            <button type="button" class="btn btn-gn-primary btn-block">Login</button>
+        <img src="../assets/gn_images/robo.png" alt="" style="margin-top: 20px; width: 300px">
+
+        <br>
+        <br>
+
+        <div class="col-xs-12 col-sm-12 join-btn" style="padding-right: 0; margin-bottom: 10px;">
+            <button type="button" class="btn btn-gn-primary btn-block">Create an account</button>
         </div>
+
+        <br>
+        <br>
+
+        <span class="center-block text-center "><a onclick="location.href='login.html'">Already have an account? Sign in.</a></span>
     </div>
+
+
 
     <!--체크박스-->
-    <div class="btn-id">
-        <!--<input class="form-inputPop" type="checkbox" id="checkbox-id"/>
+    <!--<div class="btn-id">
+        <input class="form-inputPop" type="checkbox" id="checkbox-id"/>
         <i></i>
-        <label for="checkbox-id" class="label-id">Save id</label>-->
+        <label for="checkbox-id" class="label-id">Save id</label>
         <a href="">Forgot your password?</a>
-    </div>
+    </div>-->
+    <br>
+    <br>
 
-    <!--<button type="button" class="btn btn-git btn-block" style="background-color: #58c4c6; margin-top: 15px;">Cloud Scheduler |  Sign in with your account</button>-->
-
-    <span onclick="location.href='join.html'" style="text-align: center; display: block; padding: 20px; border: 2px solid rgba(215,215,215,0.5); border-radius: 5px;">Don't have an account? Sign up</span>
-
-    <br><br>
-    <div class="line">
+   <!-- <div class="line">
         <p>Or</p>
     </div>
 
-
-
-
-
-    <button type="button" class="btn btn-google btn-block">Github  |  Sign in with your account</button>
-    <button type="button" class="btn btn-git btn-block">Google |  Sign in with your account</button>
-
-
+    <button type="button" class="btn btn-google btn-block">Github  |  Join in with your account</button>
+    <button type="button" class="btn btn-git btn-block">Google |  Join in with your account</button>-->
 
 </div><!--container-->
 

@@ -1831,6 +1831,10 @@ nav.gn-header.gn-scheduler-header img.cloud-scheduler-logo{
     cursor: pointer;
     margin-top: 3px;}
 
+nav.gn-header.gn-scheduler-header img.cloud-scheduler-login{
+    cursor: pointer;
+    margin-top: 3px;}
+
 nav.gn-header.gn-scheduler-header > div{
     /*padding: 15px 15px 0 15px;*/
     /*background-color: #ffffff;*/
@@ -2078,7 +2082,7 @@ html.open {overflow: hidden;}
 
 /* ======================== 클라우드 스케쥴러 로그인 페이지 ======================== */
 .login{padding-top: 150px;}
-.login{padding: 0px 250px;}
+.login{padding: 200px 250px;}
 .login h2{margin-bottom: 20px;}
 .login span{margin-bottom: 5px;}
 .login span a{color: #58c4c6;}
@@ -2101,8 +2105,7 @@ html.open {overflow: hidden;}
     background-image: url("../gn_images/github-icon.png");
     background-repeat: no-repeat;
     background-size: 35px;
-    background-position: 20px center;
-}
+    background-position: 20px center;}
 
 .login button.btn-git{
     background-color: #4285f4;
@@ -2113,8 +2116,7 @@ html.open {overflow: hidden;}
     background-image: url("../gn_images/google-icon.png");
     background-repeat: no-repeat;
     background-size: 35px;
-    background-position: 20px center;
-}
+    background-position: 20px center;}
 
 /*지앤클라우드 로그인 체크박스 스타일*/
 .btn-id{margin-bottom: 50px;}
@@ -2148,7 +2150,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 회원가입 페이지 ======================== */
-.login .join-btn button.btn-gn-primary{padding: 78px 0; }
+.login .join-btn button.btn-gn-primary{padding: 20px 0; }
 
 
 

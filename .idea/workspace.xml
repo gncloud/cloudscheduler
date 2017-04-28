@@ -4,6 +4,8 @@
     <list default="true" id="0d1de87f-476e-4db8-ac04-894c0c8f98ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" afterPath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/login.html" afterPath="$PROJECT_DIR$/publish/html/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/signup.html" afterPath="$PROJECT_DIR$/publish/html/signup.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,20 +26,48 @@
       <file leaf-file-name="bootstrap_gncloudscheduler_theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="1539" column="29" lean-forward="true" selection-start-line="1539" selection-start-column="29" selection-end-line="1540" selection-end-column="27" />
+            <state relative-caret-position="102">
+              <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instance.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="instance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish/html/instance.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
               <caret line="169" column="85" lean-forward="true" selection-start-line="169" selection-start-column="85" selection-end-line="169" selection-end-column="85" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/publish/html/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="36" column="126" lean-forward="false" selection-start-line="36" selection-start-column="126" selection-end-line="36" selection-end-column="126" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publish/html/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,9 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contro</find>
-      <find>sub</find>
-      <find>반응형</find>
       <find>span-long</find>
       <find>btn.open</find>
       <find>menu-btn</find>
@@ -86,6 +113,9 @@
       <find>gn-da</find>
       <find>color: rgba(255, 0, 0, 0.75)</find>
       <find>gn-captcha</find>
+      <find>sign-up</find>
+      <find>outline</find>
+      <find>form-control</find>
     </findStrings>
     <replaceStrings>
       <replace>cloud-scheduler-logo</replace>
@@ -134,10 +164,10 @@
         <option value="$PROJECT_DIR$/publish/html/join.html" />
         <option value="$PROJECT_DIR$/publish/README.md" />
         <option value="$PROJECT_DIR$/publish/html/instance.html" />
-        <option value="$PROJECT_DIR$/publish/html/login.html" />
         <option value="$PROJECT_DIR$/publish/html/captcha.html" />
-        <option value="$PROJECT_DIR$/publish/html/signup.html" />
+        <option value="$PROJECT_DIR$/publish/html/login.html" />
         <option value="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
+        <option value="$PROJECT_DIR$/publish/html/signup.html" />
       </list>
     </option>
   </component>
@@ -322,14 +352,7 @@
       <workItem from="1493269347071" duration="13606000" />
       <workItem from="1493342352675" duration="14717000" />
       <workItem from="1493365138976" duration="99000" />
-      <workItem from="1493367288575" duration="624000" />
-    </task>
-    <task id="LOCAL-00001" summary="인스턴스 리스트 커밋">
-      <created>1492568840782</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1492568840782</updated>
+      <workItem from="1493367288575" duration="2303000" />
     </task>
     <task id="LOCAL-00002" summary="md url 수정">
       <created>1492569472710</created>
@@ -667,11 +690,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493363899348</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="ui 수정 &#10;">
+      <created>1493367949501</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1493367949501</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155333000" />
+    <option name="totallyTimeSpent" value="157012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -936,23 +966,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/publish/html/captcha.html" />
-    <entry file="file://$PROJECT_DIR$/publish/html/signup.html">
+    <entry file="file://$PROJECT_DIR$/publish/html/instance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="42" />
+        <state relative-caret-position="232">
+          <caret line="169" column="85" lean-forward="true" selection-start-line="169" selection-start-column="85" selection-end-line="169" selection-end-column="85" />
           <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/publish/html/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="510">
+          <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -962,18 +989,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="1539" column="29" lean-forward="true" selection-start-line="1539" selection-start-column="29" selection-end-line="1540" selection-end-column="27" />
+        <state relative-caret-position="102">
+          <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publish/html/instance.html">
+    <entry file="file://$PROJECT_DIR$/publish/html/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="169" column="85" lean-forward="true" selection-start-line="169" selection-start-column="85" selection-end-line="169" selection-end-column="85" />
+        <state relative-caret-position="425">
+          <caret line="36" column="126" lean-forward="false" selection-start-line="36" selection-start-column="126" selection-end-line="36" selection-end-column="126" />
           <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

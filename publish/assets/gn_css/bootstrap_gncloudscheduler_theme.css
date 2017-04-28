@@ -1834,7 +1834,8 @@ nav.gn-header.gn-scheduler-header img.cloud-scheduler-logo{
 nav.gn-header.gn-scheduler-header > div{
     /*padding: 15px 15px 0 15px;*/
     /*background-color: #ffffff;*/
-    position: relative;}
+    position: relative;
+    padding:0;}
 
 
 .gn-scheduler-header.affix {
@@ -2129,12 +2130,12 @@ html.open {overflow: hidden;}
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
 @media (min-width: 768px) and (max-width: 992px) {
-    .login {padding: 0px 15px;}
+    .login {padding: 130px 15px 0 15px;}
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .login{padding: 0px 15px;}
+    .login{padding: 130px 15px 0 15px;}
     .login .group > div{padding: 0;}
     .login button.btn-gn-primary{padding: 14px 0;}
     .login .btn-id{margin-top: 10px;}
@@ -2213,7 +2214,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .gn-scheduler-instance{margin-top: 150px;}
+    /*.gn-scheduler-instance{margin-top: 150px;}*/
 }
 
 /* 가로 방향 전화기 이하 */
@@ -2414,7 +2415,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .gn-scheduler-detail{margin-top: 150px !important;}
+    /*.gn-scheduler-detail{margin-top: 150px !important;}*/
     .gn-scheduler-detail ul li strong{display: block;}
 
     .gn-scheduler-detail .gn-board-table tbody tr td span.span-right{padding-left: 10px;}
@@ -2518,12 +2519,12 @@ html.open {overflow: hidden;}
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
 @media (min-width: 768px) and (max-width: 992px) {
-    .keys{padding: 0px 15px;}
+    .keys{padding: 130px 15px 0 15px;}
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .keys{padding: 0px 15px;}
+    .keys{padding: 130px 15px 0 15px;}
     .keys > div .col-sm-7{padding: 0 0 0 15px;}
 }
 

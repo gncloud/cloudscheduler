@@ -4,7 +4,6 @@
     <list default="true" id="0d1de87f-476e-4db8-ac04-894c0c8f98ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" afterPath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/signup.html" afterPath="$PROJECT_DIR$/publish/html/signup.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="bootstrap_gncloudscheduler_theme.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="616" column="31" lean-forward="true" selection-start-line="616" selection-start-column="31" selection-end-line="616" selection-end-column="31" />
+            <state relative-caret-position="249">
+              <caret line="613" column="0" lean-forward="false" selection-start-line="613" selection-start-column="0" selection-end-line="613" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -48,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/publish/html/signup.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
-              <caret line="42" column="106" lean-forward="false" selection-start-line="42" selection-start-column="106" selection-end-line="42" selection-end-column="106" />
+              <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -85,8 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.container</find>
-      <find>#login</find>
       <find>contro</find>
       <find>sub</find>
       <find>반응형</find>
@@ -115,6 +112,8 @@
       <find>accoun</find>
       <find>signup</find>
       <find>gn-da</find>
+      <find>color: rgba(255, 0, 0, 0.75)</find>
+      <find>gn-captcha</find>
     </findStrings>
     <replaceStrings>
       <replace>cloud-scheduler-logo</replace>
@@ -349,7 +348,7 @@
       <workItem from="1493100449102" duration="19418000" />
       <workItem from="1493180642788" duration="21153000" />
       <workItem from="1493269347071" duration="13606000" />
-      <workItem from="1493342352675" duration="14404000" />
+      <workItem from="1493342352675" duration="14717000" />
     </task>
     <task id="LOCAL-00001" summary="인스턴스 리스트 커밋">
       <created>1492568840782</created>
@@ -687,15 +686,22 @@
       <option name="project" value="LOCAL" />
       <updated>1493360296483</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="ui 수정 &#10;">
+      <created>1493363899348</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1493363899348</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154297000" />
+    <option name="totallyTimeSpent" value="154610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116595134" sideWeight="0.49036145" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1017,6 +1023,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/publish/html/captcha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/publish/html/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -1028,18 +1042,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publish/html/captcha.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/publish/html/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
-          <caret line="42" column="106" lean-forward="false" selection-start-line="42" selection-start-column="106" selection-end-line="42" selection-end-column="106" />
+          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1051,8 +1057,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="616" column="31" lean-forward="true" selection-start-line="616" selection-start-column="31" selection-end-line="616" selection-end-column="31" />
+        <state relative-caret-position="249">
+          <caret line="613" column="0" lean-forward="false" selection-start-line="613" selection-start-column="0" selection-end-line="613" selection-end-column="52" />
           <folding />
         </state>
       </provider>

@@ -1194,13 +1194,10 @@ html.open {overflow: hidden;}
     color: #505050;
 }
 .signup .account a{text-decoration: underline;}
-/*.signup .account a:hover{
-    color: #00afb4;
-    font-weight: 600;}*/
 
 .signup button.sign-up span{color: #58c4c6; text-decoration: underline;}
 
-.signup .gn-captcha{width: 100%; display: inline-block;}
+.signup .gn-captcha{width: 100%; display: inline-block; margin: 5px 0 15px 0;}
 .signup .gn-captcha>div{width: 100% !important;}
 .signup .gn-captcha .rc-anchor-normal{width: 100% !important;}
 

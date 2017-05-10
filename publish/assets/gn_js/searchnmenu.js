@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var submitIcon = $('.searchbox-icon');
+    var submitIcon = $('.searchbox-icon, .searchbox-submit');
     var inputBox = $('.searchbox-input');
     var searchBox = $('.searchbox');
     var isOpen = false;
@@ -41,8 +41,6 @@ function buttonUp(){
 
 
 
-
-
 /*left menu*/
 $(".left-btn").click(function() {
     $("#menu,.page_cover,html").addClass("open");
@@ -61,4 +59,4 @@ $('.gn-scheduler-header').affix({
     offset: {
         top: 100
     }
-})
+});

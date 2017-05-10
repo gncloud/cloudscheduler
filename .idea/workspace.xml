@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1de87f-476e-4db8-ac04-894c0c8f98ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publish/html/payment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js" afterPath="$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/instance.html" afterPath="$PROJECT_DIR$/publish/html/instance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/instanceDetail.html" afterPath="$PROJECT_DIR$/publish/html/instanceDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/keys.html" afterPath="$PROJECT_DIR$/publish/html/keys.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" afterPath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/login.html" afterPath="$PROJECT_DIR$/publish/html/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/signup.html" afterPath="$PROJECT_DIR$/publish/html/signup.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="bootstrap_gncloudscheduler_theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="1116" column="0" lean-forward="true" selection-start-line="1116" selection-start-column="0" selection-end-line="1116" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="859" column="0" lean-forward="false" selection-start-line="859" selection-start-column="0" selection-end-line="859" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,6 +41,16 @@
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/publish/html/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,11 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keys.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="keys.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish/html/keys.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="46" column="82" lean-forward="false" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
+            <state relative-caret-position="442">
+              <caret line="25" column="164" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="164" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publish/html/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="28" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -90,7 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>after</find>
       <find>chevron-down</find>
       <find>footer</find>
       <find>scheduleSett</find>
@@ -113,13 +130,14 @@
       <find>outline</find>
       <find>form-control</find>
       <find>transition</find>
-      <find>login</find>
       <find>search</find>
       <find>form</find>
       <find>inde</find>
       <find>searchbox</find>
       <find>sear</find>
       <find>searchbox-icon</find>
+      <find>login</find>
+      <find>cloud-scheduler-login</find>
     </findStrings>
     <replaceStrings>
       <replace>cloud-scheduler-logo</replace>
@@ -164,15 +182,15 @@
         <option value="$PROJECT_DIR$/publish/html/join.html" />
         <option value="$PROJECT_DIR$/publish/README.md" />
         <option value="$PROJECT_DIR$/publish/html/captcha.html" />
-        <option value="$PROJECT_DIR$/publish/html/signup.html" />
         <option value="$PROJECT_DIR$/publish/html/index.html" />
-        <option value="$PROJECT_DIR$/publish/html/login.html" />
-        <option value="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
         <option value="$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js" />
         <option value="$PROJECT_DIR$/publish/html/instance.html" />
         <option value="$PROJECT_DIR$/publish/html/payment.html" />
         <option value="$PROJECT_DIR$/publish/html/instanceDetail.html" />
         <option value="$PROJECT_DIR$/publish/html/keys.html" />
+        <option value="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
+        <option value="$PROJECT_DIR$/publish/html/login.html" />
+        <option value="$PROJECT_DIR$/publish/html/signup.html" />
       </list>
     </option>
   </component>
@@ -381,14 +399,7 @@
       <workItem from="1493365138976" duration="99000" />
       <workItem from="1493367288575" duration="3674000" />
       <workItem from="1494376339542" duration="745000" />
-      <workItem from="1494379244433" duration="7005000" />
-    </task>
-    <task id="LOCAL-00007" summary="md url 수정">
-      <created>1492576886752</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1492576886752</updated>
+      <workItem from="1494379244433" duration="8581000" />
     </task>
     <task id="LOCAL-00008" summary="인스턴스 상세 수정 &#10;">
       <created>1492585988634</created>
@@ -726,11 +737,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494394211666</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="payment 페이지 추가&#10;left menu 드롭다운 Setting -&gt; profile로 변경">
+      <created>1494394940053</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1494394940053</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166133000" />
+    <option name="totallyTimeSpent" value="167709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -762,7 +780,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="인스턴스 상세페이지&#10;아이콘, 버튼 , 스위치 추가&#10;running dropdown 추가" />
     <MESSAGE value="css 수정 &#10;로그인 페이지 퍼블리싱 &#10;" />
     <MESSAGE value="css 수정 &#10;회원가입 페이지 퍼블리싱 &#10;" />
     <MESSAGE value="css 수정 &#10;인스턴스 수정 &#10;회원가입 / 로그인 수정" />
@@ -787,7 +804,8 @@
     <MESSAGE value="payment 메뉴 추가 &#10;검색바 수정(수정중)&#10;" />
     <MESSAGE value="&#10;검색바 수정(수정중)&#10;" />
     <MESSAGE value="검색바 수정&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="검색바 수정&#10;" />
+    <MESSAGE value="payment 페이지 추가&#10;left menu 드롭다운 Setting -&gt; profile로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment 페이지 추가&#10;left menu 드롭다운 Setting -&gt; profile로 변경" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -957,7 +975,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -970,43 +988,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="1116" column="0" lean-forward="true" selection-start-line="1116" selection-start-column="0" selection-end-line="1116" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/publish/html/search-expanding.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publish/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publish/html/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="25" column="158" lean-forward="false" selection-start-line="25" selection-start-column="145" selection-end-line="25" selection-end-column="158" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,8 +1024,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/publish/html/keys.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="46" column="82" lean-forward="false" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
+        <state relative-caret-position="442">
+          <caret line="25" column="164" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="164" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="859" column="0" lean-forward="false" selection-start-line="859" selection-start-column="0" selection-end-line="859" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish/html/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>

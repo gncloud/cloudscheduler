@@ -2,6 +2,7 @@
 
 /*나눔바른고딕 폰트*/
 @import url('nanumbarungothic.css');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
 /* ========== gncloud 공통 STYLE ========== */
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 html{margin:0;
@@ -854,7 +855,17 @@ nav.gn-header.gn-scheduler-header img.cloud-scheduler-logo{
 
 nav.gn-header.gn-scheduler-header img.cloud-scheduler-login{
     cursor: pointer;
-    margin-top: 3px;}
+    margin-top: 3px;
+    width: 70px;}
+
+.login-title{
+    text-align: center;
+    display: block;
+    margin: 2px;
+    font-size: 23px;
+    font-family: 'Baloo Thambi', cursive;
+    color: #58c4c6;
+}
 
 nav.gn-header.gn-scheduler-header > div{
     /*padding: 15px 15px 0 15px;*/
@@ -1186,7 +1197,7 @@ html.open {overflow: hidden;}
 @media (max-width: 767px) {
     .login{padding: 150px 15px 0 15px;}
     .login .group > div{padding: 0;}
-    .login button.btn-gn-primary{padding: 14px 0;}
+    .login button.btn-gn-primary{padding: 14px 0; margin-bottom: 10px;}
     .login .btn-id{margin-top: 10px;}
 }
 

@@ -85,9 +85,88 @@
     </div><!-- class="container"-->
 </nav> <!--HEADER END-->
 
-<div class="container gn-scheduler-instance">
+<div class="container payment col-sm-offset-3 col-sm-6 col-xs-12">
     <h2>Payment</h2>
 
+    <!--과금관리-->
+    <div class="gn-box gn-detail-main">
+        <div class="gn-sett-margin-box">
+
+            <h2>결제방식</h2>
+            <p>지불할 방법을 아래에 추가해주세요.</p>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">신용카드</h3>
+                    <span>매달 지불할 금액이 다음달 1일에 결제됩니다.</span>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#creditCard">신용카드 추가</button>
+                </div>
+                <div class="panel-body row">
+                            <span class="col-sm-2 col-xs-12 text-right pull-right">
+                                <a>삭제</a>
+                            </span>
+                    <span class="col-sm-10 col-xs-12">
+                        <strong class="cr">홍길동</strong>
+                        <strong>1234-XXXX-XXXX-2967</strong> <br>
+                        <span class="cr">유효기간 &nbsp; 06 / 2017 &nbsp;|&nbsp;</span>
+                        <span>등록일 2016 / 12 / 02</span>
+                    </span>
+                </div>
+            </div>
+        </div> <!--class="gn-sett-margin-box" 사용자 이름-->
+    </div>  <!--class="gn-box profile-user"-->
+
+    <div class="gn-box gn-detail-main">
+        <div class="gn-sett-margin-box">
+            <h2>과금 내역</h2>
+
+            <div class="table-responsive gn-table-responsive">
+                <table class="table gn-board-table">
+                    <thead>
+                    <tr>
+                        <th class="hidden-xs">날짜</th>
+                        <th class="second-td-name">설명</th>
+                        <th class="hidden-xs">금액</th>
+                        <th class="">상태</th>
+                        <th class="">인보이스</th>
+                    </tr>
+                    </thead>
+                    <tbody class="gn-tdody">
+                    <tr>
+                        <td class="hidden-xs">2017.03.01</td>
+                        <td class="second-td-name"><span class="gn-table-ellip">2017년 2월 사용료</span></td>
+                        <td class="hidden-xs">16만원</td>
+                        <td>연체</td>
+                        <td>
+                            <button type="button" class="btn-default btn" data-toggle="modal"
+                                    data-target="#cardInvoiceModal">보기
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="hidden-xs">2017.02.01</td>
+                        <td class="second-td-name"><span class="gn-table-ellip">2017년 1월 사용료</span></td>
+                        <td class="hidden-xs">16만원</td>
+                        <td>정상</td>
+                        <td>
+                            <button type="button" class="btn-default btn" data-toggle="modal"
+                                    data-target="#cardInvoiceModal">보기
+                            </button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div> <!--class="table-responsive table-reset"-->
+
+
+            <!--이전/다음 버튼-->
+            <div class="gn-page-btn">
+                <input type="button" class="btn btn-default pull-left" value="이전">
+                <input type="button" class="btn btn-default" value="다음">
+            </div>
+
+        </div><!--class="gn-sett-margin-box"-->
+    </div><!--class="gn-box"-->
 
 </div><!--container-->
 

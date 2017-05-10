@@ -1619,8 +1619,26 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 Payment 과금 ======================== */
+.gn-sett-margin-box{margin: 30px;}
+
+.payment{margin-top: 130px;}
+.payment h2{margin-bottom: 30px;}
 
 
+/*Payment 반응형*/
+@media (min-width: 1200px) {  }
+
+/* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
+@media (min-width: 768px) and (max-width: 992px) {  }
+
+/* 가로 방향 전화기부터 세로 방향 타블렛까지 */
+@media (max-width: 767px) {
+    .payment .table-responsive{border: none;}
+    .gn-sett-margin-box{margin: 20px;}
+}
+
+/* 가로 방향 전화기 이하 */
+@media (max-width: 480px) {  }
 
 
 /* ======================== 클라우드 스케쥴러 Profile 프로필 설정 ======================== */

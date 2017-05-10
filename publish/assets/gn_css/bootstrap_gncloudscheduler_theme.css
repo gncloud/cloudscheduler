@@ -1623,7 +1623,8 @@ html.open {overflow: hidden;}
 
 .payment{margin-top: 130px;}
 .payment h2{margin-bottom: 30px;}
-
+.payment .panel h3.panel-title{margin-bottom: 5px;}
+.payment .panel .gn-danger{padding-right: 15px;}
 
 /*Payment 반응형*/
 @media (min-width: 1200px) {  }

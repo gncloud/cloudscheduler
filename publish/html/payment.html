@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/gn_images/favicon-cloudscheduler.png">
     <title>Cloud Scheduler | gncloud scheduler service</title>
 
-    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/gn_css/bootstrap_gncloudscheduler_theme.css">
 
@@ -88,7 +88,6 @@
 <div class="container payment col-sm-offset-3 col-sm-6 col-xs-12">
     <h2>Payment</h2>
 
-    <!--과금관리-->
     <div class="gn-box gn-detail-main">
         <div class="gn-sett-margin-box">
 
@@ -96,15 +95,13 @@
             <p>Please enter your preferred payment method below.</p>
 
             <div class="panel panel-default">
-                <div class="panel-heading">
+                <div class="panel-heading clearfix">
                     <h3 class="panel-title">Credit card</h3>
-                    <span>The cost of the current month will be settled on the first of next month.</span>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#creditCard">Add credit card</button>
+                    <button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#creditCard">Add credit card</button>
+                    <span class="" style="padding-left: 0;">The cost of the current month will be settled on the first of next month.</span>
                 </div>
                 <div class="panel-body row">
-                    <span class="col-sm-2 col-xs-12 text-right pull-right">
-                        <a class="gn-danger">Delete</a>
-                    </span>
+                    <a class="gn-danger pull-right">Delete</a>
                     <span class="col-sm-10 col-xs-12">
                         <strong class="cr">gildong</strong>
                         <strong>1234-XXXX-XXXX-2967</strong> <br>
@@ -113,7 +110,7 @@
                     </span>
                 </div>
             </div>
-        </div> <!--class="gn-sett-margin-box" 사용자 이름-->
+        </div> <!--class="gn-sett-margin-box"-->
     </div>  <!--class="gn-box profile-user"-->
 
     <div class="gn-box gn-detail-main">
@@ -126,8 +123,8 @@
                     <tr>
                         <th class="hidden-xs">Date</th>
                         <th class="second-td-name">Description</th>
-                        <th class="hidden-xs">Amount</th>
-                        <th class="">State</th>
+                        <th class="">Amount</th>
+                        <th class="hidden-xs">State</th>
                         <th class="">Invoice</th>
                     </tr>
                     </thead>
@@ -135,8 +132,8 @@
                     <tr>
                         <td class="hidden-xs">2017.03.01</td>
                         <td class="second-td-name"><span class="gn-table-ellip">Invoice for April</span></td>
-                        <td class="hidden-xs">$ 160</td>
-                        <td>non-payment</td>
+                        <td class="">$ 160</td>
+                        <td class="hidden-xs">non-payment</td>
                         <td>
                             <button type="button" class="btn-default btn" data-toggle="modal" data-target="#cardInvoiceModal">View
                             </button>
@@ -145,8 +142,8 @@
                     <tr>
                         <td class="hidden-xs">2017.02.01</td>
                         <td class="second-td-name"><span class="gn-table-ellip">Invoice for March</span></td>
-                        <td class="hidden-xs">$ 220</td>
-                        <td>payment</td>
+                        <td class="">$ 320</td>
+                        <td class="hidden-xs">payment</td>
                         <td>
                             <button type="button" class="btn-default btn" data-toggle="modal" data-target="#cardInvoiceModal">View
                             </button>
@@ -157,7 +154,7 @@
             </div> <!--class="table-responsive table-reset"-->
 
 
-            <!--이전/다음 버튼-->
+            <!--prev/next button-->
             <div class="gn-page-btn">
                 <input type="button" class="btn btn-default pull-left" value="Prev">
                 <input type="button" class="btn btn-default" value="Next">
@@ -169,7 +166,7 @@
 </div><!--container-->
 
 
-<!-- 신용카드 등록 Modal -->
+<!-- add credit card Modal -->
 <div class="modal fade" id="creditCard" role="dialog">
     <div class="modal-dialog form-horizontal">
         <div class="modal-content col-sm-10 col-sm-offset-1">
@@ -236,7 +233,7 @@
     </div> <!--class="modal-dialog modal-sm"-->
 </div> <!--#creditCard-->
 
-<!--인보이스 모달-->
+<!-- invoice Modal -->
 <div class="modal fade" id="cardInvoiceModal" role="dialog">
     <div class="modal-dialog modal-lg">
         <div class="modal-content col-xs-12">

@@ -1626,6 +1626,11 @@ html.open {overflow: hidden;}
 .payment .panel h3.panel-title{margin-bottom: 5px;}
 .payment .panel .gn-danger{padding-right: 15px;}
 
+#creditCard .gn-modal-header{padding: 15px 5px 30px 5px;}
+#creditCard .gn-modal-footer{padding: 15px 5px;}
+#creditCard .form-group label{padding: 5px;}
+#creditCard .form-group div{padding: 5px;}
+
 /*Payment 반응형*/
 @media (min-width: 1200px) {  }
 

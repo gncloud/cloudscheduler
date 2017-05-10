@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" afterPath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js" afterPath="$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/instance.html" afterPath="$PROJECT_DIR$/publish/html/instance.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="bootstrap_gncloudscheduler_theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="1117" column="0" lean-forward="true" selection-start-line="1117" selection-start-column="0" selection-end-line="1117" selection-end-column="0" />
+            <state relative-caret-position="351">
+              <caret line="1116" column="0" lean-forward="true" selection-start-line="1116" selection-start-column="0" selection-end-line="1116" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,8 +35,8 @@
       <file leaf-file-name="searchnmenu.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="1" column="58" lean-forward="false" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -47,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/publish/html/instance.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="436">
-              <caret line="81" column="72" lean-forward="false" selection-start-line="81" selection-start-column="72" selection-end-line="81" selection-end-column="72" />
+              <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="56" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -68,7 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>btn</find>
       <find>after</find>
       <find>chevron-down</find>
       <find>footer</find>
@@ -98,6 +96,7 @@
       <find>inde</find>
       <find>searchbox</find>
       <find>sear</find>
+      <find>searchbox-icon</find>
     </findStrings>
     <replaceStrings>
       <replace>cloud-scheduler-logo</replace>
@@ -148,8 +147,8 @@
         <option value="$PROJECT_DIR$/publish/html/index.html" />
         <option value="$PROJECT_DIR$/publish/html/login.html" />
         <option value="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
-        <option value="$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js" />
         <option value="$PROJECT_DIR$/publish/html/instance.html" />
+        <option value="$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js" />
       </list>
     </option>
   </component>
@@ -358,14 +357,7 @@
       <workItem from="1493365138976" duration="99000" />
       <workItem from="1493367288575" duration="3674000" />
       <workItem from="1494376339542" duration="745000" />
-      <workItem from="1494379244433" duration="5754000" />
-    </task>
-    <task id="LOCAL-00005" summary="md url 수정">
-      <created>1492570560159</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1492570560159</updated>
+      <workItem from="1494379244433" duration="6300000" />
     </task>
     <task id="LOCAL-00006" summary="md url 수정">
       <created>1492570757997</created>
@@ -703,17 +695,24 @@
       <option name="project" value="LOCAL" />
       <updated>1494385250358</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="&#10;검색바 수정(수정중)&#10;">
+      <created>1494393662827</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1494393662827</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164882000" />
+    <option name="totallyTimeSpent" value="165428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1223176" sideWeight="0.48554218" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1223176" sideWeight="0.48554218" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -739,7 +738,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="검색바 header css 수정 &#10;" />
     <MESSAGE value="인스턴스 목록&#10;상세페이지 header 수정 &#10;수정사항 반영 &#10;" />
     <MESSAGE value="인스턴스 상세페이지&#10;아이콘, 버튼 , 스위치 추가&#10;running dropdown 추가" />
     <MESSAGE value="css 수정 &#10;로그인 페이지 퍼블리싱 &#10;" />
@@ -764,7 +762,8 @@
     <MESSAGE value="로그인 / 회원가입&#10;ui 수정 &#10;" />
     <MESSAGE value="url수정 &#10;" />
     <MESSAGE value="payment 메뉴 추가 &#10;검색바 수정(수정중)&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment 메뉴 추가 &#10;검색바 수정(수정중)&#10;" />
+    <MESSAGE value="&#10;검색바 수정(수정중)&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;검색바 수정(수정중)&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -998,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="1117" column="0" lean-forward="true" selection-start-line="1117" selection-start-column="0" selection-end-line="1117" selection-end-column="0" />
+        <state relative-caret-position="351">
+          <caret line="1116" column="0" lean-forward="true" selection-start-line="1116" selection-start-column="0" selection-end-line="1116" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1007,7 +1006,7 @@
     <entry file="file://$PROJECT_DIR$/publish/html/instance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
-          <caret line="81" column="72" lean-forward="false" selection-start-line="81" selection-start-column="72" selection-end-line="81" selection-end-column="72" />
+          <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="56" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -1016,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="1" column="58" lean-forward="false" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
           <folding />
         </state>
       </provider>

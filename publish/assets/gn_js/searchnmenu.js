@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var submitIcon = $('.searchbox-icon');
+    var submitIcon = $('.searchbox-icon, .searchbox-submit');
     var inputBox = $('.searchbox-input');
     var searchBox = $('.searchbox');
     var isOpen = false;

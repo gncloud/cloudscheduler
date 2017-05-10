@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="0d1de87f-476e-4db8-ac04-894c0c8f98ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" afterPath="$PROJECT_DIR$/publish/assets/gn_css/bootstrap_gncloudscheduler_theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js" afterPath="$PROJECT_DIR$/publish/assets/gn_js/searchnmenu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish/html/instance.html" afterPath="$PROJECT_DIR$/publish/html/instance.html" />
     </list>
+=======
+    <list default="true" id="0d1de87f-476e-4db8-ac04-894c0c8f98ee" name="Default" comment="" />
+>>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -358,6 +362,7 @@
       <workItem from="1493365138976" duration="99000" />
       <workItem from="1493367288575" duration="3674000" />
       <workItem from="1494376339542" duration="745000" />
+<<<<<<< Updated upstream
       <workItem from="1494379244433" duration="5754000" />
     </task>
     <task id="LOCAL-00005" summary="md url 수정">
@@ -387,6 +392,9 @@
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1492585988634</updated>
+=======
+      <workItem from="1494379244433" duration="8657000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00009" summary="인스턴스 리스트 , 디테일 반응형 수정 &#10;">
       <created>1492589874119</created>
@@ -703,11 +711,47 @@
       <option name="project" value="LOCAL" />
       <updated>1494385250358</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="164882000" />
+=======
+    <task id="LOCAL-00054" summary="&#10;검색바 수정(수정중)&#10;">
+      <created>1494393662827</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1494393662827</updated>
+    </task>
+    <task id="LOCAL-00055" summary="검색바 수정&#10;">
+      <created>1494394211666</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1494394211666</updated>
+    </task>
+    <task id="LOCAL-00056" summary="payment 페이지 추가&#10;left menu 드롭다운 Setting -&gt; profile로 변경">
+      <created>1494394940053</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1494394940053</updated>
+    </task>
+    <task id="LOCAL-00057" summary="로그인/회원가입 페이지 클라우드 아이콘 해상도 수정">
+      <created>1494397361537</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1494397361537</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="167785000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -739,10 +783,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< Updated upstream
     <MESSAGE value="검색바 header css 수정 &#10;" />
     <MESSAGE value="인스턴스 목록&#10;상세페이지 header 수정 &#10;수정사항 반영 &#10;" />
     <MESSAGE value="인스턴스 상세페이지&#10;아이콘, 버튼 , 스위치 추가&#10;running dropdown 추가" />
     <MESSAGE value="css 수정 &#10;로그인 페이지 퍼블리싱 &#10;" />
+=======
+>>>>>>> Stashed changes
     <MESSAGE value="css 수정 &#10;회원가입 페이지 퍼블리싱 &#10;" />
     <MESSAGE value="css 수정 &#10;인스턴스 수정 &#10;회원가입 / 로그인 수정" />
     <MESSAGE value="key페이지 퍼블리싱 &#10;회원가입,로그인,인스턴스,상세페이지 수정 &#10;css 수정" />
@@ -764,7 +811,15 @@
     <MESSAGE value="로그인 / 회원가입&#10;ui 수정 &#10;" />
     <MESSAGE value="url수정 &#10;" />
     <MESSAGE value="payment 메뉴 추가 &#10;검색바 수정(수정중)&#10;" />
+<<<<<<< Updated upstream
     <option name="LAST_COMMIT_MESSAGE" value="payment 메뉴 추가 &#10;검색바 수정(수정중)&#10;" />
+=======
+    <MESSAGE value="&#10;검색바 수정(수정중)&#10;" />
+    <MESSAGE value="검색바 수정&#10;" />
+    <MESSAGE value="payment 페이지 추가&#10;left menu 드롭다운 Setting -&gt; profile로 변경" />
+    <MESSAGE value="로그인/회원가입 페이지 클라우드 아이콘 해상도 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="로그인/회원가입 페이지 클라우드 아이콘 해상도 수정" />
+>>>>>>> Stashed changes
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

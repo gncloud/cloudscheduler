@@ -38,7 +38,9 @@ function buttonUp(){
     }
 }
 
-/*new UISearch( document.getElementById( 'sb-search' ) );*/
+
+
+
 
 
 /*left menu*/

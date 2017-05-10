@@ -1589,8 +1589,8 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 Keys 키 ======================== */
-.keys{padding: 130px 250px 100px 250px;}
-.keys .gn-lead{margin: 20px 0 10px 0; display: block;}
+.keys{padding-top: 130px;}
+.keys .gn-lead{margin: 30px 0 10px 0; display: block;}
 .keys ul{padding: 20px 15px;}
 .keys ul li{list-style: url("../gn_images/list-dot.png"); line-height: 30px; padding-left: 10px; font-size: 16px;}
 .keys > div{line-height: 37px; margin-bottom: 10px;}
@@ -1618,11 +1618,11 @@ html.open {overflow: hidden;}
 
 
 
+/* ======================== 클라우드 스케쥴러 Payment 과금 ======================== */
 
 
 
 
-
-
-
-
+/* ======================== 클라우드 스케쥴러 Profile 프로필 설정 ======================== */
+.sett-profile{margin-top: 130px;}
+.sett-profile form{margin-top: 30px; margin-bottom: 40px;}

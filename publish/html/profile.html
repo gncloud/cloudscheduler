@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../assets/gn_css/bootstrap_gncloudscheduler_theme.css">
 
 </head>
-<body >
+<body>
 
 <!--HEADER-->
 <nav class="navbar navbar-default gn-header gn-scheduler-header">
@@ -85,37 +85,58 @@
     </div><!-- class="container"-->
 </nav> <!--HEADER END-->
 
-<div class="container keys col-sm-offset-3 col-sm-6 col-xs-12">
-    <h2>AWS Keys</h2>
-    <span class="gn-lead">
-        We recommend you to generate access keys for user
-        who have a limited below permissions.
-    </span>
+<div class="container">
+    <div class="sett-profile col-sm-offset-3 col-sm-6 col-xs-12">
+        <h2>Profile</h2>
 
-    <ul>
-        <li>ec2 list</li>
-        <li>ec2 start</li>
-        <li>ec2 stop</li>
-    </ul>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-4 control-label gn-control-label">ID</label>
+                <div class="col-sm-8">
+                    <p class="form-control-static">gildong</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label gn-control-label">Name</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control gn-form-control" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label gn-control-label">Current password</label>
+                <div class="col-sm-8">
+                    <input type="password" class="form-control gn-form-control" placeholder="******">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label gn-control-label">New password</label>
+                <div class="col-sm-8">
+                    <input type="password" class="form-control gn-form-control" placeholder="******">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label gn-control-label">Confirm new password</label>
+                <div class="col-sm-8">
+                    <input type="password" class="form-control gn-form-control" placeholder="******">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label gn-control-label">Phone number</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control gn-form-control" placeholder="000-0000-0000">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label gn-control-label">E-mail</label>
+                <div class="col-sm-8">
+                    <input type="email" class="form-control gn-form-control" placeholder="user@mail.com">
+                </div>
+            </div>
+        </form>
 
-    <!--Access Key-->
-    <div class="row">
-        <div class="col-sm-3 col-xs-12">Access Key</div>
-        <div class="col-sm-7 col-xs-10"><input type="text" class="gn-form-control form-control"></div>
-        <div class="col-sm-2 col-xs-2"></div>
+        <button type="button" class="btn btn-gn-primary btn-block btn-lg">Save</button>
+
     </div>
-
-    <!--Secret Key-->
-    <div class="row">
-        <div class="col-sm-3 col-xs-12">Secret Key</div>
-        <div class="col-sm-7 col-xs-10"><input type="text" class="gn-form-control form-control"></div>
-        <div class="col-sm-2 col-xs-2 link">show</div>
-    </div>
-
-    <br>
-    <br>
-
-    <button type="button" class="btn btn-gn-primary btn-block btn-lg">Save</button>
 </div><!--container-->
 
 

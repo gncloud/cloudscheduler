@@ -22,10 +22,10 @@
 <!--HEADER-->
 <nav class="navbar navbar-default gn-header gn-scheduler-header">
     <div class="container">
-        <!--클라우드 스케줄러 로고-->
+        <!-- cloud scheduler logo -->
         <img src="../assets/gn_images/cloudscheduler.png" alt="gncloud scheduler" class="cloud-scheduler-logo center-block" onclick="location.href='instance.html'">
 
-        <!--왼쪽 메뉴-->
+        <!-- left slide menu -->
         <i class="glyphicon glyphicon-align-justify left-btn"></i>
         <div onclick="history.back();" class="page_cover"></div>
 
@@ -96,8 +96,11 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading clearfix">
-                    <h3 class="panel-title">Credit card</h3>
-                    <button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#creditCard">Add credit card</button>
+                    <h3 class="panel-title">
+                        Credit card
+                        <button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#creditCard">Add credit card</button>
+                    </h3>
+
                     <span class="" style="padding-left: 0;">The cost of the current month will be settled on the first of next month.</span>
                 </div>
                 <div class="panel-body row">
@@ -131,22 +134,20 @@
                     <tbody class="gn-tdody">
                         <tr>
                             <td class="hidden-sm hidden-xs">2017.05.01</td>
-                            <td class="second-td-name"><span class="gn-table-ellip">Invoice for April</span></td>
-                            <td class="">$ 160</td>
-                            <td class="hidden-md hidden-sm hidden-xs">non-payment</td>
+                            <td class="second-td-name"><span class="gn-table-ellip">Unlimited instances</span></td>
+                            <td class="">&dollar; 5</td>
+                            <td class="hidden-md hidden-sm hidden-xs text-danger">Overdue</td>
                             <td>
-                                <button type="button" class="btn-default btn" data-toggle="modal" data-target="#cardInvoiceModal">View
-                                </button>
+                                <button type="button" class="btn-default btn" data-toggle="modal" data-target="#cardInvoiceModal">View</button>
                             </td>
                         </tr>
                         <tr>
                             <td class="hidden-sm hidden-xs">2017.04.01</td>
-                            <td class="second-td-name"><span class="gn-table-ellip">Invoice for March</span></td>
-                            <td class="">$ 160</td>
-                            <td class="hidden-md hidden-sm hidden-xs">payment</td>
+                            <td class="second-td-name"><span class="gn-table-ellip">Up to 1 instance</span></td>
+                            <td class="">&dollar; 0</td>
+                            <td class="hidden-md hidden-sm hidden-xs text-primary">Paid</td>
                             <td>
-                                <button type="button" class="btn-default btn" data-toggle="modal" data-target="#cardInvoiceModal">View
-                                </button>
+                                <button type="button" class="btn-default btn" data-toggle="modal" data-target="#cardInvoiceModal">View</button>
                             </td>
                         </tr>
                     </tbody>
@@ -248,12 +249,12 @@
                         <h4>332, Teheran-ro, Gangnam-gu, Seoul, Republic of Korea</h4>
                         <br>
                         <dl class="dl-horizontal gn-description-list">
-                            <dt>date</dt>
-                            <dd>may 1, 2017</dd>
+                            <dt>Date</dt>
+                            <dd>May 1, 2017</dd>
                             <dt>Bill to</dt>
                             <dd>
-                                <span>gildong,Hong (gildong@naver.com)</span>
-                                <span>010 - 1234 - 5678</span>
+                                <span>Gildong,Hong (gildong@naver.com)</span>
+                                <!--<span>010 - 1234 - 5678</span>-->
                             </dd>
                         </dl>
                         <br>
@@ -268,22 +269,29 @@
                                 </tr>
                                 </thead>
                                 <tbody class="gn-tdody">
-                                <tr class="">
-                                    <td class="second-td-name"><span class="gn-table-ellip">Invoice for April</span></td>
-                                    <td class="hidden-xs">1 month</td>
-                                    <td class="hidden-xs">$ 160 / month</td>
-                                    <td class="">$ 160</td>
-                                </tr>
+                                    <tr class="">
+                                        <td class="second-td-name"><span class="gn-table-ellip">Up to 1 instance</span></td>
+                                        <td class="hidden-xs">1 month</td>
+                                        <td class="hidden-xs">Free</td>
+                                        <td class="">&dollar; 0</td>
+                                    </tr>
 
-                                <!--총계-->
-                                <tr class="">
-                                    <td style="border-bottom:none"></td>
-                                    <td class="hidden-xs" style="border-bottom:none"></td>
-                                    <td class="hidden-xs" style="padding-top:20px">
-                                        <strong>Total</strong></td>
-                                    <td style="padding-top:20px"><strong>$ 160</strong>
-                                    </td>
-                                </tr>
+                                    <tr class="">
+                                        <td class="second-td-name"><span class="gn-table-ellip">Unlimited instances</span></td>
+                                        <td class="hidden-xs">1 month</td>
+                                        <td class="hidden-xs">&dollar; 5 / month</td>
+                                        <td class="">&dollar; 5</td>
+                                    </tr>
+
+                                    <!--총계-->
+                                    <tr class="">
+                                        <td style="border-bottom:none"></td>
+                                        <td class="hidden-xs" style="border-bottom:none"></td>
+                                        <td class="hidden-xs" style="padding-top:20px">
+                                            <strong>Total</strong></td>
+                                        <td style="padding-top:20px"><strong>&dollar; 5</strong></td>
+                                    </tr>
+
                                 </tbody>
                             </table>
                         </div> <!--class="table-responsive table-reset"-->

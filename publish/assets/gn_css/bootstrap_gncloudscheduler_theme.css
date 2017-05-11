@@ -985,7 +985,14 @@ html.open {overflow: hidden;}
 
 #menu .clearfix{position: relative; min-height: 82%;}
 
-#menu .user-icon img{width: 70px;}
+#menu .user-icon img{
+    width: 75px;
+    background-color: #ffffff;
+    /* border: 1px solid #ffffff; */
+    padding: 7px;
+    border-radius: 100px;
+    display: inline-block;
+}
 #menu .user-icon span{display: block; margin: 10px auto; color: #ffffff; font-weight: 400; font-size: 15px;}
 #menu .user-icon span i{font-size: 14px;}
 
@@ -1682,3 +1689,76 @@ html.open {overflow: hidden;}
 /* ======================== 클라우드 스케쥴러 Profile 프로필 설정 ======================== */
 .sett-profile{margin-top: 130px;}
 .sett-profile form{margin-top: 30px; margin-bottom: 40px;}
+
+/*profile avatar area*/
+/*.sett-profile .dropdown{margin-bottom: 20px;}*/
+.sett-profile .dropdown h4{margin-bottom: 10px;}
+
+.sett-profile .dropdown button{
+    width: 120px;
+    border: 2px solid rgba(215,215,215,0.5);
+    color: #505050;
+}
+
+.sett-profile .dropdown button:focus,
+.sett-profile .dropdown button:hover,
+.open > .sett-profile .dropdown button{border: 2px solid rgba(215,215,215,0.5);}
+
+.sett-profile .dropdown .avatar-box{
+    border: 2px solid rgba(215,215,215,0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 120px;
+    height:120px;
+    margin-bottom: 10px;
+}
+
+.sett-profile .dropdown .avatar-box img{
+    width: 90px;
+    margin: 13px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.sett-profile .dropdown ul.dropdown-menu{
+    padding: 15px 0;
+    margin-top: 5px;
+    border: 2px solid rgba(215,215,215,0.5);
+}
+
+.sett-profile .dropdown ul.dropdown-menu li img{
+    width: 70px;
+    padding: 10px;
+    margin: 0px auto;
+    display: block;
+}
+
+.sett-profile .dropdown ul.dropdown-menu li img:hover{
+    background-color: rgba(215,215,215,0.5);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

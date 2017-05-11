@@ -63,7 +63,7 @@
                 <ul class="sub-menu">
                     <li><a onclick="location.href='instance.html'">Instance</a></li>
                     <li><a onclick="location.href='keys.html'">Keys</a></li>
-                    <li><a onclick="location.href='payment.html'">Payment</a></li>
+                    <li><a onclick="location.href='billing.html'">Billing</a></li>
                 </ul>
             </div>
             <!--FOOTER-->
@@ -109,7 +109,10 @@
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-sm-4 control-label gn-control-label">Current password</label>
+                <label class="col-sm-4 control-label gn-control-label">
+                    Current password
+                    <i class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="top" title="Tooltip"></i>
+                </label>
                 <div class="col-sm-8">
                     <input type="password" class="form-control gn-form-control" placeholder="******">
                 </div>
@@ -144,5 +147,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../assets/gn_js/bootstrap.min.js"></script>
 <script src="../assets/gn_js/searchnmenu.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 </body>
 </html>

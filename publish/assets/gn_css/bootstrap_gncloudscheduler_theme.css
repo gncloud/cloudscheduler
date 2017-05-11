@@ -1647,11 +1647,20 @@ html.open {overflow: hidden;}
 
 
 
-/* ======================== 클라우드 스케쥴러 Payment 과금 ======================== */
+/* ======================== 클라우드 스케쥴러 Billing 과금 ======================== */
 .gn-sett-margin-box{margin: 30px;}
+
+/*billing tab*/
+#tab.btn-group{display: table; margin: 20px auto;}
+#tab.btn-group a{min-width: 100px; color: #ccc; color: #6f6f6f; border: 1px solid #cccccc;}
+#tab.btn-group a.active{background-color: #ccc; color: #505050; border: 1px solid #ccc; box-shadow: none;}
+#tab.btn-group a.focus{box-shadow: none;}
+
+#paypal p{font-size: 23px; margin: 10px 0; color: #505050;}
 
 .payment{margin-top: 130px;}
 .payment h2{margin-bottom: 30px;}
+.payment .panel{margin-bottom: 0; min-height: 158px;}
 .payment .panel h3.panel-title{margin-bottom: 5px;}
 /*.payment .panel .gn-danger{margin-top: 13px;}*/
 .payment .gn-sett-margin-box h3{margin-bottom: 10px;}
@@ -1670,6 +1679,7 @@ html.open {overflow: hidden;}
 #cardInvoiceModal form .form-group h2{margin-bottom: 10px;}
 #cardInvoiceModal form .form-group h4{line-height: 20px;}
 #cardInvoiceModal .gn-table-responsive{border: none;}
+
 
 /*Payment 반응형*/
 @media (min-width: 1200px) {  }
@@ -1731,6 +1741,7 @@ html.open {overflow: hidden;}
     margin-bottom: 20px;
     border: 2px solid rgba(215,215,215,0.5);
     overflow-y: scroll;
+    overflow-x: hidden;
     height: 400px;
 }
 

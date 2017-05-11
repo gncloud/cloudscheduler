@@ -94,28 +94,58 @@
             <h3>Payment methods</h3>
             <p>Please enter your preferred payment method below.</p>
 
-            <div class="panel panel-default">
-                <div class="panel-heading clearfix">
-                    <h3 class="panel-title">
-                        Credit card
-                        <button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#creditCard">Add credit card</button>
-                    </h3>
+            <div id="tab" class="btn-group" data-toggle="buttons">
+                <a href="#card" class="btn btn-install active" data-toggle="tab">
+                    <input type="radio" />Credit Card</a>
+                <a href="#paypal" class="btn btn-install" data-toggle="tab">
+                    <input type="radio" />Paypal
+                </a>
+            </div>
 
-                    <span class="" style="padding-left: 0;">The cost of the current month will be settled on the first of next month.</span>
-                </div>
-                <div class="panel-body">
-                    <button type="button" class="btn btn-danger pull-right">Delete</button>
-                    <!--<a class="gn-danger pull-right">Delete</a>-->
-                    <span class="">
+            <!--tab-->
+            <div class="tab-content">
+                <!-- Credit Card -->
+                <div class="tab-pane active" id="card">
+                    <div class="panel panel-default">
+                        <div class="panel-heading clearfix">
+                            <h3 class="panel-title">
+                                Credit card
+                                <button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#creditCard">Add credit card</button>
+                            </h3>
+
+                            <span class="" style="padding-left: 0;">The cost of the current month will be settled on the first of next month.</span>
+                        </div>
+                        <div class="panel-body">
+                            <button type="button" class="btn btn-danger pull-right">Delete</button>
+                            <!--<a class="gn-danger pull-right">Delete</a>-->
+                            <span class="">
                         <strong class="cr">gildong,Hong</strong>&nbsp;
                         <strong>1234-XXXX-XXXX-2967</strong> <br>
                         <span class="cr">Expires &nbsp; 06 / 2017 &nbsp;|&nbsp;</span>
                         <span>Added on 2016 / 12 / 02</span>
                     </span>
-                </div>
-            </div>
+                        </div>
+                    </div><!--panel-->
+                </div><!--id="Card"-->
+
+                <!-- Paypal -->
+                <div class="tab-pane" id="paypal">
+                    <div class="panel panel-default">
+                        <!--<div class="panel-heading clearfix">
+
+                        </div>-->
+                        <div class="panel-body">
+                           <!--<h3 class="panel-title">Paypal</h3>-->
+                            <span class="" style="padding-left: 0;">Add PayPal credit to your account. This is a one-time payment and may take up to five minutes to process.</span>
+                            <p>$ 5.00 USD</p>
+                            <button type="button" class="btn btn-gn-primary btn-block">Paypal</button>
+                        </div>
+                    </div><!--panel-->
+                </div><!--id="paypal"-->
+            </div><!--tab-content-->
+
         </div> <!--class="gn-sett-margin-box"-->
-    </div>  <!--class="gn-box profile-user"-->
+    </div>  <!--class="gn-box"-->
 
     <div class="gn-box gn-detail-main">
         <div class="gn-sett-margin-box">

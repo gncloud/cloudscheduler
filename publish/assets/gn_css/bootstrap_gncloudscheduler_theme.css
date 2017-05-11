@@ -343,6 +343,23 @@ blockquote small:before{content: '';}
     border-top: none;
 }
 
+.gn-tiny-menual{
+    background-color: rgba(215,215,215,0.5);
+    color: #7d7d7d;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    /*padding: 5px 10px;*/
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.gn-tiny-menual:hover{
+    color: #58c4c6;
+}
+
 /*-----모달 공통 end-----*/
 
 body.modal-open .blur{

@@ -16,9 +16,13 @@
 > Keys  
 > https://gncloud.github.io/cloudscheduler/publish/html/keys.html
 >
-> Biling  
+> Billing  
 > https://gncloud.github.io/cloudscheduler/publish/html/billing.html
 >
-
-
+> Profile  
+> https://gncloud.github.io/cloudscheduler/publish/html/profile.html
+>
+> index ( 랜딩페이지 )  
+> https://gncloud.github.io/cloudscheduler/publish/html/index.html
+>
 

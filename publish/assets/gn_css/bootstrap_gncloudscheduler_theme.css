@@ -1723,11 +1723,15 @@ html.open {overflow: hidden;}
 .sett-profile .dropdown ul.dropdown-menu{
     padding: 15px 0;
     margin-top: 5px;
+    margin-bottom: 20px;
     border: 2px solid rgba(215,215,215,0.5);
+    overflow-y: scroll;
+    height: 400px;
+    z-index: 10;
 }
 
 .sett-profile .dropdown ul.dropdown-menu li img{
-    width: 70px;
+    width: 60px;
     padding: 10px;
     margin: 0px auto;
     display: block;
@@ -1739,7 +1743,24 @@ html.open {overflow: hidden;}
     cursor: pointer;
 }
 
+/*Profile 반응형*/
+@media (min-width: 1200px) {  }
 
+/* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
+@media (min-width: 768px) and (max-width: 992px) {
+    .sett-profile .dropdown ul.dropdown-menu li{padding: 10px 0;}
+}
+
+/* 가로 방향 전화기부터 세로 방향 타블렛까지 */
+@media (max-width: 767px) {
+
+}
+
+/* 가로 방향 전화기 이하 */
+@media (max-width: 480px) {
+
+
+}
 
 
 

@@ -1119,7 +1119,7 @@ html.open {overflow: hidden;}
     border:0;
     outline:0;
     line-height: 50px;
-    text-align: center;
+    text-align: right;
     cursor:pointer;
     color: #6f6f6f;
     background: #ffffff;
@@ -1139,6 +1139,7 @@ html.open {overflow: hidden;}
     left:0;
     background-color: transparent;
     display: block !important;
+    text-align: center;
 }
 
 .searchbox-open > .searchbox-input{
@@ -1276,11 +1277,11 @@ html.open {overflow: hidden;}
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
     .signup{padding: 40px 15px 0px 15px;}
+    nav.gn-header.gn-scheduler-header i.glyphicon.glyphicon-align-justify{left: 0;}
 }
 
 /* 가로 방향 전화기 이하 */
 @media (max-width: 480px) {
-    nav.gn-header.gn-scheduler-header i.glyphicon.glyphicon-align-justify{left: 0;}
     .searchbox-icon{text-align: right;}
     .searchbox-open .searchbox-icon{text-align: center;}
 }

@@ -145,8 +145,10 @@ textarea.gn-form-control{
 }
 
 /*tooltip*/
+.tooltip{z-index: 10000;}
 .tooltip-inner {
     max-width: 200px;
+    word-break: break-all;
     padding: 10px;
     color: #fff;
     text-align: justify;
@@ -1602,7 +1604,7 @@ html.open {overflow: hidden;}
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
 @media (min-width: 768px) and (max-width: 992px) {
-    #scheduleSett .modal-dialog{margin: 20px auto 0 auto;}
+
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */

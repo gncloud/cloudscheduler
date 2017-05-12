@@ -1676,6 +1676,7 @@ html.open {overflow: hidden;}
 .payment .panel-body .btn.btn-danger{margin-top: 5px; margin-left: 5px;}
 
 #paypal button{background-color: #4285f4; color: #ffffff; border-radius: 5px;}
+#paypal button img{width: 80px;}
 
 #creditCard .gn-modal-header{padding: 15px 5px 30px 5px;}
 #creditCard .gn-modal-footer{padding: 15px 5px;}

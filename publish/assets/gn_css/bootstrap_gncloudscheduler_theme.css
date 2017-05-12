@@ -1768,13 +1768,12 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-
+    .sett-profile .dropdown ul.dropdown-menu li{padding: 0;}
 }
 
 /* 가로 방향 전화기 이하 */
 @media (max-width: 480px) {
-
-
+    .sett-profile .dropdown ul.dropdown-menu li{padding: 0;}
 }
 
 

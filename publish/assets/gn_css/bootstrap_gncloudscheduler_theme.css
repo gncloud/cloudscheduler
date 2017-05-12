@@ -6,10 +6,7 @@
 /* ========== gncloud 공통 STYLE ========== */
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 html{margin:0;
-    padding:0;
-/*    position: relative;
-    min-height: 100%;*/
-}
+    padding:0;}
 
 body {
     /*margin: 0 0 224px 0;*/
@@ -149,20 +146,21 @@ textarea.gn-form-control{
 .tooltip-inner {
     max-width: 300px;
     padding: 10px;
-    color: #fff;
+    color: #ffffff;
+    font-size: 14px;
     text-align: justify;
     text-decoration: none;
-    background-color: #58c4c6;
+    background-color: #00afb4;
     border-radius: 3px;}
 
-.tooltip.top .tooltip-arrow {border-top-color: #58c4c6;}
-.tooltip.top-left .tooltip-arrow {border-top-color: #58c4c6;}
-.tooltip.top-right .tooltip-arrow {border-top-color: #58c4c6;}
-.tooltip.right .tooltip-arrow {border-right-color: #58c4c6;}
-.tooltip.left .tooltip-arrow {border-left-color: #58c4c6;}
-.tooltip.bottom .tooltip-arrow {border-bottom-color: #58c4c6;}
-.tooltip.bottom-left .tooltip-arrow {border-bottom-color: #58c4c6;}
-.tooltip.bottom-right .tooltip-arrow {border-bottom-color: #58c4c6;}
+.tooltip.top .tooltip-arrow {border-top-color: #00afb4;}
+.tooltip.top-left .tooltip-arrow {border-top-color: #00afb4;}
+.tooltip.top-right .tooltip-arrow {border-top-color: #00afb4;}
+.tooltip.right .tooltip-arrow {border-right-color: #00afb4;}
+.tooltip.left .tooltip-arrow {border-left-color: #00afb4;}
+.tooltip.bottom .tooltip-arrow {border-bottom-color: #00afb4;}
+.tooltip.bottom-left .tooltip-arrow {border-bottom-color: #00afb4;}
+.tooltip.bottom-right .tooltip-arrow {border-bottom-color: #00afb4;}
 
 .gn-description-list{font-size: 15px;}
 
@@ -608,9 +606,7 @@ li.nav-link.active>a:hover,
 
 /*HEADER 오른쪽*/
 /*인스턴스 생성 버튼*/
-.navbar-right li.create-btn{
-    margin-top: 20px;
-}
+.navbar-right li.create-btn{margin-top: 20px;}
 
 /*drop style*/
 .gn-head-drop,
@@ -852,7 +848,7 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
 
 nav.gn-header.gn-scheduler-header{
     margin-bottom: 0;
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     height: 70px;
     width: 100%;
@@ -894,11 +890,11 @@ nav.gn-header.gn-scheduler-header > div{
     position: relative;
     padding:0;}
 
-.gn-scheduler-header.affix {
+/*.gn-scheduler-header.affix {
     padding: 0;
     border-bottom: 1px solid rgba(215,215,215,0.5);
     border-radius: 0;
-    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.1);  }
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.1);  }*/
 
 /* 왼쪽 슬라이드 메뉴 style */
 html.open {overflow: hidden;}
@@ -981,10 +977,14 @@ html.open {overflow: hidden;}
 }
 
 #menu h1{
-    background: url("../gn_images/leftlogo-Cloud-Scheduler.png")no-repeat;
+    /*background: url("../gn_images/leftlogo-Cloud-Scheduler.png")no-repeat;
     width: 177px;
-    height: 20px;
-    margin: 65px auto 50px auto;
+    height: 20px;*/
+
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Baloo Thambi', cursive;
+    margin: 65px auto 35px auto;
 }
 
 #menu .clearfix{position: relative; min-height: 82%;}
@@ -1156,8 +1156,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 로그인 페이지 ======================== */
-.login {padding-top: 150px;}
-.login{padding: 200px 250px;}
+.login{padding: 100px 250px;}
 .login h2{margin-bottom: 20px;}
 .login span{margin-bottom: 5px;}
 .login span a{color: #58c4c6;}
@@ -1223,7 +1222,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .login{padding: 150px 15px 0 15px;}
+    .login{padding: 40px 15px 0 15px;}
     .login .group > div{padding: 0;}
     .login button.btn-gn-primary{padding: 14px 0; margin-bottom: 10px;}
     .login .btn-id{margin-top: 10px;}
@@ -1236,8 +1235,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 회원가입 페이지 ======================== */
-.signup{padding-top: 150px;}
-.signup{padding: 200px 250px;}
+.signup{padding: 100px 250px;}
 .signup h2{margin-bottom: 20px;}
 .signup span{margin-bottom: 5px;}
 .signup span a{color: #58c4c6;}
@@ -1272,12 +1270,12 @@ html.open {overflow: hidden;}
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
 @media (min-width: 768px) and (max-width: 992px) {
-    .signup{padding: 200px 15px 0px 15px;}
+    .signup{padding: 40px 15px 0px 15px;}
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .signup{padding: 150px 15px 0px 15px;}
+    .signup{padding: 40px 15px 0px 15px;}
 }
 
 /* 가로 방향 전화기 이하 */
@@ -1290,7 +1288,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 인스턴스 리스트 ======================== */
-.gn-scheduler-instance{padding-top: 130px;}
+.gn-scheduler-instance{padding-top: 50px;}
 .gn-scheduler-instance .gn-table-responsive{border: none;}
 /* Instance State */
 .gn-scheduler-instance .gn-table-responsive .td-state{text-align: left;}
@@ -1345,7 +1343,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 인스턴스 상세 ======================== */
-.gn-scheduler-detail{padding-top: 100px;}
+.gn-scheduler-detail{padding-top: 50px;}
 .gn-scheduler-detail h2 i{margin-left: 10px; cursor: pointer;}
 .gn-scheduler-detail h2 i:hover{color: #58c4c6;}
 .gn-scheduler-detail .info-group{margin-bottom: 10px;}
@@ -1624,7 +1622,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 Keys 키 ======================== */
-.keys{padding-top: 130px;}
+.keys{padding-top: 50px;}
 .keys .gn-lead{margin: 30px 0 10px 0; display: block;}
 .keys ul{padding: 20px 15px;}
 .keys ul li{list-style: url("../gn_images/list-dot.png"); line-height: 30px; padding-left: 10px; font-size: 16px;}
@@ -1643,7 +1641,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .keys{padding: 130px 15px 0 15px;}
+    .keys{padding: 50px 15px 0 15px;}
     .keys > div .col-sm-7{padding: 0 0 0 15px;}
 }
 
@@ -1664,7 +1662,7 @@ html.open {overflow: hidden;}
 
 #paypal p{font-size: 23px; margin: 10px 0; color: #505050;}
 
-.payment{margin-top: 130px;}
+.payment{margin-top: 50px;}
 .payment h2{margin-bottom: 30px;}
 .payment .panel{margin-bottom: 0; min-height: 158px;}
 .payment .panel h3.panel-title{margin-bottom: 5px;}
@@ -1708,7 +1706,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 Profile 프로필 설정 ======================== */
-.sett-profile{margin-top: 130px;}
+.sett-profile{margin-top: 50px;}
 .sett-profile form{margin-top: 30px; margin-bottom: 40px;}
 
 /*profile avatar area*/

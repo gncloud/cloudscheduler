@@ -148,7 +148,6 @@ textarea.gn-form-control{
 .tooltip{z-index: 10000;}
 .tooltip-inner {
     max-width: 300px;
-    word-break: break-all;
     padding: 10px;
     color: #fff;
     text-align: justify;
@@ -1370,6 +1369,11 @@ html.open {overflow: hidden;}
 .gn-scheduler-detail ul li{list-style: none; padding: 0; margin: 0; line-height: 25px;}
 .gn-scheduler-detail ul li strong{margin-right: 10px;}
 
+
+/*인스턴스 상세 tooltip*/
+.gn-scheduler-detail .tooltip-inner{word-break: break-all;}
+
+
 /*인스턴스 상세 테이블*/
 .gn-scheduler-detail .gn-board-table .thead td{padding: 8px;}
 .gn-scheduler-detail .gn-board-table .gn-tdody td{padding: 0px;}
@@ -1759,6 +1763,9 @@ html.open {overflow: hidden;}
     border-radius: 100px;
     cursor: pointer;
 }
+
+/*프로필 tooltip*/
+.sett-profile .tooltip-inner{word-break: break-all; }
 
 /*Profile 반응형*/
 @media (min-width: 1200px) {  }

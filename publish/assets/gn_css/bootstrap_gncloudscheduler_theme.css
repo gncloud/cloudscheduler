@@ -507,7 +507,7 @@ body.modal-open .blur{
     z-index: 100;
 }
 
-.gn-header > .container{padding-bottom: 0;}
+.gn-header > .container{padding-bottom: 0; height: 55px;}
 
 .gn-header > .container > .navbar-header > .navbar-toggle{
     border-color: transparent;

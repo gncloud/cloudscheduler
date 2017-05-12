@@ -504,7 +504,7 @@ body.modal-open .blur{
     z-index: 100;
 }
 
-.gn-header > .container{padding-bottom: 0; height: 55px;}
+.gn-header > .container{padding-bottom: 0; /*height: 55px;*/}
 
 .gn-header > .container > .navbar-header > .navbar-toggle{
     border-color: transparent;
@@ -1661,18 +1661,21 @@ html.open {overflow: hidden;}
 #tab.btn-group a.active{background-color: #ccc; color: #505050; border: 1px solid #ccc; box-shadow: none;}
 #tab.btn-group a.focus{box-shadow: none;}
 
-#paypal p{font-size: 23px; margin: 10px 0; color: #505050;}
+#paypal p{font-size: 25px; margin: 15px 0; color: #505050;}
 
 .payment{margin-top: 50px;}
 .payment h2{margin-bottom: 30px;}
-.payment .panel{margin-bottom: 0; min-height: 158px;}
-.payment .panel h3.panel-title{margin-bottom: 5px;}
+.payment .panel{margin-bottom: 0; /*min-height: 158px;*/}
+.payment .panel-heading{padding: 15px;}
+.payment .panel h3.panel-title{margin: 5px 0;}
 /*.payment .panel .gn-danger{margin-top: 13px;}*/
 .payment .gn-sett-margin-box h3{margin-bottom: 10px;}
 .payment .panel button.btn-default{margin-left: 5px;}
 .payment .panel-body span{padding:0;}
 .payment .panel-body strong{margin-bottom: 3px; display: inline-block;}
 .payment .panel-body .btn.btn-danger{margin-top: 5px; margin-left: 5px;}
+
+#paypal button{background-color: #4285f4; color: #ffffff; border-radius: 5px;}
 
 #creditCard .gn-modal-header{padding: 15px 5px 30px 5px;}
 #creditCard .gn-modal-footer{padding: 15px 5px;}

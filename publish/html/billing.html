@@ -85,73 +85,76 @@
     </div><!-- class="container"-->
 </nav> <!--HEADER END-->
 
-<div class="container payment col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-12">
-    <h2>Billing</h2>
+<div class="container payment">
+    <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-12">
+        <h2>Billing</h2>
 
-    <div class="gn-box gn-detail-main">
-        <div class="gn-sett-margin-box">
+        <div class="gn-box gn-detail-main">
+            <div class="gn-sett-margin-box">
 
-            <h3>Payment methods</h3>
-            <p>Please enter your preferred payment method below.</p>
+                <h3>Payment methods</h3>
+                <p>Please enter your preferred payment method below.</p>
 
-            <div id="tab" class="btn-group" data-toggle="buttons">
-                <a href="#card" class="btn btn-install active" data-toggle="tab">
-                    <input type="radio" />Credit Card</a>
-                <a href="#paypal" class="btn btn-install" data-toggle="tab">
-                    <input type="radio" />PayPal
-                </a>
-            </div>
+                <div id="tab" class="btn-group" data-toggle="buttons">
+                    <a href="#card" class="btn btn-install active" data-toggle="tab">
+                        <input type="radio"/>Credit Card</a>
+                    <a href="#paypal" class="btn btn-install" data-toggle="tab">
+                        <input type="radio"/>PayPal
+                    </a>
+                </div>
 
-            <!--tab-->
-            <div class="tab-content">
-                <!-- Credit Card -->
-                <div class="tab-pane active" id="card">
-                    <div class="panel panel-default">
-                        <div class="panel-heading clearfix">
-                            <h3 class="panel-title">
-                                Credit card
-                                <button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#creditCard">Add credit card</button>
-                            </h3>
+                <!--tab-->
+                <div class="tab-content">
+                    <!-- Credit Card -->
+                    <div class="tab-pane active" id="card">
+                        <div class="panel panel-default">
+                            <div class="panel-heading clearfix">
+                                <h3 class="panel-title">
+                                    Credit card
+                                    <button type="button" class="btn btn-default pull-right" data-toggle="modal"
+                                            data-target="#creditCard">Add credit card
+                                    </button>
+                                </h3>
 
-                            <span class="" style="padding-left: 0;">The cost of the current month will be settled on the first of next month.</span>
-                        </div>
-                        <div class="panel-body">
-                            <button type="button" class="btn btn-danger pull-right">Delete</button>
-                            <!--<a class="gn-danger pull-right">Delete</a>-->
-                            <strong class="cr">gildong,Hong</strong>&nbsp;
-                            <strong>1234-XXXX-XXXX-2967</strong> <br>
-                            <span class="cr">Expires &nbsp; 06 / 2017 &nbsp;|&nbsp;</span>
-                            <span>Added on 2016 / 12 / 02</span>
-                        </div>
-                    </div><!--panel-->
-                </div><!--id="Card"-->
+                                <span class="" style="padding-left: 0;">The cost of the current month will be settled on the first of next month.</span>
+                            </div>
+                            <div class="panel-body">
+                                <button type="button" class="btn btn-danger pull-right">Delete</button>
+                                <!--<a class="gn-danger pull-right">Delete</a>-->
+                                <strong class="cr">gildong,Hong</strong>&nbsp;
+                                <strong>1234-XXXX-XXXX-2967</strong> <br>
+                                <span class="cr">Expires &nbsp; 06 / 2017 &nbsp;|&nbsp;</span>
+                                <span>Added on 2016 / 12 / 02</span>
+                            </div>
+                        </div><!--panel-->
+                    </div><!--id="Card"-->
 
-                <!-- Paypal -->
-                <div class="tab-pane" id="paypal">
-                    <div class="panel panel-default">
-                        <!--<div class="panel-heading clearfix"></div>-->
-                        <div class="panel-body">
-                           <!--<h3 class="panel-title">Paypal</h3>-->
-                            <span class="" style="padding-left: 0;">Add PayPal credit to your account. This is a one-time payment and may take up to five minutes to process.</span>
-                            <p>$ 5.00 USD</p>
-                            <button type="button" class="btn btn-block btn-lg">
-                                <img src="../assets/gn_images/paypal-title.png" alt="">
-                            </button>
-                        </div>
-                    </div><!--panel-->
-                </div><!--id="paypal"-->
-            </div><!--tab-content-->
+                    <!-- Paypal -->
+                    <div class="tab-pane" id="paypal">
+                        <div class="panel panel-default">
+                            <!--<div class="panel-heading clearfix"></div>-->
+                            <div class="panel-body">
+                                <!--<h3 class="panel-title">Paypal</h3>-->
+                                <span class="" style="padding-left: 0;">Add PayPal credit to your account. This is a one-time payment and may take up to five minutes to process.</span>
+                                <p>$ 5.00 USD</p>
+                                <button type="button" class="btn btn-block btn-lg">
+                                    <img src="../assets/gn_images/paypal-title.png" alt="">
+                                </button>
+                            </div>
+                        </div><!--panel-->
+                    </div><!--id="paypal"-->
+                </div><!--tab-content-->
 
-        </div> <!--class="gn-sett-margin-box"-->
-    </div>  <!--class="gn-box"-->
+            </div> <!--class="gn-sett-margin-box"-->
+        </div>  <!--class="gn-box"-->
 
-    <div class="gn-box gn-detail-main">
-        <div class="gn-sett-margin-box">
-            <h3>Payment history</h3>
-            <br>
-            <div class="table-responsive gn-table-responsive">
-                <table class="table gn-board-table">
-                    <thead>
+        <div class="gn-box gn-detail-main">
+            <div class="gn-sett-margin-box">
+                <h3>Payment history</h3>
+                <br>
+                <div class="table-responsive gn-table-responsive">
+                    <table class="table gn-board-table">
+                        <thead>
                         <tr>
                             <th class="hidden-sm hidden-xs">Date</th>
                             <th class="second-td-name">Description</th>
@@ -159,15 +162,17 @@
                             <th class="hidden-md hidden-sm hidden-xs">State</th>
                             <th class="">Invoice</th>
                         </tr>
-                    </thead>
-                    <tbody class="gn-tdody">
+                        </thead>
+                        <tbody class="gn-tdody">
                         <tr>
                             <td class="hidden-sm hidden-xs">2017.05.01</td>
                             <td class="second-td-name"><span class="gn-table-ellip">Unlimited instances</span></td>
                             <td class="">&dollar; 5</td>
                             <td class="hidden-md hidden-sm hidden-xs text-danger">Overdue</td>
                             <td>
-                                <button type="button" class="btn-default btn" data-toggle="modal" data-target="#cardInvoiceModal">View</button>
+                                <button type="button" class="btn-default btn" data-toggle="modal"
+                                        data-target="#cardInvoiceModal">View
+                                </button>
                             </td>
                         </tr>
                         <tr>
@@ -176,23 +181,25 @@
                             <td class="">&dollar; 0</td>
                             <td class="hidden-md hidden-sm hidden-xs text-primary">Paid</td>
                             <td>
-                                <button type="button" class="btn-default btn" data-toggle="modal" data-target="#cardInvoiceModal">View</button>
+                                <button type="button" class="btn-default btn" data-toggle="modal"
+                                        data-target="#cardInvoiceModal">View
+                                </button>
                             </td>
                         </tr>
-                    </tbody>
-                </table>
-            </div> <!--class="table-responsive table-reset"-->
+                        </tbody>
+                    </table>
+                </div> <!--class="table-responsive table-reset"-->
 
 
-            <!--prev/next button-->
-            <div class="gn-page-btn">
-                <input type="button" class="btn btn-default pull-left" value="Prev">
-                <input type="button" class="btn btn-default" value="Next">
-            </div>
+                <!--prev/next button-->
+                <div class="gn-page-btn">
+                    <input type="button" class="btn btn-default pull-left" value="Prev">
+                    <input type="button" class="btn btn-default" value="Next">
+                </div>
 
-        </div><!--class="gn-sett-margin-box"-->
-    </div><!--class="gn-box"-->
-
+            </div><!--class="gn-sett-margin-box"-->
+        </div><!--class="gn-box"-->
+    </div>
 </div><!--container-->
 
 

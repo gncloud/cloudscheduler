@@ -849,9 +849,10 @@ nav.gn-header.gn-scheduler-header{
     /*margin-bottom: 0;
     position: fixed;
     top: 0;*/
-    height: 70px;
+    /*height: 90px;*/
     width: 100%;
     padding: 15px 15px 0 15px;
+    margin-bottom: 0;
     /*z-index: 10000;*/
 }
 
@@ -979,7 +980,6 @@ html.open {overflow: hidden;}
     /*background: url("../gn_images/leftlogo-Cloud-Scheduler.png")no-repeat;
     width: 177px;
     height: 20px;*/
-
     color: #ffffff;
     font-size: 24px;
     font-family: 'Baloo Thambi', cursive;
@@ -1035,9 +1035,7 @@ html.open {overflow: hidden;}
 #menu ul.sub-menu li a{display: inline-block; font-size: 20px; color: #ffffff;}
 #menu ul.sub-menu li a:hover{color: #096c6f;}
 
-
 .glyphicon.glyphicon-chevron-down{vertical-align: middle;}
-
 
 /*슬라이드 메뉴 footer*/
 #menu footer{
@@ -1096,7 +1094,6 @@ html.open {overflow: hidden;}
     border-radius: 10px;
     border: 2px solid rgba(215,215,215,0.5);
     width: 100%;
-
 }
 
 .searchbox-input::-webkit-input-placeholder{color: rgba(88,196,198,0.5); font-weight: 200;}
@@ -1641,7 +1638,6 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .keys{padding: 30px 15px 0 15px;}
     .keys > div .col-sm-6{padding: 0 0 0 15px;}
 }
 
@@ -1698,7 +1694,6 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .payment{padding-top: 30px;}
     .payment .table-responsive{border: none;}
     .gn-sett-margin-box{margin: 20px;}
     #cardInvoiceModal dd{margin-left: 0;}
@@ -1782,7 +1777,6 @@ html.open {overflow: hidden;}
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
     .sett-profile .dropdown ul.dropdown-menu li{padding: 0;}
-    .sett-profile{padding-top: 30px;}
 }
 
 /* 가로 방향 전화기 이하 */

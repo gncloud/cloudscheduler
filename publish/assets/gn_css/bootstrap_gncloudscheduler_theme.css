@@ -504,7 +504,7 @@ body.modal-open .blur{
     z-index: 100;
 }
 
-.gn-header > .container{padding-bottom: 0; /*height: 55px;*/}
+.gn-header > .container{padding-bottom: 0; height: 55px;}
 
 .gn-header > .container > .navbar-header > .navbar-toggle{
     border-color: transparent;
@@ -843,17 +843,16 @@ li.nav-link.active>a:hover,
 
 
 /* ======================== 클라우드 스케쥴러 공통 ======================== */
-body{margin: 0;}
 h1,h2,h3,h4,h5,h6{margin: 0;}
 
 nav.gn-header.gn-scheduler-header{
-    margin-bottom: 0;
-    /*position: fixed;*/
-    top: 0;
+    /*margin-bottom: 0;
+    position: fixed;
+    top: 0;*/
     height: 70px;
     width: 100%;
     padding: 15px 15px 0 15px;
-    z-index: 10000;
+    /*z-index: 10000;*/
 }
 
 nav.gn-header.gn-scheduler-header i.glyphicon.glyphicon-align-justify{
@@ -1637,12 +1636,12 @@ html.open {overflow: hidden;}
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
 @media (min-width: 768px) and (max-width: 992px) {
-    .keys{padding: 130px 15px 0 15px;}
+    /*.keys{padding: 50px 15px 0 15px;}*/
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
-    .keys{padding: 50px 15px 0 15px;}
+    .keys{padding: 30px 15px 0 15px;}
     .keys > div .col-sm-6{padding: 0 0 0 15px;}
 }
 
@@ -1663,7 +1662,7 @@ html.open {overflow: hidden;}
 
 #paypal p{font-size: 25px; margin: 15px 0; color: #505050;}
 
-.payment{margin-top: 50px;}
+.payment{padding-top: 50px;}
 .payment h2{margin-bottom: 30px;}
 .payment .panel{margin-bottom: 0; /*min-height: 158px;*/}
 .payment .panel-heading{padding: 15px;}
@@ -1694,10 +1693,12 @@ html.open {overflow: hidden;}
 @media (min-width: 1200px) {  }
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
-@media (min-width: 768px) and (max-width: 992px) {  }
+@media (min-width: 768px) and (max-width: 992px) {
+}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
+    .payment{padding-top: 30px;}
     .payment .table-responsive{border: none;}
     .gn-sett-margin-box{margin: 20px;}
     #cardInvoiceModal dd{margin-left: 0;}
@@ -1711,7 +1712,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 Profile 프로필 설정 ======================== */
-.sett-profile{margin-top: 50px;}
+.sett-profile{padding-top: 50px;}
 .sett-profile form{margin-top: 30px; margin-bottom: 40px;}
 
 /*profile avatar area*/
@@ -1781,6 +1782,7 @@ html.open {overflow: hidden;}
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
     .sett-profile .dropdown ul.dropdown-menu li{padding: 0;}
+    .sett-profile{padding-top: 30px;}
 }
 
 /* 가로 방향 전화기 이하 */

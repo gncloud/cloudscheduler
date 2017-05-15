@@ -1625,6 +1625,7 @@ html.open {overflow: hidden;}
 .keys ul li{list-style: url("../gn_images/list-dot.png"); line-height: 30px; padding-left: 10px; font-size: 16px;}
 .keys > div{line-height: 37px; margin-bottom: 10px;}
 .keys > div .col-sm-6{padding: 0;}
+.keys > div .col-sm-6 input{margin-bottom: 10px;}
 .keys .link{color: #58c4c6; text-decoration: underline; cursor: pointer;}
 .keys .link:hover{color: #00afb4; font-weight: 600;}
 

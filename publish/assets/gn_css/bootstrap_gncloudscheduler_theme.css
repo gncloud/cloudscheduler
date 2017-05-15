@@ -1350,7 +1350,7 @@ html.open {overflow: hidden;}
 .gn-scheduler-detail .info-group{margin-bottom: 10px;}
 .gn-scheduler-detail .info-group .dropdown{display: inline-block; cursor: pointer;}
 .gn-scheduler-detail .info-group .dropdown img{margin-right: 5px;}
-.gn-scheduler-detail .info-group .pull-right{cursor: pointer; margin-top: 10px; line-height: 27px;}
+.gn-scheduler-detail .info-group .pull-right{cursor: pointer; margin-top: 5px; line-height: 27px;}
 .gn-scheduler-detail .info-group .pull-right:hover{color: #58c4c6;}
 .gn-scheduler-detail .dropdown-menu{padding: 0; min-width: 120px; border: 2px solid rgba(215,215,215,0.5);}
 .gn-scheduler-detail .dropdown-menu li:hover{background-color: #efefef;}
@@ -1539,8 +1539,8 @@ html.open {overflow: hidden;}
     /*.gn-scheduler-detail{margin-top: 150px !important;}*/
     .gn-scheduler-detail ul li strong{display: block;}
 
-    .gn-scheduler-detail .gn-board-table tbody tr td span.span-right{padding-left: 10px;}
-    .gn-scheduler-detail .gn-board-table tbody tr td span.span-left{padding-right: 10px;}
+    .gn-scheduler-detail .gn-board-table tbody tr td span.span-right{padding-left: 8px;}
+    .gn-scheduler-detail .gn-board-table tbody tr td span.span-left{padding-right: 8px;}
     .gn-scheduler-detail .gn-board-table tbody tr td span.span-long div.pull-left{padding: 0 0 0 5px;}
     .gn-scheduler-detail .gn-board-table tbody tr td span.span-long div.pull-right{padding: 0 5px 0 0;}
 }

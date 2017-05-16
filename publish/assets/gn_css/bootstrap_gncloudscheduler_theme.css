@@ -1152,6 +1152,95 @@ html.open {overflow: hidden;}
 }
 
 
+/* ======================== 클라우드 스케쥴러 랜딩 페이지 ======================== */
+.landing-banner{
+    background-image: linear-gradient(#899BF0,#ABDDE9);
+    min-height: 538px;}
+
+.landing-banner .container{padding-bottom: 0;}
+.landing-banner h1{text-align: center; color: #ffffff; padding: 50px 0 30px 0; }
+.landing-banner img.cloud-character{display: block; margin: 0 auto;}
+.landing-banner .btn-w-install {
+    padding: 10px 50px;
+    border: 3px solid #ffffff;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.landing-banner .cloud-group{position: relative;}
+.landing-banner .cloud-group .mini1{position: absolute; left: 20px; bottom: -30px;}
+.landing-banner .cloud-group .mini2{position: absolute; left: 80px; top: 150px;}
+.landing-banner .cloud-group .mini3{position: absolute; left: 120px; bottom: 0px;}
+.landing-banner .cloud-group .mini4{position: absolute; left: 220px; bottom: 50px;}
+.landing-banner .cloud-group .mini5{position: absolute; left: 230px; bottom: 35px;}
+.landing-banner .cloud-group .mini6{position: absolute; left: 380px; bottom: 10px;}
+.landing-banner .cloud-group .mini7{position: absolute; right: 330px; bottom: 50px;}
+.landing-banner .cloud-group .mini8{position: absolute; right: 250px; bottom: -20px;}
+.landing-banner .cloud-group .mini9{position: absolute; right: 140px; bottom: 60px;}
+.landing-banner .cloud-group .mini10{position: absolute; right: 120px; bottom: 65px;}
+.landing-banner .cloud-group .mini11{position: absolute; right: 20px;}
+
+.landing-banner p{margin: 10px; color: #ffffff; font-size: 18px; }
+.landing-banner p a{text-decoration: underline; color: #00afb4; }
+
+.features .container{padding-bottom: 50px;}
+.features h2{margin: 50px 0 10px 0;}
+.features img.center-block{margin-bottom: 50px;}
+.features .container > div{text-align: center; margin: 0 auto;}
+.features .container > div > img{margin-bottom: 10px;}
+.features .container > div > h3{margin-bottom: 5px;}
+.features .container > div > p{font-size: 15px; font-weight: 300; color: #6f6f6f; padding-bottom: 0;}
+.features .under{width: 60px; border-bottom: 2px solid #58c4c6; display: inline-block;}
+
+
+.schedule-setting-area{background: rgba(215,215,215,0.5);}
+.schedule-setting-area .container{padding-bottom: 50px;}
+.schedule-setting-area h2{margin: 50px 0 10px 0;}
+.schedule-setting-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
+
+.instance-area{background: #ffffff;}
+.instance-area .container{padding-bottom: 50px;}
+.instance-area h2{margin: 50px 0 10px 0;}
+.instance-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
+.instance-area img{
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(215,215,215,0.5);}
+
+.keys-area{background: rgba(215,215,215,1);}
+.keys-area .container{padding-bottom: 50px;}
+.keys-area h2{margin: 50px 0 10px 0;}
+.keys-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
+
+@media (min-width: 1200px) {
+
+}
+
+/* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* 가로 방향 전화기부터 세로 방향 타블렛까지 */
+@media (max-width: 767px) {
+    .landing-banner h1{padding: 30px 0 20px 0;}
+    .features .container > div{margin-bottom: 50px;}
+
+}
+
+/* 가로 방향 전화기 이하 */
+@media (max-width: 480px) {
+
+}
+
+
+
+
 /* ======================== 클라우드 스케쥴러 로그인 페이지 ======================== */
 .login{padding: 100px 250px;}
 .login h2{margin-bottom: 20px;}

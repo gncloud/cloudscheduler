@@ -20,76 +20,95 @@
 <body >
 
 <!--HEADER-->
-<nav class="navbar navbar-default gn-header gn-scheduler-header">
+<nav class="navbar navbar-default gn-header gn-scheduler-header" style="height: 110px;">
     <div class="container">
         <!-- cloud scheduler logo -->
-        <img src="../assets/gn_images/cloudscheduler.png" alt="gncloud scheduler" class="cloud-scheduler-logo center-block" onclick="location.href='instance.html'">
-
-        <!-- left slide menu -->
-        <i class="glyphicon glyphicon-align-justify left-btn"></i>
-        <div onclick="history.back();" class="page_cover"></div>
-
-        <div id="menu">
-            <div class="clearfix">
-                <h1>cloud scheduler</h1>
-                <!-- user icon-->
-                <div class="user-icon">
-                    <img src="../assets/gn_images/avatar/avatar-default.png" alt="user">
-                    <!--<span>gildong &nbsp;<i class="glyphicon glyphicon-chevron-down"></i></span>-->
-                    <div class="dropdown left-menu">
-                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
-                                data-toggle="dropdown" aria-expanded="true">
-                            gildong <i class="glyphicon glyphicon-chevron-down"></i>
-                        </button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation">
-                                <a href="profile.html" role="menuitem" tabindex="-1">
-                                    <i class="glyphicon glyphicon-cog"></i>Setting
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" class="gn-danger">
-                                    <i class="glyphicon glyphicon-log-out"></i>Log out
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!--'x'button-->
-                <div onclick="history.back();" class="glyphicon glyphicon-remove menu-close"></div>
-                <!--<button type="button" class="btn btn-w-install ">Login</button>-->
-                <!--<div class="joinin"><a href="#">join in</a></div>-->
-                <!-- menu -->
-                <ul class="sub-menu">
-                    <li><a onclick="location.href='instance.html'">Instance</a></li>
-                    <li><a onclick="location.href='keys.html'">Keys</a></li>
-                    <li><a onclick="location.href='billing.html'">Billing</a></li>
-                </ul>
-            </div>
-
-            <!--FOOTER-->
-            <footer>
-                <p>332, Teheran-ro, Gangnam-gu, Seoul, Republic of Korea</p>
-                <p>CEO : sang-wook,Song</p>
-                <p>Business Registration Number : 220-88-03822</p>
-                <span class="">&copy; COPYRIGHT GNCLOUD ALL RIGHT RESERVED.</span>
-            </footer>
-        </div>
-
-        <!-- search bar -->
-        <form class="searchbox pull-right">
-            <input type="search" placeholder="Search.." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
-            <input type="button" class="searchbox-submit" value="cancel" >
-            <span class="searchbox-icon"><i class="glyphicon glyphicon-search"></i></span>
-        </form>
+        <img src="../assets/gn_images/cloudscheduler.png" alt="gncloud scheduler" class="cloud-scheduler-login center-block" onclick="location.href='instance.html'">
+        <span class="login-title">Cloud Scheduler</span>
     </div><!-- class="container"-->
 </nav> <!--HEADER END-->
 
+<div class="landing-banner">
+    <div class="container">
+        <h1>Cut down costs on cloud servers.</h1>
+        <div class="cloud-group">
+            <img src="../assets/gn_images/scheduler-character.png" alt="scheduler character" class="cloud-character">
 
-<div class="container " style="padding-top: 50px;">
-    <h2>cloud scheduler index</h2>
+            <div class="mini1 "><img src="../assets/gn_images/cloud-group/mini-cloud1.png" alt=""></div>
+            <div class="mini2 hidden-xs"><img src="../assets/gn_images/cloud-group/mini-cloud2.png" alt=""></div>
+            <div class="mini3 "><img src="../assets/gn_images/cloud-group/mini-cloud3.png" alt=""></div>
+            <div class="mini4 hidden-sm hidden-sm hidden-xs"><img src="../assets/gn_images/cloud-group/mini-cloud4.png" alt=""></div>
+            <div class="mini5 hidden-md hidden-sm hidden-xs"><img src="../assets/gn_images/cloud-group/mini-cloud5.png" alt=""></div>
+            <div class="mini6 hidden-md hidden-sm hidden-xs"><img src="../assets/gn_images/cloud-group/mini-cloud6.png" alt=""></div>
+            <div class="mini7 hidden-md hidden-sm hidden-xs"><img src="../assets/gn_images/cloud-group/mini-cloud7.png" alt=""></div>
+            <div class="mini8 hidden-md hidden-sm hidden-xs"><img src="../assets/gn_images/cloud-group/mini-cloud8.png" alt=""></div>
+            <div class="mini9 hidden-sm hidden-xs"><img src="../assets/gn_images/cloud-group/mini-cloud9.png" alt=""></div>
+            <div class="mini10 hidden-xs"><img src="../assets/gn_images/cloud-group/mini-cloud10.png" alt=""></div>
+            <div class="mini11 "><img src="../assets/gn_images/cloud-group/mini-cloud11.png" alt=""></div>
+        </div>
+        <br>
+        <br>
+        <button class="btn btn-w-install">Try for Free</button>
+        <p class="text-center">or <a href="">Login</a></p>
+    </div><!--container-->
+</div><!--landing-banner-->
 
-</div><!--container-->
+<div class="features">
+    <div class="container">
+        <h2 class="text-center">Features</h2>
+        <img src="../assets/gn_images/gradient-bar.png" alt="" class="center-block">
+
+        <div class="col-sm-4">
+            <img src="../assets/gn_images/txticon_ub01.png" alt="">
+            <h3>Instance</h3>
+            <p>texttexttexttexttexttexttexttext</p>
+        </div>
+        <div class="col-sm-4">
+            <img src="../assets/gn_images/txticon_ub02.png" alt="">
+            <h3>Keys</h3>
+            <p>texttexttexttexttexttexttexttext</p>
+        </div>
+        <div class="col-sm-4">
+            <img src="../assets/gn_images/txticon_ub03.png" alt="">
+            <h3>Billing</h3>
+            <p>texttexttexttexttexttexttexttext</p>
+        </div>
+    </div><!--container-->
+</div><!--features-->
+
+<div class="schedule-setting-area">
+    <div class="container">
+        <h2 class="text-center">Flexible schedule setting</h2>
+        <h4 class="text-center">You can set schedule by day from Monday to Sunday.
+            If you do not set an stop time, the instance will
+            remain running until the next day.
+        </h4>
+
+    </div><!--container-->
+</div><!--schedule-setting-->
+
+<div class="instance-area">
+    <div class="container">
+        <h2 class="text-center">Flexible schedule setting</h2>
+        <h4 class="text-center">You do not have to go through all the regions of AWS to see the instances.
+            The cloud scheduler can be used as an EC2 instance monitoring page.
+        </h4>
+        <img src="../assets/gn_images/instance-area-lg.png" alt="" class="visible-lg hidden-md hidden-sm hidden-xs">
+        <img src="../assets/gn_images/instance-area-md.png" alt="" class="visible-md hidden-lg hidden-sm hidden-xs">
+        <img src="../assets/gn_images/instance-area-sm.png" alt="" class="visible-sm hidden-lg hidden-md hidden-xs">
+        <img src="../assets/gn_images/instance-area-xs.png" alt="" class="visible-xs hidden-lg hidden-md hidden-sm">
+    </div><!--container-->
+</div><!--schedule-setting-->
+
+<div class="keys-area">
+    <div class="container">
+        <h2 class="text-center">Keys</h2>
+        <h4 class="text-center">
+            You do not have to go through all the regions of AWS to see the instances.
+            The cloud scheduler can be used as an EC2 instance monitoring page.
+        </h4>
+    </div><!--container-->
+</div><!--schedule-setting-->
 
 
 

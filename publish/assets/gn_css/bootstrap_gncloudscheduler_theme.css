@@ -1200,7 +1200,7 @@ html.open {overflow: hidden;}
 .schedule-setting-area h2{margin: 50px 0 10px 0;}
 .schedule-setting-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
 
-.instance-area{background: #ffffff;}
+.instance-area{background: #ffffff; min-height: 770px;}
 .instance-area .container{padding-bottom: 50px;}
 .instance-area h2{margin: 50px 0 10px 0;}
 .instance-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
@@ -1210,12 +1210,20 @@ html.open {overflow: hidden;}
     padding: 10px;
     width: 100%;
     border-radius: 10px;
-    border: 2px solid rgba(215,215,215,0.5);}
+    border: 2px solid rgba(215,215,215,0.5);
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.03)}
 
-.keys-area{background: rgba(215,215,215,1);}
+.keys-area{background: rgba(215,215,215,1); min-height: 770px;}
 .keys-area .container{padding-bottom: 50px;}
 .keys-area h2{margin: 50px 0 10px 0;}
 .keys-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
+.keys-area img{
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08)}
+
 
 @media (min-width: 1200px) {
 
@@ -1235,7 +1243,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기 이하 */
 @media (max-width: 480px) {
-
+    .instance-area,.keys-area{min-height: 100%;}
 }
 
 

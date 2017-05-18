@@ -146,12 +146,15 @@ textarea.gn-form-control{
 .tooltip-inner {
     max-width: 300px;
     padding: 10px;
+    margin: 0 15px;
     color: #ffffff;
     font-size: 14px;
     text-align: justify;
     text-decoration: none;
     background-color: #00afb4;
-    border-radius: 3px;}
+    border-radius: 3px;
+    z-index: 100;
+}
 
 .tooltip.top .tooltip-arrow {border-top-color: #00afb4;}
 .tooltip.top-left .tooltip-arrow {border-top-color: #00afb4;}

@@ -1807,7 +1807,7 @@ html.open {overflow: hidden;}
 #cardInvoiceModal form .form-group h2{margin-bottom: 10px;}
 #cardInvoiceModal form .form-group h4{line-height: 20px;}
 #cardInvoiceModal .gn-table-responsive{border: none;}
-
+#cardInvoiceModal .gn-table-responsive table thead tr{background-color: rgba(215,215,215,0.3);}
 
 
 /*Payment 반응형*/

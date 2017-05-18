@@ -1462,8 +1462,8 @@ html.open {overflow: hidden;}
 
 /* ======================== 클라우드 스케쥴러 인스턴스 상세 ======================== */
 .gn-scheduler-detail{padding-top: 50px;}
-.gn-scheduler-detail h2 i{margin-left: 10px; cursor: pointer;}
-.gn-scheduler-detail h2 i:hover{color: #58c4c6;}
+.gn-scheduler-detail h1 i{margin-left: 10px; cursor: pointer;}
+.gn-scheduler-detail h1 i:hover{color: #58c4c6;}
 .gn-scheduler-detail .info-group{margin-bottom: 10px;}
 .gn-scheduler-detail .info-group .dropdown{display: inline-block; cursor: pointer;}
 .gn-scheduler-detail .info-group .dropdown img{margin-right: 5px;}
@@ -1783,16 +1783,16 @@ html.open {overflow: hidden;}
 .payment h1{margin-bottom: 30px;}
 .payment .panel{margin-bottom: 0; /*min-height: 158px;*/ border: 2px solid rgba(215,215,215,0.5);}
 .payment .panel-heading{padding: 15px; border-bottom: 2px solid rgba(215,215,215,0.5);}
-.payment .panel h3.panel-title{margin: 5px 0; color: #505050;}
+.payment .panel h3.panel-title{margin: 10px 0; color: #505050;}
 .payment .panel-heading span{color: #6f6f6f; font-size: 15px; font-weight: 300;}
 /*.payment .panel .gn-danger{margin-top: 13px;}*/
 .payment .gn-sett-margin-box h2{margin-bottom: 10px;}
 .payment .gn-box .gn-sett-margin-box > p{font-size: 16px; font-weight: 300;}
-.payment .panel button.btn-default{margin-left: 5px; color: #505050; height: 37px;}
-.payment .panel-body span{padding:0; color: #888888; font-weight: 300; font-size: 15px;}
-.payment .panel-body strong{margin-bottom: 3px; display: inline-block; font-size: 15px;}
-.payment .panel-body p.number{display: inline-block; margin: 0 0 3px 0;}
-.payment .panel-body .btn.btn-danger{margin-top: 5px; margin-left: 5px; height: 37px;}
+.payment .panel button.btn-default{/*margin-top: 5px;*/ color: #505050; height: 37px;}
+.payment .panel-body span{padding: 0; margin: 3px 0 5px 0; display: inline-block; color: #888888; font-weight: 300; font-size: 15px;}
+.payment .panel-body strong{display: inline-block; font-size: 15px; margin: 5px 0;}
+.payment .panel-body p.number{display: inline-block; margin: 5px 0;}
+.payment .panel-body .btn.btn-danger{/*margin-top: 5px; margin-left: 5px;*/ height: 37px;}
 
 #paypal button{background-color: #4285f4; color: #ffffff; border-radius: 5px;}
 #paypal button img{width: 80px;}
@@ -1819,6 +1819,7 @@ html.open {overflow: hidden;}
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
+    .payment .panel-title{margin-bottom: 20px !important;}
     .payment .table-responsive{border: none;}
     .gn-sett-margin-box{margin: 20px;}
     #cardInvoiceModal dd{margin-left: 0;}

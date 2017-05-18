@@ -1220,7 +1220,7 @@ html.open {overflow: hidden;}
     box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.03);}
 
 
-.instance-info-area{background: #ffffff; min-height: 770px;}
+.instance-info-area{background: rgba(215,215,215,0.5); min-height: 770px;}
 .instance-info-area .container{padding-bottom: 50px;}
 .instance-info-area h2{margin: 50px 0 10px 0;}
 .instance-info-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
@@ -1232,7 +1232,6 @@ html.open {overflow: hidden;}
     border-radius: 10px;
     /*border: 2px solid rgba(215,215,215,0.5);*/
     box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.03);}
-
 
 
 .keys-area{background: rgba(215,215,215,1); min-height: 770px;}

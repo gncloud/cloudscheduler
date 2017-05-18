@@ -1784,7 +1784,7 @@ html.open {overflow: hidden;}
 .payment .panel{margin-bottom: 0; /*min-height: 158px;*/ border: 2px solid rgba(215,215,215,0.5);}
 .payment .panel-heading{padding: 15px; border-bottom: 2px solid rgba(215,215,215,0.5);}
 .payment .panel h3.panel-title{margin: 5px 0; color: #505050;}
-.payment .panel-heading span{color: #6f6f6f; font-size: 15px;}
+.payment .panel-heading span{color: #6f6f6f; font-size: 15px; font-weight: 300;}
 /*.payment .panel .gn-danger{margin-top: 13px;}*/
 .payment .gn-sett-margin-box h2{margin-bottom: 10px;}
 .payment .gn-box .gn-sett-margin-box > p{font-size: 16px; font-weight: 300;}

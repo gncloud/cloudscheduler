@@ -861,7 +861,7 @@ nav.gn-header.gn-scheduler-header i.glyphicon.glyphicon-align-justify{
     cursor: pointer;
     z-index: 1;
     position: absolute;
-    left: 17px;
+    left: 15px;
     top: 7px;
 }
 
@@ -1115,7 +1115,7 @@ html.open {overflow: hidden;}
     border:0;
     outline:0;
     line-height: 50px;
-    text-align: right;
+    text-align: center;
     cursor:pointer;
     color: #6f6f6f;
     background: #ffffff;
@@ -1259,6 +1259,7 @@ html.open {overflow: hidden;}
 @media (max-width: 767px) {
     .landing-banner h1{padding: 30px 0 20px 0;}
     .features .container > div{margin-bottom: 50px;}
+    .searchbox-icon{text-align: right;}
 
 }
 
@@ -1772,23 +1773,26 @@ html.open {overflow: hidden;}
 
 /*billing tab*/
 #tab.btn-group{display: table; margin: 20px auto;}
-#tab.btn-group a{min-width: 100px; color: #ccc; color: #6f6f6f; border: 1px solid #cccccc;}
-#tab.btn-group a.active{background-color: #ccc; color: #505050; border: 1px solid #ccc; box-shadow: none;}
+#tab.btn-group a{min-width: 100px; color: #ccc; color: #6f6f6f; border: 2px solid rgba(215,215,215,0.5);}
+#tab.btn-group a.active{background-color: rgba(215,215,215,1); color: #505050; border: 2px solid rgba(215,215,215,0.5); box-shadow: none;}
 #tab.btn-group a.focus{box-shadow: none;}
 
 #paypal p{font-size: 25px; margin: 15px 0; color: #505050;}
 
 .payment{padding-top: 50px;}
-.payment h2{margin-bottom: 30px;}
-.payment .panel{margin-bottom: 0; /*min-height: 158px;*/}
-.payment .panel-heading{padding: 15px;}
-.payment .panel h3.panel-title{margin: 5px 0;}
+.payment h1{margin-bottom: 30px;}
+.payment .panel{margin-bottom: 0; /*min-height: 158px;*/ border: 2px solid rgba(215,215,215,0.5);}
+.payment .panel-heading{padding: 15px; border-bottom: 2px solid rgba(215,215,215,0.5);}
+.payment .panel h3.panel-title{margin: 5px 0; color: #505050;}
+.payment .panel-heading span{color: #6f6f6f; font-size: 15px;}
 /*.payment .panel .gn-danger{margin-top: 13px;}*/
-.payment .gn-sett-margin-box h3{margin-bottom: 10px;}
-.payment .panel button.btn-default{margin-left: 5px;}
-.payment .panel-body span{padding:0;}
-.payment .panel-body strong{margin-bottom: 3px; display: inline-block;}
-.payment .panel-body .btn.btn-danger{margin-top: 5px; margin-left: 5px;}
+.payment .gn-sett-margin-box h2{margin-bottom: 10px;}
+.payment .gn-box .gn-sett-margin-box > p{font-size: 16px; font-weight: 300;}
+.payment .panel button.btn-default{margin-left: 5px; color: #505050; height: 37px;}
+.payment .panel-body span{padding:0; color: #888888; font-weight: 300; font-size: 15px;}
+.payment .panel-body strong{margin-bottom: 3px; display: inline-block; font-size: 15px;}
+.payment .panel-body p.number{display: inline-block; margin: 0 0 3px 0;}
+.payment .panel-body .btn.btn-danger{margin-top: 5px; margin-left: 5px; height: 37px;}
 
 #paypal button{background-color: #4285f4; color: #ffffff; border-radius: 5px;}
 #paypal button img{width: 80px;}
@@ -1803,6 +1807,7 @@ html.open {overflow: hidden;}
 #cardInvoiceModal form .form-group h2{margin-bottom: 10px;}
 #cardInvoiceModal form .form-group h4{line-height: 20px;}
 #cardInvoiceModal .gn-table-responsive{border: none;}
+
 
 
 /*Payment 반응형*/

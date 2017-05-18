@@ -87,12 +87,13 @@
 
 <div class="container payment">
 
-    <h2>Billing</h2>
+    <h1>Billing</h1>
 
+    <!--payment methods-->
     <div class="gn-box gn-detail-main">
         <div class="gn-sett-margin-box">
 
-            <h3>Payment methods</h3>
+            <h2>Payment methods</h2>
             <p>Please enter your preferred payment method below.</p>
 
             <div id="tab" class="btn-group" data-toggle="buttons">
@@ -110,7 +111,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading clearfix">
                             <h3 class="panel-title">
-                                Credit card
+                                <strong>Credit card</strong>
                                 <button type="button" class="btn btn-default pull-right" data-toggle="modal"
                                         data-target="#creditCard">Add credit card
                                 </button>
@@ -122,7 +123,7 @@
                             <button type="button" class="btn btn-danger pull-right">Delete</button>
                             <!--<a class="gn-danger pull-right">Delete</a>-->
                             <strong class="cr">gildong,Hong</strong>&nbsp;
-                            <strong>1234-XXXX-XXXX-2967</strong> <br>
+                            <p class="number">1234-XXXX-XXXX-2967</p> <br>
                             <span class="cr">Expires &nbsp; 06 / 2017 &nbsp;|&nbsp;</span>
                             <span>Added on 2016 / 12 / 02</span>
                         </div>
@@ -135,7 +136,10 @@
                         <!--<div class="panel-heading clearfix"></div>-->
                         <div class="panel-body">
                             <!--<h3 class="panel-title">Paypal</h3>-->
-                            <span class="" style="padding-left: 0;">Add PayPal credit to your account. This is a one-time payment and may take up to five minutes to process.</span>
+                            <span class="" style="padding-left: 0;">
+                                Add PayPal credit to your account. <br>
+                                This is a one-time payment and may take up to five minutes to process.
+                            </span>
                             <p>$ 5.00 USD</p>
                             <button type="button" class="btn btn-block btn-lg">
                                 <img src="../assets/gn_images/paypal-title.png" alt="">
@@ -148,9 +152,10 @@
         </div> <!--class="gn-sett-margin-box"-->
     </div>  <!--class="gn-box"-->
 
+    <!--payment history-->
     <div class="gn-box gn-detail-main">
         <div class="gn-sett-margin-box">
-            <h3>Payment history</h3>
+            <h2>Payment history</h2>
             <br>
             <div class="table-responsive gn-table-responsive">
                 <table class="table gn-board-table">
@@ -159,7 +164,7 @@
                         <th class="hidden-sm hidden-xs">Date</th>
                         <th class="second-td-name">Description</th>
                         <th class="">Amount</th>
-                        <th class="hidden-md hidden-sm hidden-xs">State</th>
+                        <th class="hidden-xs">State</th>
                         <th class="">Invoice</th>
                     </tr>
                     </thead>
@@ -168,7 +173,7 @@
                         <td class="hidden-sm hidden-xs">2017.05.01</td>
                         <td class="second-td-name"><span class="gn-table-ellip">Unlimited instances</span></td>
                         <td class="">&dollar; 5</td>
-                        <td class="hidden-md hidden-sm hidden-xs text-danger">Overdue</td>
+                        <td class="hidden-xs text-danger">Overdue</td>
                         <td>
                             <button type="button" class="btn-default btn" data-toggle="modal"
                                     data-target="#cardInvoiceModal">View
@@ -179,7 +184,7 @@
                         <td class="hidden-sm hidden-xs">2017.04.01</td>
                         <td class="second-td-name"><span class="gn-table-ellip">Up to 1 instance</span></td>
                         <td class="">&dollar; 0</td>
-                        <td class="hidden-md hidden-sm hidden-xs text-primary">Paid</td>
+                        <td class="hidden-xs text-primary">Paid</td>
                         <td>
                             <button type="button" class="btn-default btn" data-toggle="modal"
                                     data-target="#cardInvoiceModal">View

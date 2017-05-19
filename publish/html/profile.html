@@ -15,10 +15,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/gn_css/bootstrap_gncloudscheduler_theme.css">
+    <link rel="stylesheet" href="../assets/gn_css/angular-tooltip.css">
 
 </head>
 <body>
-
 <!--HEADER-->
 <nav class="navbar navbar-default gn-header gn-scheduler-header">
     <div class="container">
@@ -89,7 +89,6 @@
     <div class="sett-profile">
         <div class="">
             <h1>Profile</h1>
-
             <form class="form-horizontal">
                 <div class="dropdown">
                     <h4>Avatar</h4>
@@ -220,8 +219,9 @@
                 <div class="form-group">
                     <label class="col-sm-3 col-xs-12 control-label gn-control-label">
                         Current password
-                        <span class="gn-tiny-menual" data-toggle="tooltip" data-placement="top"
-                              title="You don't need to fill the password if not modified.">&quest;</span>
+                        <span class="gn-tiny-menual tooltip--top" data-tooltip="You don't need to fill the password if not modified.">
+                            &quest;
+                        </span>
                     </label>
                     <div class="col-sm-9 col-xs-12">
                         <input type="password" class="form-control gn-form-control" placeholder="******">
@@ -256,7 +256,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../assets/gn_js/bootstrap.min.js"></script>
-<script src="../assets/gn_js/searchnmenu.js"></script>
+<script src="../assets/gn_js/cloudscheduler.js"></script>
 <script>
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()

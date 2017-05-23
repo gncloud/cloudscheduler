@@ -1205,6 +1205,7 @@ html.open {overflow: hidden;}
     display: block;
     margin: 30px auto 0 auto;
     width: 100%;
+    padding: 20px 150px 50px 150px;
     border-radius: 10px;
     /*box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);*/}
 
@@ -1263,13 +1264,13 @@ html.open {overflow: hidden;}
 
 
 @media (min-width: 1200px) {
-
+    .cost-saving img{padding: 20px 100px 50px 100px;}
 }
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
 @media (min-width: 768px) and (max-width: 992px) {
     .features .container > div > p{padding: 0px 20px;}
-
+    .cost-saving img{padding: 20px 100px 50px 100px;}
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
@@ -1279,6 +1280,7 @@ html.open {overflow: hidden;}
     .searchbox-icon{text-align: right;}
     .gn-scheduler-header .container{padding: 0 !important;}
     .features .container > div > p{padding: 0px 100px;}
+    .cost-saving img{padding: 0;}
 
 }
 
@@ -1287,6 +1289,7 @@ html.open {overflow: hidden;}
     .instance-area,.keys-area{min-height: 100%;}
     .schedule-setting-area img{box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);}
     .features .container > div > p{padding: 0px 50px;}
+    .cost-saving img{padding: 0;}
 }
 
 

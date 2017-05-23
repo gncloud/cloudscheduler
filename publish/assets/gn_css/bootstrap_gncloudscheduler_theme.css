@@ -1153,6 +1153,7 @@ html.open {overflow: hidden;}
 
 
 /* ======================== 클라우드 스케쥴러 랜딩 페이지 ======================== */
+/* -----landing-banner----- */
 .landing-banner{
     background-image: linear-gradient(#899BF0,#ABDDE9);
     min-height: 538px;}
@@ -1185,16 +1186,29 @@ html.open {overflow: hidden;}
 .landing-banner p{margin: 10px; color: #ffffff; font-size: 18px; }
 .landing-banner p a{text-decoration: underline; color: #00afb4; }
 
+/* ------features----- */
 .features .container{padding-bottom: 50px;}
 .features h2{margin: 50px 0 10px 0;}
 .features img.center-block{margin-bottom: 50px;}
 .features .container > div{text-align: center; margin: 0 auto;}
 .features .container > div > img{margin-bottom: 10px;}
 .features .container > div > h3{margin-bottom: 5px;}
-.features .container > div > p{font-size: 15px; font-weight: 300; color: #6f6f6f; padding-bottom: 0;}
+.features .container > div > p{font-size: 15px; font-weight: 300; color: #6f6f6f; padding: 0px 50px; text-align: justify;}
 .features .under{width: 60px; border-bottom: 2px solid #58c4c6; display: inline-block;}
 
+/* -----cost-saving----- */
+.cost-saving{background: rgba(236, 236, 236, 0.5);}
+.cost-saving .container{padding-bottom: 50px;}
+.cost-saving h2{margin: 50px 0 10px 0;}
+.cost-saving h4{font-size: 16px; font-weight: 300; text-align: justify;}
+.cost-saving img{
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    /*box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);*/}
 
+/* ------schedule-setting-area------ */
 .schedule-setting-area{background: rgba(215,215,215,0.5);}
 .schedule-setting-area .container{padding-bottom: 50px;}
 .schedule-setting-area h2{margin: 50px 0 10px 0;}
@@ -1206,6 +1220,8 @@ html.open {overflow: hidden;}
     border-radius: 10px;
     /*box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);*/}
 
+
+/* -----instance-area----- */
 .instance-area{background: #ffffff; min-height: 770px;}
 .instance-area .container{padding-bottom: 50px;}
 .instance-area h2{margin: 50px 0 10px 0;}
@@ -1219,7 +1235,7 @@ html.open {overflow: hidden;}
     /*border: 2px solid rgba(215,215,215,0.5);*/
     box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.03);}
 
-
+/* -----instance-info-area----- */
 .instance-info-area{background: rgba(215,215,215,0.5); min-height: 770px;}
 .instance-info-area .container{padding-bottom: 50px;}
 .instance-info-area h2{margin: 50px 0 10px 0;}
@@ -1233,11 +1249,11 @@ html.open {overflow: hidden;}
     /*border: 2px solid rgba(215,215,215,0.5);*/
     box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.03);}
 
-
+/* -----keys-area----- */
 .keys-area{background: rgba(215,215,215,1); min-height: 770px;}
 .keys-area .container{padding-bottom: 50px;}
 .keys-area h2{margin: 50px 0 10px 0;}
-.keys-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
+.keys-area h4{font-size: 16px; font-weight: 300; text-align: center;}
 .keys-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1252,6 +1268,7 @@ html.open {overflow: hidden;}
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
 @media (min-width: 768px) and (max-width: 992px) {
+    .features .container > div > p{padding: 0px 20px;}
 
 }
 
@@ -1261,6 +1278,7 @@ html.open {overflow: hidden;}
     .features .container > div{margin-bottom: 50px;}
     .searchbox-icon{text-align: right;}
     .gn-scheduler-header .container{padding: 0 !important;}
+    .features .container > div > p{padding: 0px 100px;}
 
 }
 
@@ -1268,6 +1286,7 @@ html.open {overflow: hidden;}
 @media (max-width: 480px) {
     .instance-area,.keys-area{min-height: 100%;}
     .schedule-setting-area img{box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);}
+    .features .container > div > p{padding: 0px 50px;}
 }
 
 

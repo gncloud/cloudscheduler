@@ -1303,6 +1303,41 @@ html.open {overflow: hidden;}
 .practice-area .group > div ul li.bold{font-weight: 600; font-size: 16px;}
 
 
+/* -----get-started------ */
+.get-started{background: rgb(255, 255, 255); min-height: 500px; }
+.get-started .container{/*padding-bottom: 50px;*/}
+.get-started h2{margin: 50px 0 10px 0; }
+.get-started h4{color: #6f6f6f; padding: 0 65px;}
+.get-started .group{padding: 20px 250px;}
+.get-started .group input{height: 50px; margin-bottom: 15px;}
+.get-started .group button.btn-gn-primary{height: 50px; font-size: 16px;}
+.get-started .line{border-bottom: 2px solid rgba(215,215,215,0.5); position: relative; display: block; margin: 30px 0;}
+.get-started .line p{margin: 0 auto; text-align: center; position: absolute; top: -19px; left: 47%; background-color: #ffffff; padding: 10px;}
+.get-started button.btn-google{
+    background-color: #333333;
+    color: #ffffff;
+    /*height: 50px;*/
+    padding: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-image: url("../gn_images/github-icon.png");
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 20px center;}
+
+.get-started button.btn-git{
+    background-color: #4285f4;
+    color: #ffffff;
+    /*height: 50px;*/
+    padding: 20px;
+    font-size: 16px;
+    background-image: url("../gn_images/google-icon.png");
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 20px center;}
+
+
+
 @media (min-width: 1200px) {
     .cost-saving img{padding: 20px 100px 50px 100px;}
 }
@@ -1311,6 +1346,7 @@ html.open {overflow: hidden;}
 @media (min-width: 768px) and (max-width: 992px) {
     .features .container > div > p{padding: 0px 20px;}
     .cost-saving img{padding: 20px 100px 50px 100px;}
+    .get-started .group{padding: 0;}
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
@@ -1321,6 +1357,7 @@ html.open {overflow: hidden;}
     .gn-scheduler-header .container{padding: 0 !important;}
     .features .container > div > p{padding: 0px 100px;}
     .cost-saving img{padding: 0;}
+    .get-started .group{padding: 0;}
 
 }
 
@@ -1330,6 +1367,7 @@ html.open {overflow: hidden;}
     .schedule-setting-area img{box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);}
     .features .container > div > p{padding: 0px 50px;}
     .cost-saving img{padding: 0;}
+    .get-started .group{padding: 0;}
 }
 
 

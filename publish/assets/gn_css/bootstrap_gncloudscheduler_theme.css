@@ -1277,7 +1277,7 @@ html.open {overflow: hidden;}
 
 
 /* -----pricing-area----- */
-.pricing-area{background: rgb(249, 249, 249); min-height: 500px; }
+.pricing-area{background: rgb(249, 249, 249); }
 .pricing-area .container{padding-bottom: 50px;}
 .pricing-area h2{margin: 50px 0 10px 0; }
 .pricing-area h3{color: #6f6f6f;}
@@ -1290,10 +1290,10 @@ html.open {overflow: hidden;}
 
 
 /* -----practice-area----- */
-.practice-area{background: rgb(236, 236, 236); min-height: 500px; }
+.practice-area{background: rgb(244, 244, 244); min-height: 500px; }
 .practice-area .container{padding-bottom: 50px;}
 .practice-area h2{margin: 50px 0 10px 0; }
-.practice-area h4{color: #6f6f6f; padding: 0 65px;}
+.practice-area h4{color: #6f6f6f; padding: 0 65px; font-weight: 300; line-height: 20px;}
 .practice-area .group{padding: 50px;}
 .practice-area .group > div{}
 .practice-area .group > div ul{border: 2px solid rgba(215,215,215,0.5); border-radius: 10px; padding: 25px 0; margin-bottom: 0;}
@@ -1307,7 +1307,7 @@ html.open {overflow: hidden;}
 .get-started{background: rgb(255, 255, 255); min-height: 500px; }
 .get-started .container{/*padding-bottom: 50px;*/}
 .get-started h2{margin: 50px 0 10px 0; }
-.get-started h4{color: #6f6f6f; padding: 0 65px;}
+.get-started h4{color: #6f6f6f; padding: 0 65px; line-height: 20px;}
 .get-started .group{padding: 20px 250px;}
 .get-started .group input{height: 50px; margin-bottom: 15px;}
 .get-started .group button.btn-gn-primary{height: 50px; font-size: 16px;}
@@ -1357,6 +1357,10 @@ html.open {overflow: hidden;}
     .gn-scheduler-header .container{padding: 0 !important;}
     .features .container > div > p{padding: 0px 100px;}
     .cost-saving img{padding: 0;}
+    .pricing-area .group > div{border-right: none!important; border-bottom: 1px solid rgba(215,215,215,0.5); margin-bottom: 50px;}
+    .practice-area h4{padding: 0; margin-bottom: 20px;}
+    .practice-area .group{padding: 0;}
+    .practice-area .group > div{margin-bottom: 20px; padding: 0;}
     .get-started .group{padding: 0;}
 
 }
@@ -1367,6 +1371,7 @@ html.open {overflow: hidden;}
     .schedule-setting-area img{box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);}
     .features .container > div > p{padding: 0px 50px;}
     .cost-saving img{padding: 0;}
+    .practice-area .group{padding: 0;}
     .get-started .group{padding: 0;}
 }
 

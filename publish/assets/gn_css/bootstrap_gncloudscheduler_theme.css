@@ -1280,7 +1280,8 @@ html.open {overflow: hidden;}
 .pricing-area{background: rgb(249, 249, 249); min-height: 770px; }
 .pricing-area .container{padding-bottom: 50px;}
 .pricing-area h2{margin: 50px 0 10px 0;}
-
+.pricing-area .group{padding: 20px 150px 50px 150px;}
+.pricing-area .group > div{text-align: center;}
 
 
 

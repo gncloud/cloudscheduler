@@ -1277,10 +1277,11 @@ html.open {overflow: hidden;}
 
 
 /* -----pricing-area----- */
-.pricing-area{background: rgb(249, 249, 249); min-height: 770px; }
+.pricing-area{background: rgb(249, 249, 249); min-height: 500px; }
 .pricing-area .container{padding-bottom: 50px;}
 .pricing-area h2{margin: 50px 0 10px 0;}
-.pricing-area .group{padding: 20px 150px 50px 150px;}
+.pricing-area h3{color: #6f6f6f;}
+.pricing-area .group{padding: 50px 150px 50px 150px;}
 .pricing-area .group > div{text-align: center;}
 
 

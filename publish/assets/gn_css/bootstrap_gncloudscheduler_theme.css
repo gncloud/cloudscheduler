@@ -1200,7 +1200,7 @@ html.open {overflow: hidden;}
 .cost-saving{background: rgba(236, 236, 236, 0.5);}
 .cost-saving .container{padding-bottom: 50px;}
 .cost-saving h2{margin: 50px 0 10px 0;}
-.cost-saving h4{font-size: 16px; font-weight: 300; text-align: justify;}
+.cost-saving h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 20px;}
 .cost-saving img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1213,7 +1213,7 @@ html.open {overflow: hidden;}
 .schedule-setting-area{background: rgba(215,215,215,0.5);}
 .schedule-setting-area .container{padding-bottom: 50px;}
 .schedule-setting-area h2{margin: 50px 0 10px 0;}
-.schedule-setting-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
+.schedule-setting-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 20px;}
 .schedule-setting-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1240,7 +1240,7 @@ html.open {overflow: hidden;}
 .instance-info-area{background: rgba(215,215,215,0.5); min-height: 770px;}
 .instance-info-area .container{padding-bottom: 50px;}
 .instance-info-area h2{margin: 50px 0 10px 0;}
-.instance-info-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
+.instance-info-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 20px;}
 .instance-info-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1254,7 +1254,7 @@ html.open {overflow: hidden;}
 .keys-area{background: rgba(215,215,215,1); min-height: 770px;}
 .keys-area .container{padding-bottom: 50px;}
 .keys-area h2{margin: 50px 0 10px 0;}
-.keys-area h4{font-size: 16px; font-weight: 300; text-align: center;}
+.keys-area h4{font-size: 16px; font-weight: 300; text-align: center; line-height: 20px;}
 .keys-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1267,7 +1267,7 @@ html.open {overflow: hidden;}
 .aws-area{background: rgb(255, 255, 255); min-height: 770px; }
 .aws-area .container{padding-bottom: 50px;}
 .aws-area h2{margin: 50px 0 10px 0;}
-.aws-area h4{font-size: 16px; font-weight: 300; text-align: center;}
+.aws-area h4{font-size: 16px; font-weight: 300; text-align: center; line-height: 20px;}
 .aws-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1283,7 +1283,8 @@ html.open {overflow: hidden;}
 .pricing-area h3{color: #6f6f6f;}
 .pricing-area .group{padding: 50px 150px 50px 150px;}
 .pricing-area .group > div{text-align: center;}
-
+.pricing-area .group > div p{font-size: 40px; padding: 10px 0;}
+.pricing-area .group > div span{padding: 20px 0;}
 
 
 

@@ -1191,7 +1191,7 @@ html.open {overflow: hidden;}
 .features h2{margin: 50px 0 10px 0;}
 .features img.center-block{margin-bottom: 50px;}
 .features .container > div{text-align: center; margin: 0 auto;}
-.features .container > div > img{margin-bottom: 10px;}
+.features .container > div > img{margin-bottom: 10px; width: 70px}
 .features .container > div > h3{margin-bottom: 5px;}
 .features .container > div > p{font-size: 15px; font-weight: 300; color: #6f6f6f; padding: 0px 50px; text-align: justify;}
 .features .under{width: 60px; border-bottom: 2px solid #58c4c6; display: inline-block;}

@@ -1285,7 +1285,7 @@ html.open {overflow: hidden;}
 .pricing-area .container{padding-bottom: 50px;}
 .pricing-area h2{margin: 50px 0 10px 0; }
 .pricing-area h3{color: #6f6f6f;}
-.pricing-area .group{padding: 50px;}
+.pricing-area .group{margin: 50px; padding: 20px 0; background-color: white; border-radius: 15px;}
 .pricing-area .group > div{text-align: center;}
 .pricing-area .group > div p{font-size: 25px; padding: 10px 0;}
 .pricing-area .group > div p strong{font-size: 40px; color: #505050;}

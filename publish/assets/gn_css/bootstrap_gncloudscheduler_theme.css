@@ -1200,7 +1200,7 @@ html.open {overflow: hidden;}
 .cost-saving{background: rgba(236, 236, 236, 0.5);}
 .cost-saving .container{padding-bottom: 50px;}
 .cost-saving h2{margin: 50px 0 10px 0;}
-.cost-saving h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 20px;}
+.cost-saving h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 23px;}
 .cost-saving img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1213,7 +1213,7 @@ html.open {overflow: hidden;}
 .schedule-setting-area{background: rgba(215,215,215,0.5);}
 .schedule-setting-area .container{padding-bottom: 50px;}
 .schedule-setting-area h2{margin: 50px 0 10px 0;}
-.schedule-setting-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 20px;}
+.schedule-setting-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 23px;}
 .schedule-setting-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1226,7 +1226,7 @@ html.open {overflow: hidden;}
 .instance-area{background: #ffffff; min-height: 770px;}
 .instance-area .container{padding-bottom: 50px;}
 .instance-area h2{margin: 50px 0 10px 0;}
-.instance-area h4{font-size: 16px; font-weight: 300; text-align: justify;}
+.instance-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 23px;}
 .instance-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1240,7 +1240,7 @@ html.open {overflow: hidden;}
 .instance-info-area{background: rgba(215,215,215,0.5); min-height: 770px;}
 .instance-info-area .container{padding-bottom: 50px;}
 .instance-info-area h2{margin: 50px 0 10px 0;}
-.instance-info-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 20px;}
+.instance-info-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 23px;}
 .instance-info-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1267,7 +1267,7 @@ html.open {overflow: hidden;}
 .aws-area{background: rgb(255, 255, 255); /*min-height: 770px;*/ position: relative;}
 .aws-area .container{padding-bottom: 50px; z-index: 10; position: relative;}
 .aws-area h2{margin: 50px 0 10px 0; z-index: 10;}
-.aws-area h4{font-size: 16px; font-weight: 300; text-align: center; line-height: 20px;}
+.aws-area h4{font-size: 16px; font-weight: 300; text-align: center; line-height: 23px;}
 .aws-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1283,21 +1283,22 @@ html.open {overflow: hidden;}
 /* -----pricing-area----- */
 .pricing-area{background: rgb(249, 249, 249); }
 .pricing-area .container{padding-bottom: 50px;}
-.pricing-area h2{margin: 50px 0 10px 0; }
-.pricing-area h3{color: #6f6f6f;}
-.pricing-area .group{margin: 50px; padding: 20px 0; background-color: white; border-radius: 15px;}
+.pricing-area h2{margin: 50px 0 20px 0; }
+.pricing-area h3{color: #505050; margin: 15px 0 10px 0;}
+.pricing-area .group{padding: 20px 100px;}
 .pricing-area .group > div{text-align: center;}
-.pricing-area .group > div p{font-size: 25px; padding: 10px 0;}
+.pricing-area .group > div .box{background-color: #ffffff; border-radius: 15px; padding: 15px; box-shadow: 0px 2px 12px 0px rgba(139, 139, 139, 0.08); border: 2px solid rgba(215,215,215,0.4); min-height: 245px; }
+.pricing-area .group > div p{font-size: 25px; padding: 10px 0; margin-bottom: 0;}
 .pricing-area .group > div p strong{font-size: 40px; color: #505050;}
 .pricing-area .group > div button{height: 37px;}
-.pricing-area .group > div span{padding: 20px 0;}
+.pricing-area .group > div span{padding: 10px 0 0 0;}
 
 
 /* -----practice-area----- */
 .practice-area{background: rgb(244, 244, 244); min-height: 500px; }
 .practice-area .container{padding-bottom: 50px;}
 .practice-area h2{margin: 50px 0 10px 0; }
-.practice-area h4{color: #6f6f6f; padding: 0 65px; font-weight: 300; line-height: 20px;}
+.practice-area h4{color: #6f6f6f; padding: 0 65px; font-weight: 300; line-height: 23px;}
 .practice-area .group{padding: 50px;}
 .practice-area .group > div{}
 .practice-area .group > div ul{border: 2px solid rgba(215,215,215,0.5); border-radius: 10px; padding: 25px 0; margin-bottom: 0;}
@@ -1311,7 +1312,7 @@ html.open {overflow: hidden;}
 .get-started{background: rgb(255, 255, 255); min-height: 500px; }
 .get-started .container{/*padding-bottom: 50px;*/}
 .get-started h2{margin: 50px 0 10px 0; }
-.get-started h4{color: #6f6f6f; padding: 0 65px; line-height: 20px;}
+.get-started h4{color: #6f6f6f; padding: 0 65px; line-height: 23px;}
 .get-started .group{padding: 20px 250px;}
 .get-started .group input{height: 50px; margin-bottom: 15px;}
 .get-started .group button.btn-gn-primary{height: 50px; font-size: 16px;}
@@ -1344,6 +1345,7 @@ html.open {overflow: hidden;}
 
 @media (min-width: 1200px) {
     .cost-saving img{padding: 20px 100px 50px 100px;}
+
 }
 
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
@@ -1351,6 +1353,8 @@ html.open {overflow: hidden;}
     .features .container > div > p{padding: 0px 20px;}
     .cost-saving img{padding: 20px 100px 50px 100px;}
     .get-started .group{padding: 0;}
+    .pricing-area .group{padding: 0px;}
+
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
@@ -1361,7 +1365,8 @@ html.open {overflow: hidden;}
     .gn-scheduler-header .container{padding: 0 !important;}
     .features .container > div > p{padding: 0px 100px;}
     .cost-saving img{padding: 0;}
-    .pricing-area .group > div{border-right: none!important; border-bottom: 1px solid rgba(215,215,215,0.5); margin-bottom: 50px;}
+    .pricing-area .group{padding: 0px 50px;}
+    .pricing-area .group > div{/*border-bottom: 1px solid rgba(215,215,215,0.5);*/ margin-bottom: 30px;}
     .practice-area h4{padding: 0; margin-bottom: 20px;}
     .practice-area .group{padding: 0;}
     .practice-area .group > div{margin-bottom: 20px; padding: 0;}
@@ -1376,8 +1381,11 @@ html.open {overflow: hidden;}
     .features .container > div > p{padding: 0px 50px;}
     .cost-saving img{padding: 0;}
     .pricing-area .container{padding-bottom: 0;}
+    .pricing-area .group{padding: 20px 50px;}
     .practice-area .group{padding: 0;}
     .get-started .group{padding: 0;}
+    .pricing-area .group{padding: 20px 0px;}
+
 }
 
 

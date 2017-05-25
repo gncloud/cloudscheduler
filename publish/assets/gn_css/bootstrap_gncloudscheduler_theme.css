@@ -1272,7 +1272,7 @@ html.open {overflow: hidden;}
     display: block;
     margin: 30px auto 0 auto;
     width: 100%;
-    padding: 70px 50px;
+    padding: 100px;
     background: rgba(255,255,255,1);
     border-radius: 10px;
     box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.02);}
@@ -1356,7 +1356,7 @@ html.open {overflow: hidden;}
     .cost-saving img{padding: 20px 100px 50px 100px;}
     .get-started .group{padding: 0;}
     .pricing-area .group{padding: 0px;}
-
+    .aws-area img{padding: 50px;}
 }
 
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
@@ -1373,7 +1373,7 @@ html.open {overflow: hidden;}
     .practice-area .group{padding: 0;}
     .practice-area .group > div{margin-bottom: 20px; padding: 0;}
     .get-started .group{padding: 0;}
-
+    .aws-area img{padding: 30px;}
 }
 
 /* 가로 방향 전화기 이하 */

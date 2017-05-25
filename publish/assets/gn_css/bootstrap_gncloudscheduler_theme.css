@@ -1264,16 +1264,20 @@ html.open {overflow: hidden;}
 
 
 /* -----aws-area----- */
-.aws-area{background: rgb(255, 255, 255); min-height: 770px; }
-.aws-area .container{padding-bottom: 50px;}
-.aws-area h2{margin: 50px 0 10px 0;}
+.aws-area{background: rgb(255, 255, 255); /*min-height: 770px;*/ position: relative;}
+.aws-area .container{padding-bottom: 50px; z-index: 10; position: relative;}
+.aws-area h2{margin: 50px 0 10px 0; z-index: 10;}
 .aws-area h4{font-size: 16px; font-weight: 300; text-align: center; line-height: 20px;}
 .aws-area img{
     display: block;
     margin: 30px auto 0 auto;
     width: 100%;
+    padding: 70px 50px;
+    background: rgba(255,255,255,0.2);
     border-radius: 10px;
-    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);}
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.02);}
+
+.aws-area div.bg{position: absolute; top: 0; margin-top: 0; z-index: 1; background: url("../gn_images/aws-diagram-bg.png"); background-size: cover; width: 100%; min-height: 50%;}
 
 
 /* -----pricing-area----- */
@@ -1371,6 +1375,7 @@ html.open {overflow: hidden;}
     .schedule-setting-area img{box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);}
     .features .container > div > p{padding: 0px 50px;}
     .cost-saving img{padding: 0;}
+    .pricing-area .container{padding-bottom: 0;}
     .practice-area .group{padding: 0;}
     .get-started .group{padding: 0;}
 }

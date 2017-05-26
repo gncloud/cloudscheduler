@@ -1189,9 +1189,9 @@ html.open {overflow: hidden;}
 /* ------features----- */
 .features .container{padding-bottom: 50px;}
 .features h2{margin: 50px 0 10px 0;}
-.features img.center-block{margin-bottom: 50px;}
+.features img.center-block{margin-bottom: 40px;}
 .features .container > div{text-align: center; margin: 0 auto;}
-.features .container > div > img{margin-bottom: 10px; width: 70px}
+.features .container > div > img{margin-bottom: 25px; height: 65px;}
 .features .container > div > h3{margin-bottom: 5px;}
 .features .container > div > p{font-size: 16px; font-weight: 300; color: #6f6f6f; padding: 0px 50px; text-align: justify;}
 .features .under{width: 60px; border-bottom: 2px solid #58c4c6; display: inline-block;}
@@ -1588,7 +1588,9 @@ html.open {overflow: hidden;}
 .gn-scheduler-detail .info-group .dropdown{display: inline-block; cursor: pointer;}
 .gn-scheduler-detail .info-group .dropdown img{margin-right: 5px;}
 .gn-scheduler-detail .info-group .pull-right{cursor: pointer; margin-top: 5px; line-height: 27px;}
-.gn-scheduler-detail .info-group .pull-right:hover{color: #58c4c6;}
+.gn-scheduler-detail .info-group .pull-right a{color: #58c4c6;}
+.gn-scheduler-detail .info-group .pull-right a i{top: 2px;}
+.gn-scheduler-detail .info-group .pull-right a:hover{color: #00afb4;}
 .gn-scheduler-detail .dropdown-menu{padding: 0; min-width: 120px; border: 2px solid rgba(215,215,215,0.5);}
 .gn-scheduler-detail .dropdown-menu li:hover{background-color: #efefef;}
 .gn-scheduler-detail .dropdown-menu li a{padding: 5px 10px 5px 20px;}
@@ -1614,11 +1616,18 @@ html.open {overflow: hidden;}
 .gn-scheduler-detail .gn-board-table .thead td{padding: 8px;}
 .gn-scheduler-detail .gn-board-table .gn-tdody td{padding: 0px;}
 .gn-scheduler-detail .gn-board-table tbody tr td span{
-    background-color: rgba(101,163,235,0.4);
+    background-color: rgba(101,163,235,0.3);
     display: block;
     border-radius: 20px;
     padding: 8px 0;
-    margin: 0px 5px;}
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.gn-scheduler-detail .gn-board-table tbody tr td span:hover{
+    /*background-color: rgba(88,196,198,0.4);*/
+    background-color: rgba(101,163,235,0.4);
+}
 
 .gn-scheduler-detail .gn-board-table tbody tr td span.span-right{
     margin: 0 0 0 5px !important;

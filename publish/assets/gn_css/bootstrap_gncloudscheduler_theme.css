@@ -1184,7 +1184,7 @@ html.open {overflow: hidden;}
 .landing-banner .cloud-group .mini11{position: absolute; right: 20px;}
 
 .landing-banner p{margin: 10px; color: #ffffff; font-size: 18px; }
-.landing-banner p a{text-decoration: underline; color: #00afb4; }
+.landing-banner p a{text-decoration: underline; color: #00afb4; letter-spacing: 1.1px;}
 
 /* ------features----- */
 .features .container{padding-bottom: 50px;}
@@ -1193,14 +1193,14 @@ html.open {overflow: hidden;}
 .features .container > div{text-align: center; margin: 0 auto;}
 .features .container > div > img{margin-bottom: 25px; height: 65px;}
 .features .container > div > h3{margin-bottom: 5px;}
-.features .container > div > p{font-size: 16px; font-weight: 300; color: #6f6f6f; padding: 0px 50px; text-align: justify;}
+.features .container > div > p{font-size: 17px; font-weight: 300; color: #6f6f6f; padding: 0px 50px; text-align: justify;}
 .features .under{width: 60px; border-bottom: 2px solid #58c4c6; display: inline-block;}
 
 /* -----cost-saving----- */
 .cost-saving{background: rgba(236, 236, 236, 0.5);}
 .cost-saving .container{padding-bottom: 50px;}
 .cost-saving h2{margin: 50px 0 10px 0;}
-.cost-saving h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 23px;}
+.cost-saving h4{font-size: 17px; font-weight: 300; text-align: justify; line-height: 23px;}
 .cost-saving img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1213,7 +1213,7 @@ html.open {overflow: hidden;}
 .schedule-setting-area{background: rgba(215,215,215,0.5);}
 .schedule-setting-area .container{padding-bottom: 50px;}
 .schedule-setting-area h2{margin: 50px 0 10px 0;}
-.schedule-setting-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 23px;}
+.schedule-setting-area h4{font-size: 17px; font-weight: 300; text-align: justify; line-height: 23px;}
 .schedule-setting-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1226,7 +1226,7 @@ html.open {overflow: hidden;}
 .instance-area{background: #ffffff; min-height: 770px;}
 .instance-area .container{padding-bottom: 50px;}
 .instance-area h2{margin: 50px 0 10px 0;}
-.instance-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 23px;}
+.instance-area h4{font-size: 17px; font-weight: 300; text-align: justify; line-height: 23px;}
 .instance-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1240,7 +1240,7 @@ html.open {overflow: hidden;}
 .instance-info-area{background: rgba(215,215,215,0.5); min-height: 770px;}
 .instance-info-area .container{padding-bottom: 50px;}
 .instance-info-area h2{margin: 50px 0 10px 0;}
-.instance-info-area h4{font-size: 16px; font-weight: 300; text-align: justify; line-height: 23px;}
+.instance-info-area h4{font-size: 17px; font-weight: 300; text-align: justify; line-height: 23px;}
 .instance-info-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1254,7 +1254,7 @@ html.open {overflow: hidden;}
 .keys-area{background: rgba(215,215,215,1); min-height: 770px;}
 .keys-area .container{padding-bottom: 50px;}
 .keys-area h2{margin: 50px 0 10px 0;}
-.keys-area h4{font-size: 16px; font-weight: 300; text-align: center; line-height: 20px;}
+.keys-area h4{font-size: 17px; font-weight: 300; text-align: center; line-height: 20px;}
 .keys-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1267,7 +1267,6 @@ html.open {overflow: hidden;}
 .aws-area{background: rgb(255, 255, 255); /*min-height: 770px;*/ position: relative;}
 .aws-area .container{padding-bottom: 50px; z-index: 10; position: relative;}
 .aws-area h2{margin: 50px 0 10px 0; z-index: 10;}
-.aws-area h4{font-size: 16px; font-weight: 300; text-align: center; line-height: 23px;}
 .aws-area img{
     display: block;
     margin: 30px auto 0 auto;
@@ -1284,7 +1283,6 @@ html.open {overflow: hidden;}
 .pricing-area{background: rgb(240, 240, 240); }
 .pricing-area .container{padding-bottom: 50px;}
 .pricing-area h2{margin: 50px 0 20px 0; }
-.pricing-area h3{color: #505050; margin: 15px 0 10px 0;}
 .pricing-area .group{padding: 20px 100px;}
 .pricing-area .group > div{text-align: center;}
 .pricing-area .group > div .box{background-color: #ffffff; border-radius: 15px; padding: 15px; box-shadow: 0px 2px 12px 0px rgba(139, 139, 139, 0.08); border: 2px solid rgba(215,215,215,0.4); min-height: 245px; }
@@ -1299,7 +1297,7 @@ html.open {overflow: hidden;}
 .practice-area{background: rgb(249, 249, 249); }
 .practice-area .container{padding-bottom: 50px;}
 .practice-area h2{margin: 50px 0 10px 0; }
-.practice-area h4{color: #6f6f6f; font-weight: 300; line-height: 23px; margin: 10px 0; padding: 0px 65px;}
+.practice-area h4{font-size: 17px; color: #6f6f6f; font-weight: 300; line-height: 23px; margin: 10px 0; padding: 0px 65px;}
 .practice-area h4 strong{color: #505050;}
 .practice-area .group{padding: 10px 50px;}
 .practice-area .group > div{}
@@ -1362,7 +1360,8 @@ html.open {overflow: hidden;}
 /* 가로 방향 전화기부터 세로 방향 타블렛까지 */
 @media (max-width: 767px) {
     .landing-banner h1{padding: 30px 0 20px 0;}
-    .features .container > div{margin-bottom: 50px;}
+    .features .container > div{margin-bottom: 70px;}
+    .features .container > div:last-child{margin-bottom: 50px;}
     .searchbox-icon{text-align: right;}
     .gn-scheduler-header .container{padding: 0 !important;}
     .features .container > div > p{padding: 0px 100px;}
@@ -1380,7 +1379,7 @@ html.open {overflow: hidden;}
 @media (max-width: 480px) {
     .instance-area,.keys-area{min-height: 100%;}
     .schedule-setting-area img{box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);}
-    .features .container > div > p{padding: 0px 50px;}
+    .features .container > div > p{padding: 0px 30px;}
     .cost-saving img{padding: 0;}
     .pricing-area .container{padding-bottom: 0;}
     .pricing-area .group{padding: 20px 50px;}
@@ -1388,6 +1387,7 @@ html.open {overflow: hidden;}
     .get-started .group{padding: 0;}
     .pricing-area .group{padding: 20px 0px;}
     .aws-area img{padding: 30px 30px 40px 30px;}
+    .keys-area h4{text-align: justify;}
 }
 
 

@@ -1285,8 +1285,9 @@ html.open {overflow: hidden;}
 .pricing-area h2{margin: 50px 0 20px 0; }
 .pricing-area .group{padding: 20px 100px;}
 .pricing-area .group > div{text-align: center;}
-.pricing-area .group > div .box{background-color: #ffffff; border-radius: 15px; padding: 15px; box-shadow: 0px 2px 12px 0px rgba(139, 139, 139, 0.08); border: 2px solid rgba(215,215,215,0.4); min-height: 245px; }
+.pricing-area .group > div .box{background-color: #ffffff; border-radius: 15px; padding: 15px; box-shadow: 0px 2px 12px 0px rgba(139, 139, 139, 0.08); border: 2px solid rgba(215,215,215,0.4); min-height: 235px; }
 .pricing-area .group > div .box:hover{border: 2px solid rgba(88,196,198,0.5);}
+.pricing-area .group > div .box h3{padding: 10px 0;}
 .pricing-area .group > div p{font-size: 25px; padding: 10px 0; margin-bottom: 0;}
 .pricing-area .group > div p strong{font-size: 40px; color: #505050;}
 .pricing-area .group > div button{height: 37px;}
@@ -1354,6 +1355,7 @@ html.open {overflow: hidden;}
     .cost-saving img{padding: 20px 100px 50px 100px;}
     .get-started .group{padding: 0;}
     .pricing-area .group{padding: 0px;}
+    .pricing-area .group > div .box{min-height: 245px;}
     .aws-area img{padding: 30px 50px;}
 }
 
@@ -1368,6 +1370,7 @@ html.open {overflow: hidden;}
     .cost-saving img{padding: 0;}
     .pricing-area .group{padding: 0px 50px;}
     .pricing-area .group > div{/*border-bottom: 1px solid rgba(215,215,215,0.5);*/ margin-bottom: 30px;}
+    .pricing-area .group > div .box{min-height: 220px;}
     .practice-area h4{padding: 0; margin-bottom: 20px;}
     .practice-area .group{padding: 0;}
     .practice-area .group > div{margin-bottom: 20px; padding: 0;}
@@ -1380,19 +1383,21 @@ html.open {overflow: hidden;}
 @media (max-width: 480px) {
     .instance-area,.keys-area{min-height: 100%;}
     .schedule-setting-area img{box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);}
+    .features .container > div:last-child{margin-bottom: 0px;}
     .features .container > div > p{padding: 0px 30px;}
     .cost-saving img{padding: 0;}
     .pricing-area .container{padding-bottom: 0;}
     .pricing-area .group{padding: 20px 50px;}
     .practice-area .group{padding: 0;}
     .get-started .group{padding: 0;}
-    .pricing-area .group{padding: 0px;}
+    .pricing-area .group{padding: 20px 0px;}
     .aws-area img{padding: 30px 30px 40px 30px;}
     .keys-area h4{text-align: justify;}
     .get-started button.btn-google,
     .get-started button.btn-git{background-size: 30px; padding-left: 60px;}
     .pricing-area h3{padding-top: 10px;}
     .pricing-area .group > div .box{min-height: 210px;}
+
 }
 
 

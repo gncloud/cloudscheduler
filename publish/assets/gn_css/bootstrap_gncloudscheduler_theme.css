@@ -1310,7 +1310,7 @@ html.open {overflow: hidden;}
 
 /* -----get-started------ */
 .get-started{background: rgb(255, 255, 255); min-height: 500px; }
-.get-started .container{/*padding-bottom: 50px;*/}
+.get-started .container{padding-bottom: 50px;}
 .get-started h2{margin: 50px 0 10px 0; }
 .get-started h4{color: #6f6f6f; padding: 0 65px; line-height: 23px;}
 .get-started .group{padding: 20px 250px;}
@@ -1351,7 +1351,7 @@ html.open {overflow: hidden;}
 /* 세로 방향 타블렛부터 가로 방향 타블렛과 데스크탑까지 */
 @media (min-width: 768px) and (max-width: 992px) {
     .features .container > div > p{padding: 0px 20px;}
-    .costaws diagram-saving img{padding: 20px 100px 50px 100px;}
+    .cost-saving img{padding: 20px 100px 50px 100px;}
     .get-started .group{padding: 0;}
     .pricing-area .group{padding: 0px;}
     .aws-area img{padding: 30px 50px;}
@@ -1373,6 +1373,7 @@ html.open {overflow: hidden;}
     .practice-area .group > div{margin-bottom: 20px; padding: 0;}
     .get-started .group{padding: 0;}
     .aws-area img{padding: 30px 50px 50px 50px;}
+    .get-started h2{margin: 50px 0 20px 0;}
 }
 
 /* 가로 방향 전화기 이하 */
@@ -1385,9 +1386,13 @@ html.open {overflow: hidden;}
     .pricing-area .group{padding: 20px 50px;}
     .practice-area .group{padding: 0;}
     .get-started .group{padding: 0;}
-    .pricing-area .group{padding: 20px 0px;}
+    .pricing-area .group{padding: 0px;}
     .aws-area img{padding: 30px 30px 40px 30px;}
     .keys-area h4{text-align: justify;}
+    .get-started button.btn-google,
+    .get-started button.btn-git{background-size: 30px; padding-left: 60px;}
+    .pricing-area h3{padding-top: 10px;}
+    .pricing-area .group > div .box{min-height: 210px;}
 }
 
 

@@ -39,8 +39,6 @@ function buttonUp(){
 }
 
 
-
-
 /*left menu*/
 $(".left-btn").click(function() {
     $("#menu,.page_cover,html").addClass("open");
@@ -55,26 +53,10 @@ window.onhashchange = function() {
 
 
 
-$('.gn-scheduler-header').affix({
-    offset: {
-        top: 100
-    }
-});
 
 
 
 
-/* angular js tooltip */
-module.exports = {
-    use: [
-        'postcss-import'
-        , 'autoprefixer'
-        , 'cssnano']
-    , 'local-plugins' : true
-    , 'autoprefixer' : {browsers: 'last 2 versions'}
-    , input: 'docs/index.css'
-    , output: 'docs/build.css'
-}
 
 
 

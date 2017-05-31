@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,7 +31,7 @@
 
         <div id="menu">
             <div class="clearfix">
-                <h1>cloud scheduler</h1>
+                <h2>cloud scheduler</h2>
                 <!--유저 아이콘-->
                 <div class="user-icon">
                     <img src="../assets/gn_images/avatar/avatar-default.png" alt="user">
@@ -106,7 +106,7 @@
         &nbsp;&nbsp;|&nbsp;&nbsp;
         <span>t2.nano</span>
         <span class="pull-right">
-            <a data-toggle="modal" data-target="#scheduleSett">
+            <a data-toggle="modal" data-target="#scheduleSett" >
                 <i class="glyphicon glyphicon-cog"></i>&nbsp;&nbsp;Schedule
             </a>
             <label class="switch switch-green">
@@ -137,10 +137,10 @@
                     <td class="" data-toggle="modal" data-target="#scheduleSett"><span>08 - 19</span></td>
                     <td class="" data-toggle="modal" data-target="#scheduleSett"><span>08 - 19</span></td>
                     <td class="" colspan="2" data-toggle="modal" data-target="#scheduleSett">
-                        <span class="span-long">
-                            <div class="pull-left">08 -</div>
-                            <div class="pull-right">- 19</div>
-                        </span>
+                        <div class="td-merge">
+                            <span class="pull-left">08 -</span>
+                            <span class="pull-right">- 19</span>
+                        </div>
                     </td>
                     <!--<td class ""></td>-->
                     <td class="" data-toggle="modal" data-target="#scheduleSett"><span class="span-right">08 -</span></td>
@@ -473,10 +473,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../assets/gn_js/bootstrap.min.js"></script>
 <script src="../assets/gn_js/cloudscheduler.js"></script>
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    })
-</script>
 </body>
 </html>

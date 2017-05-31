@@ -976,7 +976,7 @@ html.open {overflow: hidden;}
     left: 0px;
 }
 
-#menu h1{
+#menu h2{
     /*background: url("../gn_images/leftlogo-Cloud-Scheduler.png")no-repeat;
     width: 177px;
     height: 20px;*/
@@ -1537,6 +1537,7 @@ html.open {overflow: hidden;}
 
 /* ======================== 클라우드 스케쥴러 인스턴스 리스트 ======================== */
 .gn-scheduler-instance{padding-top: 50px;}
+.gn-scheduler-instance h1{display: none;}
 .gn-scheduler-instance .gn-table-responsive{border: none;}
 /* Instance State */
 .gn-scheduler-instance .gn-table-responsive .td-state{text-align: left;}
@@ -1653,9 +1654,15 @@ html.open {overflow: hidden;}
     padding-right: 20px;
 }
 
-.gn-scheduler-detail .gn-board-table tbody tr td span.span-long{height: 36px;}
-.gn-scheduler-detail .gn-board-table tbody tr td span.span-long div.pull-left{padding: 0px 20px;}
-.gn-scheduler-detail .gn-board-table tbody tr td span.span-long div.pull-right{padding: 0px 20px;}
+.gn-scheduler-detail .gn-board-table tbody tr td .td-merge{
+    background-color: rgba(101,163,235,0.3);
+    display: block;
+    border-radius: 20px;
+    margin: 0px 5px;
+    cursor: pointer; height: 36px;}
+
+.gn-scheduler-detail .gn-board-table tbody tr td .td-merge .pull-left{background-color: transparent;}
+.gn-scheduler-detail .gn-board-table tbody tr td .td-merge .pull-right{background-color: transparent;}
 
 
 

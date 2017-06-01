@@ -43,14 +43,15 @@ h4{
     margin-top: 0;
     margin-bottom: 10px;}
 
-::selection { color: #505050; background-color: rgba(0,175,180,0.2);}
-::-moz-selection { color: #505050; background-color: rgba(0,175,180,0.2);} /* firefox */
+::-moz-selection{ color: #505050; background-color: rgba(0,175,180,0.2);} /* firefox */
+::selection{ color: #505050; background-color: rgba(0,175,180,0.2);}
+
 
 img{border: 0;}
 
 a{color: #6f6f6f; cursor: pointer;}
 a:hover,
-a:focus {
+a:focus{
     outline: 0;
     outline: 0 -webkit-focus-ring-color;
     outline-offset: 0;
@@ -1812,6 +1813,7 @@ html.open {overflow: hidden;}
 @media (max-width: 480px) {
     /*검색바 아이콘*/
     .sb-search-input{width: 100%; z-index: 10;}
+    .gn-scheduler-detail .gn-board-table tbody tr td span{margin: 0 1px;}
 }
 
 

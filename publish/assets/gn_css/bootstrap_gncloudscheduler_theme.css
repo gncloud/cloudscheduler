@@ -1722,13 +1722,13 @@ html.open {overflow: hidden;}
     transition: inherit;
 }
 .switch-label:before {
-    content: attr(data-off);
+    content: 'on';
     right: 11px;
     color: #ffffff;
     /*text-shadow: 0 1px rgb(151, 55, 46);*/
 }
 .switch-label:after {
-    content: attr(data-on);
+    content: 'off';
     left: 11px;
     color: white;
     /*text-shadow: 0 1px rgba(0, 0, 0, 0.2);*/

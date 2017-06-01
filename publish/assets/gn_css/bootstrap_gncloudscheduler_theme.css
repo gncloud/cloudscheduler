@@ -366,14 +366,14 @@ blockquote small:before{content: '';}
 
 /*-----모달 공통 end-----*/
 
-body.modal-open .blur{
+/*body.modal-open .blur{
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);
     -o-filter: blur(10px);
     -ms-filter: blur(10px);
     filter: blur(10px);
     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
-}
+}*/
 
 /* ============================= gncloud BUTTON STYLE ============================= */
 .btn-gn-primary {
